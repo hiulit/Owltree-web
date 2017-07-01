@@ -1,0 +1,161 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul,
+li {
+    list-style-type: disc; 
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.header {
+    height: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__inner {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    height: 50px;
+}
+
+.header__logo {
+    margin: 0;
+}
+
+.header__logo .logo {
+    height: 30px;
+}
+
+.header__icon .icon {
+    height: 30px;
+}
+
+.header__nav {
+    margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list__item {
+    list-style-type: none;
+}
+
+.main {
+
+}
+
+.section {
+    height: 50vh;
+    padding-bottom: 65px;
+    padding-top: 30px;
+}
+
+.section__title {
+    font-family: 'Miglia Fur';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.section__text {
+    text-transform: uppercase;
+    color: #363636;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.section--1 {
+    // background-size: cover;
+    background-image: url("../assets/bg_img1.jpg");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    position: relative;
+}
+
+.section--1 .hero {
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-75%, -50%);
+}
+
+.section--1 .hero__title {
+    font-family: 'Miglia Fur';
+    font-size: 55px;
+    line-height: 51px;
+}
+    
+.section--2 {
+    text-align: center;
+}
+
+.section--2 .icon {
+    margin-bottom: 25px;
+    width: 130px;
+}
+
+.section--3 {
+    background-image: url("../assets/bg_img2.jpg");
+    background-repeat: no-repeat;
+    // padding-top: 50px;
+    // position: relative;
+}
+
+.section--4 {
+    height: auto;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__item {
+    flex: 1 1 auto;
+    width: 33.333333%
+}
+
+.product {
+
+}
+
+.product__image {
+
+}
+
+.product__name {
+    color: #363636;
+    font-size: 13px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.product__name:before {
+    background-color: #363636;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px;
+}
+
+.product__price {
+    font-size: 23px;
+    color: #6fd6f4;
+}
