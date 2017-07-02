@@ -33,13 +33,18 @@ a:hover {
 
 input,
 textarea {
-    background-color: #ccc;
+    background-color: #eee;
     border: 1px solid transparent;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin-bottom: 20px;
     padding: 4px;
     width: 100%;
+}
+
+label input,
+label textarea {
+    margin-top: 5px;
 }
 
 button {
@@ -97,7 +102,7 @@ button {
     align-items: center;
     display: flex;
     color: #fff;
-    height: 50px;
+    height: 60px;
 }
 
 .header__logo,
@@ -193,26 +198,15 @@ button {
     line-height: 25px;
     margin-left: auto;
     margin-right: auto;
-    // max-width: 75%;
     text-transform: uppercase;
 }
 
 .section--1 {
     background-image: url("../assets/bg_img1.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
-}
-
-.section--1 .hero__title {
-    font-family: 'Miglia Fur';
-    font-size: 55px;
-    line-height: 51px;
-}
-
-.section--1 .hero__subtitle {
-    text-transform: uppercase;
-    max-width: 50%;
 }
     
 .section--2 {
@@ -299,6 +293,7 @@ button {
 
 .section--5 {
     background-image: url("../assets/bg_img3.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -311,7 +306,7 @@ button {
     align-items: center;
     color: #fff;
     display: flex;
-    height: 50px;
+    height: 60px;
     
 }
 
@@ -330,7 +325,7 @@ button {
 }
 
 .amapola-link {
-    display: block;
+    display: inline-block;
 }
 .amapola-link > img {
     display: block;
