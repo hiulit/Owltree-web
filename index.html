@@ -13,105 +13,187 @@
 <body>
     <header class="header">
         <div class="header__inner">
-            <h1 class="header__logo">
-                <object type="image/svg+xml" data="assets/owltree_logo_white.svg" class="logo">
-                    Owltree <!-- fallback image in CSS -->
-                </object>
-            </h1>
-            <div class="header__icon">
-                <object type="image/svg+xml" data="assets/owlie.svg" class="icon">
-                    Owltree <!-- fallback image in CSS -->
-                </object>
+            <div class="wrapper">
+                <div class="header__wrapper">
+                    <h1 class="header__logo">
+                        <img class="logo" src="assets/owltree_logo_white.svg" alt="">
+                    </h1>
+                    <div class="header__icon">
+                        <img class="icon" src="assets/owlie-white.svg"" alt="">
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list__item">
+                                <a class="header__list__link" href="#about-us">About us</a>
+                            </li>
+                            <li class="header__list__item">
+                                <a class="header__list__link" href="#products">Products</a>
+                            </li>
+                            <li class="header__list__item">
+                                <a class="header__list__link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__list__item">Item 1</li>
-                    <li class="header__list__item">Item 2</li>
-                </ul>
-            </nav>
         </div>
     </header>
     <main class="main">
         <section class="section section--1">
-            <div class="hero">
-                <div class="hero__title">Country collection</div>
-                <div class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aut delectus expedita! Deserunt in perferendis assumenda veniam, odio cupiditate, cum laudantium veritatis eveniet aut ex perspiciatis provident beatae sit omnis.</div>
+            <div class="wrapper">
+                <div class="hero">
+                    <div class="hero__title">Country<br>collection</div>
+                    <div class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aut delectus expedita! Deserunt in perferendis assumenda veniam, odio cupiditate, cum laudantium veritatis eveniet aut ex perspiciatis provident beatae sit omnis.</div>
+                </div>
             </div>
         </section>
-        <section class="section section--2">
-            <object type="image/svg+xml" data="assets/owlie.svg" class="icon">
-                Owltree <!-- fallback image in CSS -->
-            </object>
-            <div class="section__title">About Us</div>
-            <div class="section__text">
-                <p>OWLTREE is a vegan apparel brand. 4 vegan friends from barcelona how focus on creating and delivering high quality and limited edition goods for those how don't want to harm anyone but still look stylish.</p>
-                <p>Born from the love for the animals and the planet, OWLTREE aspires to be a little more than just a vegan brand. We are dedicated to collaborate and help animal sanctuaries around the country.</p>
-                <p>Everything in OWLTREE has proudly been locally sourced, customised, hand printed, tailored and finished in Catalonia. 100% vegan goods. Harming no one on the process.</p>
+        <section class="section section--2" id="about-us">
+            <div class="wrapper">
+                <object type="image/svg+xml" data="assets/owlie.svg" class="icon">
+                    Owltree <!-- fallback image in CSS -->
+                </object>
+                <div class="section__title">About Us</div>
+                <div class="section__text">
+                    <p>OWLTREE is a vegan apparel brand. 4 vegan friends from barcelona how focus on creating and delivering high quality and limited edition goods for those how don't want to harm anyone but still look stylish.</p>
+                    <p>Born from the love for the animals and the planet, OWLTREE aspires to be a little more than just a vegan brand. We are dedicated to collaborate and help animal sanctuaries around the country.</p>
+                    <p>Everything in OWLTREE has proudly been locally sourced, customised, hand printed, tailored and finished in Catalonia. 100% vegan goods. Harming no one on the process.</p>
+                </div>
             </div>
         </section>
         <section class="section section--3"></section>
-        <section class="section section--4">
-            <div class="section__title">Store</div>
-            <div class="grid">
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/tsh_rightswrongs.png" alt="">
+        <section class="section section--4" id="products">
+            <div class="wrapper">
+                <div class="section__title">Products</div>
+                <div class="section__text">
+                    <p>Right now our products are <strong>only available</strong> from our friends at <a class="amapola-link" href="https://amapolaveganshop.com/"><img src="assets/amapola-logo.png" alt=""></a></p>
+                    <!-- <p>They've been kind enough to let us sell our products in their shop.</p> -->
+                    <p>So when you click on one of our products, you'll be redirected to <a href="https://amapolaveganshop.com/">Amapola Vegan Shop</a>.</p>
+                </diuv>
+                <div class="grid">
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product product--tshirt">
+                            <div class="product__image">
+                                <img src="assets/tsh_rightswrongs.png" alt="">
+                            </div>
+                            <div class="product__name">Rights &amp; Wrongs</div>
+                            <div class="product__price">25€</div>
                         </div>
-                        <div class="product__name">Rights &amp; Wrongs</div>
-                        <div class="product__price">25€</div>
+                    </div>
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product product--tshirt">
+                            <div class="product__image">
+                                <img src="assets/tsh_plantbased.png" alt="">
+                            </div>
+                            <div class="product__name">Plant Based</div>
+                            <div class="product__price">25€</div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product">
+                            <div class="product__image">
+                                <img src="assets/cup_mountain.png" alt="">
+                            </div>
+                            <div class="product__name">Mountain cup</div>
+                            <div class="product__price">18€</div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product product--tshirt">
+                            <div class="product__image">
+                                <img src="assets/tsh_compassion.png" alt="">
+                            </div>
+                            <div class="product__name">Compassion</div>
+                            <div class="product__price">25€</div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product product--tote-bag">
+                            <div class="product__image">
+                                <img src="assets/tote_rightswrongs.png" alt="">
+                            </div>
+                            <div class="product__name">Rights &amp; Wrongs Tote Bag</div>
+                            <div class="product__price">10€</div>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item-1-3">
+                        <div class="product product--tshirt">
+                            <div class="product__image">
+                                <img src="assets/tsh_harmnoone.png" alt="">
+                            </div>
+                            <div class="product__name">Harm no one</div>
+                            <div class="product__price">25€</div>
+                        </div>
                     </div>
                 </div>
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/tsh_plantbased.png" alt="">
-                        </div>
-                        <div class="product__name">Plant Based</div>
-                        <div class="product__price">25€</div>
-                    </div>
+            </div>
+        </section>
+        <section class="section section--5">
+            <div class="wrapper">
+                <div class="hero">
+                    <div class="hero__title">Country<br>collection</div>
+                    <div class="hero__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aut delectus expedita! Deserunt in perferendis assumenda veniam, odio cupiditate, cum laudantium veritatis eveniet aut ex perspiciatis provident beatae sit omnis.</div>
                 </div>
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/cup_mountain.png" alt="">
+            </div>
+        </section>
+        <section class="section section--6" id="contact">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="grid__item grid__item-1-2">
+                        <div class="section__title">Instagram @owltreebcn</div>
+                        <div class="section__text">
+                            <p>Follow us and share your pics <strong>#owltreebcn</strong>!</p>
                         </div>
-                        <div class="product__name">Mountain cup</div>
-                        <div class="product__price">18€</div>
+                        <div id="instafeed"></div>
                     </div>
-                </div>
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/tsh_compassion.png" alt="">
+                    <div class="grid__item grid__item-1-2">
+                        <div class="section__title">Contact</div>
+                        <div>
+                            <form action="">
+                                <label for="name">
+                                    Name:
+                                    <input name="name" type="text">
+                                </label>
+                                <label for="email">
+                                    Email:
+                                    <input name="email" type="email">
+                                </label>
+                                <label for="message">
+                                    Message:
+                                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                                </label>
+                                <button>Send</button>
+                            </form>
                         </div>
-                        <div class="product__name">Compassion</div>
-                        <div class="product__price">25€</div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/tote_rightswrongs.png" alt="">
-                        </div>
-                        <div class="product__name">Rights &amp; Wrongs Tote Bag</div>
-                        <div class="product__price">10€</div>
-                    </div>
-                </div>
-                <div class="grid__item">
-                    <div class="product">
-                        <div class="product__image">
-                            <img src="assets/tsh_harmnoone.png" alt="">
-                        </div>
-                        <div class="product__name">Harm no one</div>
-                        <div class="product__price">25€</div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        This is the footer
+        <div class="wrapper">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <object type="image/svg+xml" data="assets/owltree_logo_white.svg" class="logo">
+                        Owltree <!-- fallback image in CSS -->
+                    </object>
+                </div>
+                <div class="footer__copyright">
+                    <small>&copy; Copyright 2017</small>
+                </div>
+                <div class="footer__catchphrase">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+        </div>
     </footer>
+    <script type="text/javascript" src="scripts/libs/instafeed/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: '5555136314',
+          accessToken: '5555136314.ac3bfd8.0563de251fb54bf0af91387669045341'
+        });
+        userFeed.run();
+    </script>
 </body>
 </html>
