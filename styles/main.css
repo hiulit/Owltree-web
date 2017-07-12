@@ -261,11 +261,11 @@ small.section__text {
 
 }
 
-.product--tshirt .product__image > img {
+.product--tshirt .product__image img {
     transform-origin: top center;
 }
 
-.product--tote-bag .product__image > img {
+.product--tote-bag .product__image img {
     transform-origin: bottom center;
 }
 
@@ -274,11 +274,11 @@ small.section__text {
     margin: 20px;
 }
 
-.product__image > img {
+.product__image img {
     transition: transform 0.25s ease-in-out;
 }
 
-.product__image:hover > img {
+.product__image:hover img {
     transform: scale(1.5);
 }
 
