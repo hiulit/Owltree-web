@@ -1,0 +1,52 @@
+.header
+    height: 0
+    position: fixed
+    width: 100%
+    z-index: 1
+
+.header__inner
+    background-color: rgba(0, 0, 0, 0.5)
+
+.header__wrapper
+    align-items: center
+    display: flex
+    color: #fff
+    height: 60px
+
+.header__logo,
+.header__icon,
+.header__nav
+    flex: 1 1 0%
+
+.header__logo
+    margin: 0
+
+    .logo
+        height: 30px
+
+.header__icon
+    .icon
+        height: 30px
+
+.header__icon
+    text-align: center
+
+.header__nav
+    margin: 0 auto
+
+.header__list
+    display: flex
+    justify-content: flex-end
+
+.header__list__item
+    list-style-type: none
+    &:not(:last-child)
+        margin-right: 20px
+
+.header__list__link
+    color: #fff
+    font-size: 13px
+    text-decoration: none
+    text-transform: uppercase
+    &:hover
+        text-decoration: underline
