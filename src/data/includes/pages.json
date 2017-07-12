@@ -1,0 +1,12 @@
+{
+  "home": {
+    "metas": {
+      "author": "Owltree",
+      "description": "Owltree - Handmade vegan apparel from Barcelona",
+      "favicon": "assets/images/favicon.ico",
+      "share-image": "assets/owltree_logo_claim.jpg",
+      "twitter": "@owltreebcn",
+      "url": "http://owltreebcn.com"
+    }
+  }
+}

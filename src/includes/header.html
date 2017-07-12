@@ -1,7 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--(bake metas.html)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{metas.description}}</title>
+    <meta name="description" content="{{metas.description}}">
+    <meta name="author" content="{{metas.author}}">
+
+    <!-- For IE 10 and below -->
+    <!-- Place favicon.ico in the root directory - no tag necessary -->
+
+    <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+
+    <!-- <meta property="fb:app_id" content="123456789"> -->
+    <meta property="og:url" content="{{metas.url}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{metas.description}}">
+    <meta property="og:image" content="{{metas.share-image}}">
+    <meta property="og:description" content="{{metas.description}}">
+    <meta property="og:site_name" content="{{metas.description}}">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="{{metas.author}}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{metas.twitter}}">
+    <meta name="twitter:creator" content="{{metas.twitter}}">
+    <meta name="twitter:url" content="{{metas.url}}">
+    <meta name="twitter:title" content="{{metas.description}}">
+    <meta name="twitter:description" content="{{metas.description}}">
+    <meta name="twitter:image" content="{{metas.share-image}}">
+
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
     <link href="assets/fonts/migliafur/stylesheet.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
