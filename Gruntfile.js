@@ -23,16 +23,9 @@ module.exports = grunt => {
           {
             expand: true,
             dot: true,
-            cwd: '<%= config.src %>/includes',
-            src: ['{,*/,**/}*.html'],
-            dest: '<%= config.tmp %>/includes'
-          },
-          {
-            expand: true,
-            dot: true,
             cwd: '<%= config.src %>/assets',
             src: ['{,*/,**/}*.*'],
-            dest: '<%= config.tmp %>/assets'
+            dest: '<%= config.dist %>/assets'
           }
         ]
       }
@@ -51,50 +44,74 @@ module.exports = grunt => {
         ]
       },
     },
-    bake: {
-      options: {
-        basePath: '<%= config.tmp %>',
-        removeUndefined: false
-      },
-      metas: {
+    json_bake: {
+      build: {
         options: {
-          content: '<%= config.src %>/data/bake.json',
-          section: 'metas'
+          stripComments: true
         },
         files: {
-          '<%= config.tmp %>/includes/header.html': '<%= config.src %>/includes/header.html'
-        }
-      },
-      index: {
-        options: {
-          content: '<%= config.src %>/data/bake.json',
-          section: 'index'
-        },
-        files: {
-          '<%= config.tmp %>/index.html': '<%= config.src %>/index.html'
+            '<%= config.tmp %>/data/final.json': '<%= config.src %>/data/base.json'
         }
       }
     },
+    bake: {
+      pages: {
+        options: {
+          basePath: '<%= config.src %>/',
+          content: '<%= config.tmp %>/data/final.json'
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= config.src %>/',
+          src: ['{,*/,**/}*.html', '!includes/{,*/,**/}*.html'],
+          dest: '<%= config.dist %>/'
+        }]
+      }
+    },
     stylus: {
-      compile: {
+      build: {
         options: {
           sourcemap: {
             inline: true
           },
           'include css': true,
-          compress: false
+          compress: true
         },
         files: {
-          '<%= config.tmp %>/styles/main.css': '<%= config.src %>/styles/main.styl'
+          '<%= config.dist %>/styles/main.css': '<%= config.src %>/styles/main.styl'
         }
       }
-    }
+    },
+    obfuscator: {
+      build: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= config.src %>/scripts',
+            src: '{,*/,**/}*.js',
+            dest: '<%= config.tmp %>/scripts'
+          }
+        ]
+      }
+    },
+    concat: {
+      options: {
+        separator: ';',
+      },
+      dist: {
+        src: ['<%= config.tmp %>/scripts/{,*/,**/}*.js'],
+        dest: '<%= config.dist %>/scripts/main.min.js',
+      },
+    },
   });
 
   grunt.registerTask('default', [
     'clean:build',
-    'copy:build',
+    'json_bake',
     'bake',
-    'stylus:compile'
+    'stylus:build',
+    'obfuscator:build',
+    'concat',
+    'copy:build'
   ]);
 };
