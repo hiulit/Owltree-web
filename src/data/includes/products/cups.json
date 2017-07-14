@@ -13,7 +13,7 @@
   "children": [
     {
       "id": "cup_mountain",
-      "title": "I am the Mountain",
+      "model": "I am the Mountain",
       "gender": "",
       "image": "assets/cup_mountain.png",
       "price": "19",
@@ -21,7 +21,7 @@
     },
     {
       "id": "cup_sea",
-      "title": "I am the Sea",
+      "model": "I am the Sea",
       "gender": "",
       "image": "assets/cup_sea.png",
       "price": "19",

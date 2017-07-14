@@ -13,7 +13,7 @@
   "children": [
     {
       "id": "rights-and-wrongs",
-      "title": "Rights &amp; Wrongs",
+      "model": "Rights &amp; Wrongs",
       "gender": "",
       "image": "assets/tote_rightswrongs.png",
       "price": "15",
