@@ -1,0 +1,23 @@
+<!--(bake /includes/header.html)-->
+<section class="section">
+	<div class="wrapper">
+		<div class="product product--{{id}}">
+		    <div class="product__model">{{child.model}}</div>
+		    <!--(bake-start _if="child.gender")-->
+		    <div class="product__gender">{{child.gender}}</div>
+		    <!--(bake-end)-->
+		    <div class="product__image">
+		        <img src="/{{child.image}}" alt="{{child.model}} {{child.gender}}">
+		    </div>
+		    <div class="product__price">{{child.price}}€</div>
+		    <!--(bake-start _if="child.sizes")-->
+		    <!-- <div class="product__sizes"> -->
+		        <!--(bake-start _foreach="size:child.sizes")-->
+		        <!-- <div class="product__size">{{size}}</div> -->
+		        <!--(bake-end)-->
+		    <!-- </div> -->
+		    <!--(bake-end)-->
+		</div>
+	</div>
+</section>
+<!--(bake /includes/footer.html)-->
