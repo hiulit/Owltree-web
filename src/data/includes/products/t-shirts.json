@@ -76,7 +76,7 @@
       "sizes": ["M", "L", "XL"]
     },
     {
-      "id": "sorry",
+      "id": "sorry-w",
       "model": "Sorry",
       "gender": "women",
       "image": "assets/tsh_sorry_w.png",

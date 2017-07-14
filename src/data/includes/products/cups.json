@@ -12,7 +12,7 @@
   },
   "children": [
     {
-      "id": "cup_mountain",
+      "id": "mountain",
       "model": "I am the Mountain",
       "gender": "",
       "image": "assets/cup_mountain.png",
@@ -20,7 +20,7 @@
       "sizes": []
     },
     {
-      "id": "cup_sea",
+      "id": "sea",
       "model": "I am the Sea",
       "gender": "",
       "image": "assets/cup_sea.png",
