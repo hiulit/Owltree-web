@@ -1,0 +1,23 @@
+{
+  "id": "tote-bags",
+  "title": "Tote Bags",
+  "description": "Tote Bags",
+  "metas": {
+    "author": "Owltree",
+    "description": "Owltree - Handmade vegan apparel from Barcelona",
+    "favicon": "assets/images/favicon.ico",
+    "share-image": "assets/owltree_logo_claim.jpg",
+    "twitter": "@owltreebcn",
+    "url": "http://owltreebcn.com"
+  },
+  "children": [
+    {
+      "id": "rights-and-wrongs",
+      "title": "Rights &amp; Wrongs",
+      "gender": "",
+      "image": "assets/tote_rightswrongs.png",
+      "price": "15",
+      "sizes": []
+    }
+  ]
+}

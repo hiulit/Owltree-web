@@ -1,3 +1,4 @@
 {
-  "pages": "{{includes/pages.json}}"
+  "pages": "{{includes/pages.json}}",
+  "products": "{{includes/products.json}}"
 }

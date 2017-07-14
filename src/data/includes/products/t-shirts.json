@@ -1,0 +1,95 @@
+{
+  "id": "t-shirts",
+  "title": "T-shirts",
+  "description": "T-shirts",
+  "metas": {
+    "author": "Owltree",
+    "description": "Owltree - Handmade vegan apparel from Barcelona",
+    "favicon": "assets/images/favicon.ico",
+    "share-image": "assets/owltree_logo_claim.jpg",
+    "twitter": "@owltreebcn",
+    "url": "http://owltreebcn.com"
+  },
+  "children": [
+    {
+      "id": "rights-and-wrongs-w",
+      "title": "Rights &amp; Wrongs",
+      "gender": "women",
+      "image": "assets/tsh_rightswrongs_w.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "rights-and-wrongs",
+      "title": "Rights &amp; Wrongs",
+      "gender": "unisex",
+      "image": "assets/tsh_rightswrongs.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "plant-based-w",
+      "title": "Plant Based",
+      "gender": "unisex",
+      "image": "assets/tsh_plantbased_w.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "plant-based",
+      "title": "Plant Based",
+      "gender": "unisex",
+      "image": "assets/tsh_plantbased.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "compassion-w",
+      "title": "Compassion",
+      "gender": "women",
+      "image": "assets/tsh_compassion_w.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "compassion",
+      "title": "Compassion",
+      "gender": "unisex",
+      "image": "assets/tsh_compassion.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "wonderful-w",
+      "title": "Wonderful",
+      "gender": "women",
+      "image": "assets/tsh_wonderful_w.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "wonderful",
+      "title": "Wonderful",
+      "gender": "unisex",
+      "image": "assets/tsh_wonderful.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "sorry",
+      "title": "Sorry",
+      "gender": "women",
+      "image": "assets/tsh_sorry_w.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": "sorry",
+      "title": "Sorry",
+      "gender": "unisex",
+      "image": "assets/tsh_sorry.png",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    }
+  ]
+}
