@@ -48,17 +48,26 @@ module.exports = function(grunt) {
           '<%= config.src %>/{,*/,**/}*.styl'
         ],
         tasks: [
-          'stylus:build'
+          'stylus'
         ]
       },
       bake: {
         files: [
-          "<%= config.src %>/{,*/,**/}*.html",
-          "<%= config.src %>/data/{,*/,**/}*.json"
+          '<%= config.src %>/{,*/,**/}*.html',
+          '<%= config.src %>/data/{,*/,**/}*.json'
         ],
         tasks: [
-          "json_bake",
-          "bake"
+          'json_bake',
+          'bake'
+        ]
+      },
+      obfuscator: {
+        files: [
+          '<%= config.src %>/{,*/,**/}*.js'
+        ],
+        tasks: [
+          'obfuscator',
+          'concat'
         ]
       }
     },
