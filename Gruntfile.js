@@ -1,24 +1,32 @@
 'use strict';
 
-module.exports = grunt => {
-  require('load-grunt-tasks')(grunt);
+var LIVERELOAD_PORT = 35730;
+var SERVER_PORT = 9001;
+var lrSnippet = require('connect-livereload')({port: LIVERELOAD_PORT});
+var mountFolder = function (connect, dir) {
+  return connect.static(require('path').resolve(dir));
+};
 
+module.exports = function(grunt) {
+  var target = grunt.option('target') || '';
   var config = {
     src: 'src',
     dist: 'dist',
     tmp: '.tmp'
   }
+  
+  require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
     config: config,
     clean: {
-      build: [
+      dist: [
         '<%= config.tmp %>',
         '<%= config.dist %>'
       ]
     },
     copy: {
-      build: {
+      dist: {
         files: [
           {
             expand: true,
@@ -40,12 +48,49 @@ module.exports = grunt => {
           '<%= config.src %>/{,*/,**/}*.styl'
         ],
         tasks: [
-          'stylus:compile'
+          'stylus:build'
         ]
       },
+      bake: {
+        files: [
+          "<%= config.src %>/{,*/,**/}*.html",
+          "<%= config.src %>/data/{,*/,**/}*.json"
+        ],
+        tasks: [
+          "json_bake",
+          "bake"
+        ]
+      }
+    },
+    connect: {
+      options: {
+        port: grunt.option('port') || SERVER_PORT,
+        // change this to '0.0.0.0' to access the server from outside
+        hostname: 'localhost',
+        //hostname: '0.0.0.0'
+        livereload: true
+      },
+      livereload: {
+        options: {
+          //keepalive: true,
+          base: [config.dist],
+          open: {
+            target: 'http://localhost:<%= connect.options.port %>'
+          }
+        }
+      },
+      dist: {
+        options: {
+          middleware: function (connect) {
+            return [
+              mountFolder(connect, config.dist)
+            ];
+          }
+        }
+      }
     },
     json_bake: {
-      build: {
+      dist: {
         options: {
           stripComments: true
         },
@@ -55,7 +100,7 @@ module.exports = grunt => {
       }
     },
     bake: {
-      pages: {
+      dist: {
         options: {
           basePath: '<%= config.src %>/',
           content: '<%= config.tmp %>/data/final.json'
@@ -69,7 +114,7 @@ module.exports = grunt => {
       }
     },
     stylus: {
-      build: {
+      dist: {
         options: {
           sourcemap: {
             inline: true
@@ -83,7 +128,7 @@ module.exports = grunt => {
       }
     },
     obfuscator: {
-      build: {
+      dist: {
         files: [
           {
             expand: true,
@@ -106,12 +151,14 @@ module.exports = grunt => {
   });
 
   grunt.registerTask('default', [
-    'clean:build',
+    'clean',
     'json_bake',
     'bake',
-    'stylus:build',
-    'obfuscator:build',
+    'stylus',
+    'obfuscator',
     'concat',
-    'copy:build'
+    'copy',
+    'connect:livereload',
+    'watch'
   ]);
 };

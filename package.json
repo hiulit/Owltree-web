@@ -24,10 +24,12 @@
   },
   "homepage": "https://github.com/hiulit/Owltree-web#readme",
   "devDependencies": {
+    "connect-livereload": "^0.6.0",
     "grunt": "^1.0.1",
     "grunt-bake": "^1.8.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-obfuscator": "^3.0.0",
     "grunt-contrib-stylus": "^1.2.0",
