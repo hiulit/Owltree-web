@@ -129,7 +129,7 @@ module.exports = function(grunt) {
             inline: true
           },
           'include css': true,
-          compress: true
+          compress: false
         },
         files: {
           '<%= config.dist %>/styles/main.css': '<%= config.src %>/styles/main.styl'
