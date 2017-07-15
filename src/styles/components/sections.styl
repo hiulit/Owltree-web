@@ -1,8 +1,10 @@
 .section
-    height: 75vh
+    height: 50vh
     padding-bottom: 65px
     padding-top: 30px
     position: relative
+    +m-breakpoint(lg)
+        height: 75vh
 
 .section__title
     font-family: 'Miglia Fur'
@@ -27,7 +29,6 @@ small.section__text
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
-    height: 75vh
     padding-top: 50px
 
 .section--2
@@ -62,6 +63,7 @@ small.section__text
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
+    position: relative
 
 .section--6
     height: auto
@@ -69,3 +71,15 @@ small.section__text
 
 .section--product
     padding-top: 50px
+
+.section--shadow
+    &:after
+        background-color: #000
+        content: ""
+        display: block
+        height: 100%
+        left: 0
+        opacity: 0.2
+        position: absolute
+        top: 0
+        width: 100%
