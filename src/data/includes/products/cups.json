@@ -45,7 +45,8 @@
       "gener": "",
       "image": "assets/cup_mountainsea_combo.png",
       "price": "35",
-      "sizes": []
+      "sizes": [],
+      "noshow": true
     }
   ]
 }
