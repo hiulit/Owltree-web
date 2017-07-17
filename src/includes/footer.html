@@ -1,17 +1,49 @@
     </main>
     <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__inner">
-                <div class="footer__logo">
-                    <object type="image/svg+xml" data="/assets/owltree_logo_white.svg" class="logo">
-                        Owltree <!-- fallback image in CSS -->
-                    </object>
+        <div class="footer__upper">
+            <div class="wrapper">
+                <div class="grid grid--big">
+                    <div class="grid__item grid__item-1-2">
+                        <div class="section__title">Instagram @owltreebcn</div>
+                        <p class="section__text">Follow us and share your pics using our hashtag <strong>#owltreebcn</strong>!</p>
+                        <div id="instafeed"></div>
+                    </div>
+                    <div class="grid__item grid__item-1-2">
+                        <div id="contact" class="section__title">Contact</div>
+                        <p class="section__text">Hey! What's up?</p>
+                        <form action="https://formspree.io/hello@owltreebcn.com" method="POST">
+                            <label for="name">
+                                Name:
+                                <input name="name" type="text">
+                            </label>
+                            <label for="_replyto">
+                                Email:
+                                <input name="_replyto" type="email">
+                            </label>
+                            <label for="message">
+                                Message:
+                                <textarea name="message" id="" cols="30" rows="11"></textarea>
+                            </label>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
                 </div>
-                <div class="footer__copyright">
-                    <small>&copy; Copyright 2017</small>
-                </div>
-                <div class="footer__catchphrase">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+        </div>
+        <div class="footer__lower">
+            <div class="wrapper">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <object type="image/svg+xml" data="/assets/owltree_logo_white.svg" class="logo">
+                            Owltree <!-- fallback image in CSS -->
+                        </object>
+                    </div>
+                    <div class="footer__copyright">
+                        <small>&copy; Copyright 2017</small>
+                    </div>
+                    <div class="footer__catchphrase">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
                 </div>
             </div>
         </div>
