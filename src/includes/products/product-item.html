@@ -1,23 +1,58 @@
 <!--(bake /includes/header.html)-->
 <section class="section section--product">
-	<div class="wrapper">
-		<div class="product product--{{id}}">
-		    <div class="product__model">{{child.model}}</div>
-		    <!--(bake-start _if="child.gender")-->
-		    <div class="product__gender">{{child.gender}}</div>
-		    <!--(bake-end)-->
-		    <div class="product__image">
-		        <img src="/{{child.image}}" alt="{{child.model}} {{child.gender}}">
-		    </div>
-		    <div class="product__price">{{child.price}}€</div>
-		    <!--(bake-start _if="child.sizes")-->
-		    <!-- <div class="product__sizes"> -->
-		        <!--(bake-start _foreach="size:child.sizes")-->
-		        <!-- <div class="product__size">{{size}}</div> -->
-		        <!--(bake-end)-->
-		    <!-- </div> -->
-		    <!--(bake-end)-->
-		</div>
-	</div>
+    <div class="wrapper">
+        <div class="product product--{{id}}">
+            <div class="product__header">
+                <div class="product-type">{{title}}</div>
+                <div class="product__model">{{child.model}}</div>
+                <!--(bake-start _if="child.gender")-->
+                <div class="product__gender">{{child.gender}}</div>
+                <!--(bake-end)-->
+            </div>
+            <div class="grid grid--big">
+                <div class="grid__item grid__item-2-3">
+                    <div class="product__image">
+                        <img src="{{child.image}}" alt="{{child.model}} {{child.gender}}">
+                    </div>
+                </div>
+                <div class="grid__item grid__item-1-3">
+                    <div class="product__tag">
+                        <div class="product__price">{{child.price}}€</div>
+                        <!--(bake-start _if="child.sizes")-->
+                        <div class="product__sizes">
+                            <div class="product__sizes__title">Sizes:</div>
+                                <ul class="product__sizes__list">
+                                    <!--(bake-start _foreach="size:child.sizes")-->
+                                    <li class="product__sizes__list__item">{{size}}</li>
+                                    <!--(bake-end)-->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--(bake-end)-->
+                        <a class="product__button product__button--buy btn" href="{{child.link}}">Buy</a>
+                        <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/"><img src="/assets/amapola-logo.png" alt="Amapola Vegan Shop" title="Amapola Vegan Shop""></a></p>
+                        <p class="product__text">When you click on the <strong>Buy</strong> button, you'll be redirected to <strong>Amapola Vegan Shop</strong> and from there you'll be able to buy this product.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="products-related">
+            <div class="section__title">Related products</div>
+            <ul class="products-related__list">
+                <!--(bake-start _foreach="relatedChild:children")-->
+                <!--(bake-start _if="relatedChild.model != child.model")-->
+                <li class="products-related__list__item">
+                    <a class="products-related__link" href="{{relatedChild.id}}.html">
+                        <div class="product__model">{{relatedChild.model}}</div>
+                        <div class="product__image">
+                            <img src="{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
+                        </div>
+                    </a>
+                </li>
+                <!--(bake-end)-->
+                <!--(bake-end)-->
+            </ul>
+        </aside>
+    </div>
 </section>
 <!--(bake /includes/footer.html)-->
