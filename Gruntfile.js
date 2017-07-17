@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     dist: 'dist',
     tmp: '.tmp'
   }
-  
+
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
@@ -34,6 +34,13 @@ module.exports = function(grunt) {
             cwd: '<%= config.src %>/assets',
             src: ['{,*/,**/}*.*'],
             dest: '<%= config.dist %>/assets'
+          },
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= config.src %>',
+            src: ['{,*/,**/}*.{png,ico}'],
+            dest: '<%= config.dist %>'
           }
         ]
       }
