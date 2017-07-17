@@ -16,6 +16,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-wrongs",
       "model": "Rights &amp; Wrongs",
       "gender": "women",
+      "color": "",
       "image": "assets/tsh_rightswrongs_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -25,6 +26,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-rigths-wrongs",
       "model": "Rights &amp; Wrongs",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_rightswrongs.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -34,6 +36,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
       "model": "Plant Based",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_plantbased_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -43,6 +46,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
       "model": "Plant Based",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_plantbased.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -52,6 +56,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
       "model": "Compassion",
       "gender": "women",
+      "color": "",
       "image": "assets/tsh_compassion_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -61,6 +66,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
       "model": "Compassion",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_compassion.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -70,6 +76,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
       "model": "Wonderful",
       "gender": "women",
+      "color": "",
       "image": "assets/tsh_wonderful_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -79,6 +86,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-wonderful-owltree",
       "model": "Wonderful",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_wonderful.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -88,6 +96,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
       "model": "Sorry",
       "gender": "women",
+      "color": "",
       "image": "assets/tsh_sorry_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
@@ -97,6 +106,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-sorry",
       "model": "Sorry",
       "gender": "unisex",
+      "color": "",
       "image": "assets/tsh_sorry.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]

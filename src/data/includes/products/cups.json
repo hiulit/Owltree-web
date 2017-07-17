@@ -16,6 +16,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-de-owltree-vegan-apparel-too-late",
       "model": "Never too late",
       "gender": "",
+      "color": "",
       "image": "assets/cup_nevertoolate.png",
       "price": "19",
       "sizes": []
@@ -25,6 +26,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-mountain-owltree",
       "model": "I am the Mountain",
       "gender": "",
+      "color": "",
       "image": "assets/cup_mountain.png",
       "price": "19",
       "sizes": []
@@ -34,6 +36,7 @@
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-de-owltree-vegan-apparel-sea",
       "model": "I am the Sea",
       "gender": "",
+      "color": "",
       "image": "assets/cup_sea.png",
       "price": "19",
       "sizes": []
@@ -43,6 +46,7 @@
       "link": "",
       "model": "I am the Mountain, I am the Sea",
       "gener": "",
+      "color": "",
       "image": "assets/cup_mountainsea_combo.png",
       "price": "35",
       "sizes": [],
