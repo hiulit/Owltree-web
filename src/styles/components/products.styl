@@ -8,7 +8,32 @@
 .product--tote-bags
     .product__image
         img
+            transform-origin: center center
+
+.product--tote-bags
+    .product__image
+        img
             transform-origin: bottom center
+
+.product__header
+    margin-bottom: 20px
+    text-align: center
+    text-transform: uppercase
+
+    .product-type
+        margin-bottom: 10px
+
+    .product__model
+        font-family: 'Miglia Fur', sans-serif
+        font-size: 50px
+        margin-bottom: 0
+        &:before
+            display: none
+
+.product__text
+    font-size: 16px
+    line-height: 25px
+
 
 .product__image
     overflow: hidden
@@ -21,13 +46,12 @@
         transition: transform 0.25s ease-in-out 0.1s
 
 .product__model
-    color: #363636
-    font-size: 13px
+    font-size: 14px
     margin-bottom: 4px
     position: relative
     text-transform: uppercase
     &:before
-        background-color: #363636
+        background-color: $primary-font-color
         content: ""
         display: block
         height: 2px
@@ -38,13 +62,61 @@
 
 
 .product__gender {
-    color: #363636
-    font-size: 11px
+    color: $primary-font-color
+    font-size: 12px
     margin-bottom: 4px
     text-transform: uppercase
 }
 
-
 .product__price
     font-size: 23px
     color: $primary-brand-color
+
+.product__sizes
+
+.product__sizes__title
+
+.product__sizes__list
+    font-size: 0
+
+.product__sizes__list__item
+    font-size: 14px
+    display: inline-block
+    &:not(:last-child)
+        margin-right: 10px
+
+// .product__btn
+
+// .product__btn--buy
+
+.product__tag
+    margin: 20px
+
+    .product__price,
+    .product__sizes,
+    .product__button--buy
+        margin-bottom: 20px
+
+.products-related
+    .product__model
+        margin: 0
+        text-align: center
+        &:before
+            display: none
+
+    .product__image
+        margin: 0
+
+.products-related__link
+    color: $primary-font-color
+    &:hover
+        color: $primary-brand-color
+        text-decoration: none
+
+.products-related__list
+    m-clearfix()
+
+.products-related__list__item
+    float: left
+    padding: 20px
+    width: percentage(1/4)
