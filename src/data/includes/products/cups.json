@@ -5,8 +5,8 @@
   "metas": {
     "author": "Owltree",
     "description": "Owltree - Handmade vegan apparel from Barcelona",
-    "favicon": "assets/images/favicon.ico",
-    "share-image": "assets/owltree_logo_claim.jpg",
+    "favicon": "/assets/images/favicon.ico",
+    "share-image": "/assets/owltree_logo_claim.jpg",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },
@@ -17,9 +17,9 @@
       "model": "Never too late",
       "gender": "",
       "color": "",
-      "image": "assets/cup_nevertoolate.png",
+      "image": "/assets/cup_nevertoolate.png",
       "price": "19",
-      "sizes": []
+      "sizes": ""
     },
     {
       "id": "mountain",
@@ -27,9 +27,9 @@
       "model": "I am the Mountain",
       "gender": "",
       "color": "",
-      "image": "assets/cup_mountain.png",
+      "image": "/assets/cup_mountain.png",
       "price": "19",
-      "sizes": []
+      "sizes": ""
     },
     {
       "id": "sea",
@@ -37,9 +37,9 @@
       "model": "I am the Sea",
       "gender": "",
       "color": "",
-      "image": "assets/cup_sea.png",
+      "image": "/assets/cup_sea.png",
       "price": "19",
-      "sizes": []
+      "sizes": ""
     },
     {
       "id": "mountain-sea",
@@ -47,9 +47,9 @@
       "model": "I am the Mountain, I am the Sea",
       "gener": "",
       "color": "",
-      "image": "assets/cup_mountainsea_combo.png",
+      "image": "/assets/cup_mountainsea_combo.png",
       "price": "35",
-      "sizes": [],
+      "sizes": "",
       "noshow": true
     }
   ]

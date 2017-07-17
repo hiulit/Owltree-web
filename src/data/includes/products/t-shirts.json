@@ -5,8 +5,8 @@
   "metas": {
     "author": "Owltree",
     "description": "Owltree - Handmade vegan apparel from Barcelona",
-    "favicon": "assets/images/favicon.ico",
-    "share-image": "assets/owltree_logo_claim.jpg",
+    "favicon": "/assets/images/favicon.ico",
+    "share-image": "/assets/owltree_logo_claim.jpg",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },
@@ -17,7 +17,7 @@
       "model": "Rights &amp; Wrongs",
       "gender": "women",
       "color": "",
-      "image": "assets/tsh_rightswrongs_w.png",
+      "image": "/assets/tsh_rightswrongs_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -27,7 +27,7 @@
       "model": "Rights &amp; Wrongs",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_rightswrongs.png",
+      "image": "/assets/tsh_rightswrongs.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -37,7 +37,7 @@
       "model": "Plant Based",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_plantbased_w.png",
+      "image": "/assets/tsh_plantbased_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -47,7 +47,7 @@
       "model": "Plant Based",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_plantbased.png",
+      "image": "/assets/tsh_plantbased.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -57,7 +57,7 @@
       "model": "Compassion",
       "gender": "women",
       "color": "",
-      "image": "assets/tsh_compassion_w.png",
+      "image": "/assets/tsh_compassion_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -67,7 +67,7 @@
       "model": "Compassion",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_compassion.png",
+      "image": "/assets/tsh_compassion.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -77,7 +77,7 @@
       "model": "Wonderful",
       "gender": "women",
       "color": "",
-      "image": "assets/tsh_wonderful_w.png",
+      "image": "/assets/tsh_wonderful_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -87,7 +87,7 @@
       "model": "Wonderful",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_wonderful.png",
+      "image": "/assets/tsh_wonderful.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -97,7 +97,7 @@
       "model": "Sorry",
       "gender": "women",
       "color": "",
-      "image": "assets/tsh_sorry_w.png",
+      "image": "/assets/tsh_sorry_w.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
@@ -107,7 +107,7 @@
       "model": "Sorry",
       "gender": "unisex",
       "color": "",
-      "image": "assets/tsh_sorry.png",
+      "image": "/assets/tsh_sorry.png",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     }
