@@ -42,6 +42,7 @@
                 <ul class="products-related__list grid">
                     <!--(bake-start _foreach="relatedChild:children")-->
                     <!--(bake-start _if="relatedChild.model != child.model")-->
+                    <!--(bake-start _if="!relatedChild.noshow")-->
                     <li class="products-related__list__item grid__item grid__item--1-4">
                         <a class="products-related__link" href="{{relatedChild.id}}.html">
                             <div class="product product--{{id}}">
@@ -53,6 +54,7 @@
                             </div>
                         </a>
                     </li>
+                    <!--(bake-end)-->
                     <!--(bake-end)-->
                     <!--(bake-end)-->
                 </ul>
