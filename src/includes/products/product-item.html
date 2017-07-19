@@ -1,8 +1,8 @@
-<!--(bake /includes/header.html)-->
+<!--(bake header.html)-->
 <section class="section section--product">
     <div class="wrapper">
         <div class="product__header">
-            <div class="product__type">{{title}}</div>
+            <div class="product__type">{{id}}</div>
             <h1 class="section__title product__model">{{child.model}}</h1>
         </div>
         <div class="grid grid--big">
@@ -62,6 +62,19 @@
             </div>
         </aside>
         <!--(bake-end)-->
+    </div>
+</section>
+<section class="section section--5 section--shadow">
+    <div class="wrapper">
+        <div class="hero">
+            <blockquote class="hero__blockquote">
+                <p class="hero__blockquote__text">Could you look an animal in the eyes and say to it, 'My appetite is more important than your suffering'?</p>
+                <footer class="hero__blockquote__footer">
+                    - <cite class="hero__blockquote__footer__cite">Moby</cite>
+                </footer>
+            </blockquote>
+            <div class="hero__subtitle"></div>
+        </div>
     </div>
 </section>
 <!--(bake /includes/footer.html)-->

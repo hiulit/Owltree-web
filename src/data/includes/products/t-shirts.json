@@ -1,12 +1,12 @@
 {
   "id": "t-shirts",
-  "title": "T-shirts",
-  "description": "T-shirts",
+  "parent": "products",
   "metas": {
     "author": "Owltree",
     "description": "Owltree - Handmade vegan apparel from Barcelona",
     "favicon": "/assets/images/favicon.ico",
     "share-image": "/assets/owltree_logo_claim.jpg",
+    "title": "T-shirts",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },

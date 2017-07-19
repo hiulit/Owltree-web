@@ -1,5 +1,7 @@
 {
   "home": {
+    "id": "home",
+    "parent": "home",
     "metas": {
       "author": "Owltree",
       "description": "Owltree - Handmade Vegan Apparel from Barcelona",
@@ -10,6 +12,8 @@
     }
   },
   "products": {
+    "id": "products",
+    "parent": "products",
     "metas": {
       "author": "Owltree",
       "description": "Products | Owltree - Vegan Apparel",

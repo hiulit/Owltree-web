@@ -1,12 +1,12 @@
 {
   "id": "tote-bags",
-  "title": "Tote Bags",
-  "description": "Tote Bags",
+  "parent": "products",
   "metas": {
     "author": "Owltree",
     "description": "Owltree - Handmade vegan apparel from Barcelona",
     "favicon": "/assets/images/favicon.ico",
     "share-image": "/assets/owltree_logo_claim.jpg",
+    "title": "Tote Bags",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },
