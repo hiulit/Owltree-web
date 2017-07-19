@@ -7,12 +7,12 @@
                 <h1 class="section__title product__model">{{child.model}}</h1>
             </div>
             <div class="grid grid--big">
-                <div class="grid__item grid__item-2-3">
+                <div class="grid__item grid__item--2-3">
                     <div class="product__image">
                         <img src="{{child.image}}" alt="{{child.model}} {{child.gender}}">
                     </div>
                 </div>
-                <div class="grid__item grid__item-1-3">
+                <div class="grid__item grid__item--1-3">
                     <div class="product__tag">
                         <div class="product__price">{{child.price}}€</div>
                         <!--(bake-start _if="child.gender")-->
@@ -20,7 +20,7 @@
                         <!--(bake-end)-->
                         <!--(bake-start _if="child.sizes")-->
                         <div class="product__sizes">
-                            <div class="product__sizes__title">Sizes:</div>
+                            <!-- <div class="product__sizes__title">Sizes:</div> -->
                             <ul class="product__sizes__list">
                                 <!--(bake-start _foreach="size:child.sizes")-->
                                 <li class="product__sizes__list__item">{{size}}</li>
@@ -38,15 +38,18 @@
         <aside class="products-related">
             <div class="wrapper">
                 <h1 class="section__title">Related products</h1>
-                <ul class="products-related__list">
+                <ul class="products-related__list grid">
                     <!--(bake-start _foreach="relatedChild:children")-->
                     <!--(bake-start _if="relatedChild.model != child.model")-->
-                    <li class="products-related__list__item">
+                    <li class="products-related__list__item grid__item grid__item--1-4">
                         <a class="products-related__link" href="{{relatedChild.id}}.html">
-                            <div class="product__image">
-                                <img src="{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
+                            <div class="product product--{{id}}">
+                                <div class="product__image">
+                                    <img src="{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
+                                </div>
+                                <div class="product__model">{{relatedChild.model}}</div>
+                                <div class="product__gender">{{relatedChild.gender}}</div>
                             </div>
-                            <div class="product__model">{{relatedChild.model}}</div>
                         </a>
                     </li>
                     <!--(bake-end)-->
