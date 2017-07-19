@@ -43,6 +43,14 @@
     img
         transition: transform 0.25s ease-in-out 0.1s
 
+    // .section--product &
+    //     &:hover
+    //         img
+    //             transform: none
+
+    //     img
+    //         transition: none
+
 .product__separator
     background-color: $primary-font-color
     border: none
@@ -96,21 +104,16 @@
     .product__button--buy
         margin-bottom: 20px
 
-.products-related
-    .product__model
-        margin: 0
-        text-align: center
+// .products-related
 
 .products-related__link
     color: $primary-font-color
+    display: block
     &:hover
         color: $primary-brand-color
         text-decoration: none
 
-.products-related__list
-    m-clearfix()
+// .products-related__list
 
 .products-related__list__item
-    float: left
-    padding: 20px
-    width: percentage(1/4)
+    text-align: center
