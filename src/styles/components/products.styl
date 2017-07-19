@@ -27,8 +27,6 @@
         font-family: 'Miglia-Fur', sans-serif
         font-size: 50px
         margin-bottom: 0
-        &:before
-            display: none
 
 .product__text
     font-size: 16px
@@ -45,36 +43,36 @@
     img
         transition: transform 0.25s ease-in-out 0.1s
 
+.product__separator
+    background-color: $primary-font-color
+    border: none
+    display: block
+    height: 2px
+    margin-bottom: 10px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 0
+    width: 85px
+
 .product__model
     font-size: 14px
     margin-bottom: 4px
     position: relative
     text-transform: uppercase
-    &:before
-        background-color: $primary-font-color
-        content: ""
-        display: block
-        height: 2px
-        margin-bottom: 10px
-        margin-left: auto
-        margin-right: auto
-        width: 85px
 
-
-.product__gender {
+.product__gender
     color: $primary-font-color
     font-size: 12px
     margin-bottom: 4px
     text-transform: uppercase
-}
 
 .product__price
     font-size: 23px
     color: $primary-brand-color
 
-.product__sizes
+// .product__sizes
 
-.product__sizes__title
+// .product__sizes__title
 
 .product__sizes__list
     font-size: 0
@@ -93,6 +91,7 @@
     margin: 20px
 
     .product__price,
+    .product__gender,
     .product__sizes,
     .product__button--buy
         margin-bottom: 20px
@@ -101,11 +100,6 @@
     .product__model
         margin: 0
         text-align: center
-        &:before
-            display: none
-
-    .product__image
-        margin: 0
 
 .products-related__link
     color: $primary-font-color
