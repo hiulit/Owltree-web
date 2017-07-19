@@ -1,5 +1,5 @@
 {
   "t-shirts": "{{products/t-shirts.json}}",
   "tote-bags": "{{products/tote-bags.json}}",
-  "cups": "{{products/cups.json}}"
+  "mugs": "{{products/mugs.json}}"
 }
