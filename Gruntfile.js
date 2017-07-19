@@ -50,6 +50,14 @@ module.exports = function(grunt) {
         spawn: false,
         livereload: true
       },
+      asstes: {
+        files: [
+          '<%= config.src %>/assets/{,*/,**/}*.*'
+        ],
+        tasks: [
+          'copy'
+        ]
+      },
       stylus: {
         files: [
           '<%= config.src %>/{,*/,**/}*.styl'
