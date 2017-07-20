@@ -1,5 +1,6 @@
 {
   "id": "t-shirts",
+  "title": "T-shirts",
   "parent": "products",
   "metas": {
     "author": "Owltree - Vegan Apparel",

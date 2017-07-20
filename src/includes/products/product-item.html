@@ -1,13 +1,13 @@
-<!--(bake product-item-header.html)-->
+<!--(bake /includes/products/product-item-header.html)-->
 <section class="section section--product">
     <div class="wrapper">
         <div class="product__header">
-            <div class="product__type">{{id}}</div>
+            <div class="product__type">{{parent.id}}</div>
             <h1 class="section__title product__model">{{child.model}}</h1>
         </div>
         <div class="grid grid--big">
             <div class="grid__item grid__item--2-3">
-                <div class="product product--{{id}} product--big">
+                <div class="product product--{{parent.id}} product--big">
                     <div class="product__image">
                         <img src="{{child.image}}" alt="{{child.model}} {{child.gender}}">
                     </div>
@@ -35,12 +35,12 @@
                 </div>
             </div>
         </div>
-        <!--(bake-start _if="children.length > 1")-->
+        <!--(bake-start _if="parent.children.length > 1")-->
         <aside class="products-related">
             <div class="wrapper">
                 <h1 class="section__title">Related products</h1>
                 <ul class="products-related__list grid">
-                    <!--(bake-start _foreach="relatedChild:children")-->
+                    <!--(bake-start _foreach="relatedChild:parent.children")-->
                     <!--(bake-start _if="relatedChild.model != child.model")-->
                     <!--(bake-start _if="!relatedChild.noshow")-->
                     <li class="products-related__list__item grid__item grid__item--1-4">

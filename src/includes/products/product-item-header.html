@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{child.model}} - {{metas.title}}</title>
-    <meta name="description" content="{{metas.title}} | {{metas.description}}">
+    <title>{{child.model}} - {{parent.metas.title}}</title>
+    <meta name="description" content="{{parent.metas.description}}">
     <meta name="author" content="{{author}}">
 
     <!-- For IE 10 and below -->
@@ -17,12 +17,12 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
     <meta property="fb:app_id" content="584404808613849">
-    <meta property="og:url" content="{{metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
+    <meta property="og:url" content="{{parent.metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
     <meta property="og:type" content="product.item">
-    <meta property="og:title" content="{{child.model}} - {{metas.title}}">
+    <meta property="og:title" content="{{child.model}} - {{parent.metas.title}}">
     <meta property="og:image" content="{{image}}">
-    <meta property="og:description" content="{{metas.description}}">
-    <meta property="og:site_name" content="{{child.model}} - {{metas.title}}">
+    <meta property="og:description" content="{{parent.metas.description}}">
+    <meta property="og:site_name" content="{{child.model}} - {{parent.metas.title}}">
     <meta property="og:locale" content="en_US">
     <meta property="product:price:amount" content="{{child.price}}">
     <meta property="product:price:currency" content="€">
@@ -35,11 +35,11 @@
     <meta property="product:condition" content="new">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="{{metas.twitter}}">
-    <meta name="twitter:creator" content="{{metas.twitter}}">
-    <meta name="twitter:url" content="{{metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
-    <meta name="twitter:title" content="{{child.model}} - {{metas.title}}">
-    <meta name="twitter:description" content="{{metas.description}}">
+    <meta name="twitter:site" content="{{parent.metas.twitter}}">
+    <meta name="twitter:creator" content="{{parent.metas.twitter}}">
+    <meta name="twitter:url" content="{{parent.metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
+    <meta name="twitter:title" content="{{child.model}} - {{parent.metas.title}}">
+    <meta name="twitter:description" content="{{parent.metas.description}}">
     <meta name="twitter:image" content="{{image}}">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">

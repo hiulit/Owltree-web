@@ -1,0 +1,16 @@
+<!--(bake /includes/products/product-item-header.html)-->
+<section class="section section--product">
+    <div class="wrapper">
+        <h1 class="section__title">{{parent.title}}</h1>
+        <ul class="grid">
+        <!--(bake-start _foreach="child:parent.children")-->
+            <!--(bake-start _if="!child.noshow")-->
+            <li class="grid__item grid__item--1-3">
+            <!--(bake /includes/products/product-gallery-item.html)-->
+            </li>
+            <!--(bake-end)-->
+        <!--(bake-end)-->
+        </ul>
+    </div>
+</section>
+<!--(bake /includes/footer.html)-->

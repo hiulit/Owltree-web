@@ -1,12 +1,13 @@
 {
   "id": "mugs",
+  "title": "Mugs",
   "parent": "products",
   "metas": {
     "author": "Owltree",
     "description": "Owltree - Handmade vegan apparel from Barcelona",
     "favicon": "/assets/images/favicon.ico",
     "share-image": "/assets/owltree_logo_claim.jpg",
-    "title": "Mugs",
+    "title": "Mugs | Owltree - Vegan Apparel",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },
