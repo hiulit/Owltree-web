@@ -2,11 +2,11 @@
   "id": "t-shirts",
   "parent": "products",
   "metas": {
-    "author": "Owltree",
-    "description": "Owltree - Handmade vegan apparel from Barcelona",
+    "author": "Owltree - Vegan Apparel",
+    "description": "For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
     "favicon": "/assets/images/favicon.ico",
     "share-image": "/assets/owltree_logo_claim.jpg",
-    "title": "T-shirts",
+    "title": "T-shirts | Owltree - Vegan Apparel",
     "twitter": "@owltreebcn",
     "url": "http://owltreebcn.com"
   },

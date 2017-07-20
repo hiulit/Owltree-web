@@ -1,5 +1,5 @@
-{
-  "t-shirts": "{{products/t-shirts.json}}",
-  "tote-bags": "{{products/tote-bags.json}}",
-  "mugs": "{{products/mugs.json}}"
-}
+[
+  "{{products/t-shirts.json}}",
+  "{{products/tote-bags.json}}",
+  "{{products/mugs.json}}"
+]
