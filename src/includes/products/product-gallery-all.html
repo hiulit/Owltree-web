@@ -1,8 +1,16 @@
 <section class="section section--product">
     <div class="wrapper">
-        <h1 class="section__title">Products</h1>
-        <ul class="grid">
+        <h1 class="section__title section__title--big">{{pages.products.title}}</h1>
+        <ul class="">
+        <!--(bake-start _foreach="parent:products")-->
+            <li class="">
+                <a href="#{{parent.id}}">{{parent.title}}</a>
+            </li>
+        </ul>
+        <!--(bake-end)-->
         <!--(bake-start _foreach="parent:products" _bake="/includes/products/product-gallery-page.html > {{parent.id}}/index.html")-->
+        <h2 id="{{parent.id}}" class="section__title">{{parent.title}}</h2>
+        <ul class="grid">
             <!--(bake-start _foreach="child:parent.children")-->
             <!--(bake-start _if="!child.noshow")-->
             <li class="grid__item grid__item--1-3">
@@ -10,7 +18,7 @@
             </li>
             <!--(bake-end)-->
             <!--(bake-end)-->
-        <!--(bake-end)-->
         </ul>
+        <!--(bake-end)-->
     </div>
 </section>

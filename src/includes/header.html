@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{title}}</title>
-    <meta name="description" content="{{description}}">
-    <meta name="author" content="{{author}}">
+    <title>{{metas.title}}</title>
+    <meta name="description" content="{{metas.description}}">
+    <meta name="author" content="{{metas.author}}">
 
     <!-- For IE 10 and below -->
     <!-- Place favicon.ico in the root directory - no tag necessary -->
@@ -17,22 +17,32 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
     <meta property="fb:app_id" content="584404808613849">
-    <meta property="og:url" content="{{url}}">
+    <!--(bake-start _if="id == 'home'")-->
+    <meta property="og:url" content="{{metas.url}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="id != 'home'")-->
+    <meta property="og:url" content="{{metas.url}}/{{id}}">
+    <!--(bake-end)-->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{title}}">
-    <meta property="og:image" content="{{share-image}}">
-    <meta property="og:description" content="{{description}}">
-    <meta property="og:site_name" content="{{author}}">
+    <meta property="og:title" content="{{metas.title}}">
+    <meta property="og:image" content="{{metas.share-image}}">
+    <meta property="og:description" content="{{metas.description}}">
+    <meta property="og:site_name" content="{{metas.author}}">
     <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="{{author}}">
+    <meta property="article:author" content="{{metas.author}}">
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="{{twitter}}">
-    <meta name="twitter:creator" content="{{twitter}}">
-    <meta name="twitter:url" content="{{url}}">
-    <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:description" content="{{description}}">
-    <meta name="twitter:image" content="{{share-image}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{metas.twitter}}">
+    <meta name="twitter:creator" content="{{metas.twitter}}">
+    <!--(bake-start _if="id == 'home'")-->
+    <meta name="twitter:url" content="{{metas.url}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="id != 'home'")-->
+    <meta name="twitter:url" content="{{metas.url}}/{{id}}">
+    <!--(bake-end)-->
+    <meta name="twitter:title" content="{{metas.title}}">
+    <meta name="twitter:description" content="{{metas.description}}">
+    <meta name="twitter:image" content="{{metas.share-image}}">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">

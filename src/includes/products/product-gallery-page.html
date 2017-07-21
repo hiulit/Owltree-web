@@ -1,7 +1,17 @@
 <!--(bake /includes/products/product-item-header.html)-->
 <section class="section section--product">
     <div class="wrapper">
-        <h1 class="section__title">{{parent.title}}</h1>
+        <div class="product__header">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item">
+                    <a href="/">{{pages.home.title}}</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="/{{parent.parent}}">{{parent.parent}}</a>
+                </li>
+            </ul>
+            <h1 class="section__title section__title--big">{{parent.title}}</h1>
+        </div>
         <ul class="grid">
         <!--(bake-start _foreach="child:parent.children")-->
             <!--(bake-start _if="!child.noshow")-->

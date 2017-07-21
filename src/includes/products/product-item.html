@@ -2,8 +2,18 @@
 <section class="section section--product">
     <div class="wrapper">
         <div class="product__header">
-            <div class="product__type">{{parent.id}}</div>
-            <h1 class="section__title product__model">{{child.model}}</h1>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item">
+                    <a href="/">{{pages.home.title}}</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="/{{parent.parent}}">{{parent.parent}}</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="/{{parent.parent}}/{{parent.id}}">{{parent.title}}</a>
+                </li>
+            </ul>
+            <h1 class="section__title section__title--big">{{child.model}}</h1>
         </div>
         <div class="grid grid--big">
             <div class="grid__item grid__item--2-3">
@@ -29,9 +39,9 @@
                         </ul>
                     </div>
                     <!--(bake-end)-->
-                    <a class="product__button product__button--buy btn" href="{{child.link}}">Buy</a>
                     <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/"><img src="/assets/amapola-logo.png" alt="Amapola Vegan Shop" title="Amapola Vegan Shop""></a></p>
                     <p class="product__text">When you click on the <strong>Buy</strong> button, you'll be redirected to <strong>Amapola Vegan Shop</strong> and from there you'll be able to buy this product.</p>
+                    <a class="product__button product__button--buy btn" href="{{child.link}}">Buy</a>
                 </div>
             </div>
         </div>
