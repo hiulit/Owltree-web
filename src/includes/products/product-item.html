@@ -19,7 +19,7 @@
             <div class="grid__item grid__item--2-3">
                 <div class="product product--{{parent.id}} product--big">
                     <div class="product__image">
-                        <img src="{{child.image}}" alt="{{child.model}} {{child.gender}}">
+                        <img src="/{{child.image}}" alt="{{child.model}} {{child.gender}}">
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                         <!--(bake-end)-->
                     </ul>
                     <hr class="product__separator product__separator--big">
-                    <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/"><img src="/assets/amapola-logo.png" alt="Amapola Vegan Shop" title="Amapola Vegan Shop""></a></p>
+                    <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/"><img src="/assets/amapola-logo.png" alt="Amapola Vegan Shop" title="Amapola Vegan Shop"></a></p>
                     <p class="product__text">When you click on the <strong>Buy</strong> button, you'll be redirected to <strong>Amapola Vegan Shop</strong> and from there you'll be able to buy this product.</p>
                     <hr class="product__separator product__separator--big">
                     <a class="product__buy-btn btn" href="{{child.link}}">Buy</a>
@@ -65,7 +65,7 @@
                         <a class="products-related__link" href="{{relatedChild.id}}.html">
                             <div class="product product--{{parent.id}}">
                                 <div class="product__image">
-                                    <img src="{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
                                 </div>
                                 <hr class="product__separator">
                                 <div class="product__model">{{relatedChild.model}}</div>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{metas.title}}</title>
     <meta name="description" content="{{metas.description}}">
+    <meta name="robots" content="index, follow">
     <meta name="author" content="{{metas.author}}">
 
     <!-- For IE 10 and below -->
@@ -16,6 +17,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
+    <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
     <!--(bake-start _if="id == 'home'")-->
     <meta property="og:url" content="{{metas.url}}">
@@ -31,6 +33,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="article:author" content="{{metas.author}}">
 
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="{{metas.twitter}}">
     <meta name="twitter:creator" content="{{metas.twitter}}">
@@ -54,12 +57,12 @@
                 <div class="header__wrapper">
                     <h1 class="header__logo">
                         <a href="/">
-                            <img src="/assets/owltree_logo_white.svg" alt="Owltree - Vegan Apparel">
+                            <img src="/assets/owltree_logo_white.svg" alt="{{pages.home.metas.title}}">
                         </a>
                     </h1>
                     <div class="header__icon">
                         <a href="/">
-                            <img src="/assets/owlie-white.svg"" alt="Owltree - Vegan Apparel">
+                            <img src="/assets/owlie-white.svg" alt="{{pages.home.metas.title}}">
                         </a>
                     </div>
                     <nav class="header__nav">

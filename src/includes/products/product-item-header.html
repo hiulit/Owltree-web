@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{child.model}} - {{parent.metas.title}}</title>
-    <meta name="description" content="{{child.message}} - {{parent.description | join}}">
-    <meta name="author" content="{{author}}">
+    <title>{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}</title>
+    <!--(bake-start _if="child.gender")-->
+    <meta name="description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
+    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.description | join}}">
+    <!--(bake-end)-->
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="{{pages.home.metas.author}}">
 
     <!-- For IE 10 and below -->
     <!-- Place favicon.ico in the root directory - no tag necessary -->
@@ -16,33 +23,55 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
+    <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
-    <meta property="og:url" content="{{parent.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <meta property="og:type" content="product.item">
-    <meta property="og:title" content="{{child.model}} - {{parent.metas.title}}">
-    <meta property="og:image" content="{{child.image}}">
-    <meta property="og:description" content="{{child.message}} - {{parent.description | join}}">
-    <meta property="og:site_name" content="{{child.model}} - {{parent.metas.title}}">
+    <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
+    <meta property="og:image" content="/{{child.image}}">
+    <!--(bake-start _if="child.gender")-->
+    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
+    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.description | join}}">
+    <!--(bake-end)-->
+    <meta property="og:site_name" content="{{pages.home.metas.title}}">
     <meta property="og:locale" content="en_US">
-    <meta property="og:product:price:amount" content="{{child.price}}">
-    <meta property="og:product:price:currency" content="EUR">
+    <meta property="product:price:amount" content="{{child.price}}">
+    <meta property="product:price:currency" content="EUR">
     <!--(bake-start _if="child.gender")-->
     <!--(bake-start _if="child.gender == 'women'")-->
-    <meta property="og:product:target_gender" content="female">
+    <meta property="product:target_gender" content="female">
     <!--(bake-end)-->
     <!--(bake-start _if="child.gender != 'women'")-->
-    <meta property="og:product:target_gender" content="{{child.gender}}">
+    <meta property="product:target_gender" content="{{child.gender}}">
     <!--(bake-end)-->
     <!--(bake-end)-->
-    <meta property="og:product:condition" content="new">
+    <meta property="product:condition" content="new">
+    <meta property="product:availability" content="{{child.stock}}">
+    <!--(bake-start _if="parent.id == 't-shirts'")-->
+    <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="parent.id == 'tote-bags'")-->
+    <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.color}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="parent.id == 'mugs'")-->
+    <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}">
+    <!--(bake-end)-->
 
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="{{parent.metas.twitter}}">
-    <meta name="twitter:creator" content="{{parent.metas.twitter}}">
-    <meta name="twitter:url" content="{{parent.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
-    <meta name="twitter:title" content="{{child.model}} - {{parent.metas.title}}">
-    <meta name="twitter:description" content="{{child.message}} - {{parent.description | join}}">
-    <meta name="twitter:image" content="{{child.image}}">
+    <meta name="twitter:site" content="{{pages.home.metas.twitter}}">
+    <meta name="twitter:creator" content="{{pages.home.metas.twitter}}">
+    <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <meta name="twitter:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
+    <!--(bake-start _if="child.gender")-->
+    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join}}">
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
+    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.description | join}}">
+    <!--(bake-end)-->
+    <meta name="twitter:image" content="/{{child.image}}">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">
@@ -54,12 +83,12 @@
                 <div class="header__wrapper">
                     <h1 class="header__logo">
                         <a href="/">
-                            <img class="logo" src="/assets/owltree_logo_white.svg" alt="">
+                            <img class="logo" src="/assets/owltree_logo_white.svg" alt="{{pages.home.metas.title}}">
                         </a>
                     </h1>
                     <div class="header__icon">
                         <a href="/">
-                            <img class="icon" src="/assets/owlie-white.svg"" alt="">
+                            <img class="icon" src="/assets/owlie-white.svg" alt="{{pages.home.metas.title}}">
                         </a>
                     </div>
                     <nav class="header__nav">
