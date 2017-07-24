@@ -58,7 +58,7 @@ module.exports = function(grunt) {
           'copy'
         ]
       },
-      stylus: {
+      styles: {
         files: [
           '<%= config.src %>/{,*/,**/}*.styl'
         ],
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
           'stylus'
         ]
       },
-      bake: {
+      pages: {
         files: [
           '<%= config.src %>/{,*/,**/}*.html',
           '<%= config.src %>/data/{,*/,**/}*.json'
@@ -76,7 +76,7 @@ module.exports = function(grunt) {
           'bake'
         ]
       },
-      obfuscator: {
+      scripts: {
         files: [
           '<%= config.src %>/{,*/,**/}*.js'
         ],
@@ -131,6 +131,12 @@ module.exports = function(grunt) {
           transforms: {
             join: function (str) {
               return str.join(' ');
+            },
+            upper: function(str) {
+              return String(str).toUpperCase();
+            },
+            capitalize: function(str) {
+              return String(str).charAt(0).toUpperCase() + String(str).slice(1);
             }
           }
         },
@@ -177,17 +183,136 @@ module.exports = function(grunt) {
         dest: '<%= config.dist %>/scripts/main.min.js',
       },
     },
+    cssmin: {
+      options: {
+        sourceMap: false
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: "<%= config.dist %>/styles/",
+          src: ["{,*/,**/}*.css"],
+          dest: "<%= config.dist %>/styles/",
+          ext: ".css"
+        }]
+      }
+    },
+    htmlmin: {
+      options: {
+        removeComments: true,
+        collapseWhitespace: true
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: "<%= config.dist %>/",
+          src: ["{,*/,**/}*.html"],
+          dest: "<%= config.dist %>/"
+        }]
+      }
+    },
+    image: {
+      options: {
+        pngquant: true,
+        optipng: true,
+        zopflipng: true,
+        advpng: true,
+        jpegRecompress: true,
+        jpegoptim: true,
+        mozjpeg: false,
+        gifsicle: true,
+        svgo: true
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: "<%= config.dist %>/assets/",
+          src: [
+            "!/fonts/{,*/,**/}*.*",
+            "{,*/,**/}*.{png,jpg,gif,svg}"
+          ],
+          dest: "<%= config.dist %>/assets/"
+        }]
+      }
+    },
+    critical: {
+      options: {
+          inline: true,
+          base: '<%= config.dist %>/',
+          pathPrefix: "./",
+          css: [
+              '<%= config.dist %>/styles/main.css'
+          ],
+          dimensions: [
+            {
+              height: 800,
+              width: 1280
+            },
+            {
+              height: 1080,
+              width: 1920
+            }
+          ],
+          minify: true
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.dist %>',
+          src: ['{,*/,**/}*.html'],
+          dest: '<%= config.dist %>'
+        }]
+      }
+    },
+    sitemaps: {
+      options: {
+        baseUrl: 'http://owltreebcn.com',
+        contentRoot: '<%= config.dist %>',
+        dest: '<%= config.dist %>',
+        changefreq: 'weekly'
+      },
+      dist:{
+        files: [{
+          expand: true,
+          cwd: '<%= config.dist %>',
+          src: ['{,*/,**/}*.html']
+        }]
+      }
+    }
   });
 
   grunt.registerTask('default', [
     'clean',
+    'stylus',
     'json_bake',
     'bake',
-    'stylus',
     'obfuscator',
     'concat',
     'copy',
     'connect:livereload',
     'watch'
   ]);
+
+  grunt.registerTask('build', function (target) {
+    if (typeof target === "undefined") {
+      target = "dev";
+    }
+
+    grunt.task.run([
+      'clean',
+      'stylus',
+      'json_bake',
+      'bake',
+      'obfuscator',
+      'concat',
+      'copy',
+      // 'critical',
+      'cssmin',
+      'htmlmin',
+      'sitemaps',
+      // 'image',
+      'connect:livereload',
+      'watch'
+    ]);
+  });
 };

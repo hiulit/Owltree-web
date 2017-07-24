@@ -31,10 +31,15 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-obfuscator": "^3.0.0",
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-critical": "^0.3.0",
+    "grunt-image": "^2.5.0",
     "grunt-json-bake": "^0.2.9",
+    "grunt-sitemaps": "^0.1.1",
     "load-grunt-tasks": "^3.5.2"
   }
 }
