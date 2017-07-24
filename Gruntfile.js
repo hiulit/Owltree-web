@@ -127,7 +127,12 @@ module.exports = function(grunt) {
       dist: {
         options: {
           basePath: '<%= config.src %>/',
-          content: '<%= config.tmp %>/data/final.json'
+          content: '<%= config.tmp %>/data/final.json',
+          transforms: {
+            join: function (str) {
+              return str.join(' ');
+            }
+          }
         },
         files: [{
           expand: true,
