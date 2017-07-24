@@ -1,11 +1,23 @@
 .breadcrumbs
     font-size: 0
-    margin-bottom: 10px
+    margin-bottom: 20px
+
+.breadcrumbs--dash
+    .breadcrumbs__item
+        &:not(:last-child)
+            margin-right: 10px
+            &:after
+                content: "-"
+                margin-left: 5px
+
+.breadcrumbs--slash
+    .breadcrumbs__item
+        &:not(:last-child)
+            &:after
+                content: "/"
 
 .breadcrumbs__item
     display: inline-block
-    font-size: 16px
+    font-size: 14px
     &:not(:last-child)
         margin-right: 5px
-        &:after
-            content: "/"

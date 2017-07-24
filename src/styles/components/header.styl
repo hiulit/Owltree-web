@@ -1,9 +1,10 @@
 .header
-    height: 0
-    position: fixed
-    top: 0
-    width: 100%
-    z-index: 2
+    &.is-fixed
+        height: 0
+        position: fixed
+        top: 0
+        width: 100%
+        z-index: 2
 
 .header__inner
     background-color: rgba(0, 0, 0, 0.5)
@@ -22,11 +23,11 @@
 .header__logo
     margin: 0
 
-    .logo
+    img
         height: 30px
 
 .header__icon
-    .icon
+    img
         height: 30px
 
 .header__icon

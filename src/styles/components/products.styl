@@ -17,9 +17,8 @@
             transform-origin: bottom center
 
 .product--big
-    margin-top: -40px
-
     .product__image
+        margin: 0
         &:hover
             img
                 transform: none
@@ -33,29 +32,30 @@
     text-transform: uppercase
 
 .product__text
-    font-size: 16px
-    line-height: 25px
+    font-size: 14px
+    line-height: 20px
 
 .product__image
     overflow: hidden
     margin: 20px
-    &:hover
-        img
-            transform: scale(1.5)
+    +m-breakpoint(md)
+        &:hover
+            img
+                transform: scale(1.5)
 
-    img
-        transition: transform 0.25s ease-in-out 0.1s
+        img
+            transition: transform 0.25s ease-in-out 0.1s
 
 .product__separator
     background-color: $primary-font-color
     border: none
     display: block
     height: 2px
-    margin-bottom: 10px
-    margin-left: auto
-    margin-right: auto
-    margin-top: 0
+    margin: 10px auto
     width: 85px
+
+.product__separator--big
+    margin: 40px auto
 
 .product__model
     font-size: 14px
@@ -64,41 +64,55 @@
     position: relative
     text-transform: uppercase
 
+.product__message
+    font-weight: bold
+    &:before
+    &:after
+        font-size: 16px
+    &:before
+        content: open-quote
+        margin-right: 2px
+    &:after
+        content: close-quote
+        margin-left: 2px
+
 .product__gender
-    color: $primary-font-color
     font-size: 12px
-    margin-bottom: 5px
     text-transform: uppercase
 
 .product__price
-    font-size: 23px
+    font-size: 24px !important
     color: $primary-brand-color
 
 // .product__sizes
 
-// .product__sizes__title
+.product__sizes__title
+    display: inline-block
 
 .product__sizes__list
+    display: inline-block
     font-size: 0
 
 .product__sizes__list__item
     font-size: 14px
     display: inline-block
+    margin-left: 10px
     &:not(:last-child)
-        margin-right: 10px
+        &:after
+            margin-left: 10px
+            content: "-"
 
-// .product__btn
-
-// .product__btn--buy
+.product__buy-btn
+    width: 100%
 
 .product__tag
     margin: 20px
 
-    .product__price,
-    .product__gender,
-    .product__sizes,
-    .product__button--buy
-        margin-bottom: 20px
+.product-tag__item
+    font-size: 14px
+    margin-bottom: 20px
+    text-transform: uppercase
+
 
 // .products-related
 

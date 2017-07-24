@@ -1,47 +1,57 @@
 .section
-    height: 50vh
     padding-bottom: $section-padding-bottom
     padding-top: $section-padding-top
     position: relative
-    +m-breakpoint(lg)
-        height: 75vh
     &:first-child
         margin-top: $header-height
 
 .section__title
-    font-family: 'Miglia-Fur'
+    font-family: 'Miglia-Fur', sans-serif
     font-size: 30px
     margin-bottom: 20px
     margin-top: 0
-    text-transform: uppercase
     text-align: center
+    text-transform: uppercase
 
     .products-related &,
     .footer &
         text-align: left
 
 .section__title--big
-    font-family: 'Miglia-Fur', sans-serif
     font-size: 50px
 
 .section__text
     color: $primary-font-color
-    font-size: 16px
-    line-height: 25px
+    font-size: 14px
+    line-height: 1.4
     margin-left: auto
     margin-right: auto
     text-transform: uppercase
+    +m-breakpoint(md)
+        font-size: 16px
+
+.section--shadow
+    padding: 0
+    &:after
+        background-color: #000
+        content: ""
+        display: block
+        height: 100%
+        left: 0
+        opacity: 0.05
+        position: absolute
+        top: 0
+        width: 100%
 
 .section--1
     background-image: url("../assets/bg_img1.jpg")
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
+    height: 95vh
     margin-top: 0 !important
-    padding-top: 50px
 
 .section--2
-    height: auto
     text-align: center
 
     .icon
@@ -51,7 +61,8 @@
     .section__text
         margin-left: auto
         margin-right: auto
-        max-width: 75%
+        +m-breakpoint(md)
+            max-width: 75%
 
 .section--3
     background-image: url("../assets/bg_img2.jpg")
@@ -60,7 +71,6 @@
     height: 50vh
 
 .section--4
-    height: auto
     text-align: center
 
     .section__text
@@ -73,20 +83,7 @@
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
+    height: 50vh
     position: relative
-
-.section--product
-    height: auto
-
-.section--shadow
-    padding: 0
-    &:after
-        background-color: #000
-        content: ""
-        display: block
-        height: 100%
-        left: 0
-        opacity: 0.2
-        position: absolute
-        top: 0
-        width: 100%
+    +m-breakpoint(lg)
+        height: 75vh
