@@ -1,7 +1,11 @@
 {
   "id": "t-shirts",
-  "title": "T-shirts",
   "parent": "products",
+  "title": "T-shirts",
+  "description": [
+    "100% cotton.",
+    "Designed and hand printed in Barcelona."
+  ],
   "metas": {
     "author": "Owltree - Vegan Apparel",
     "description": "For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
@@ -13,102 +17,112 @@
   },
   "children": [
     {
+      "color": "grey",
+      "gender": "women",
       "id": "rights-and-wrongs-w",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-wrongs",
-      "model": "Rights &amp; Wrongs",
-      "gender": "women",
-      "color": "",
       "image": "/assets/tsh_rightswrongs_w.png",
-      "price": "27",
-      "sizes": ["M", "L", "XL"]
-    },
-    {
-      "id": "rights-and-wrongs",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-rigths-wrongs",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-wrongs",
+      "message": "Let's talk about animal rights and human wrongs",
       "model": "Rights &amp; Wrongs",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "color": "grey",
       "gender": "unisex",
-      "color": "",
+      "id": "rights-and-wrongs",
       "image": "/assets/tsh_rightswrongs.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-rigths-wrongs",
+      "message": "Let's talk about animal rights and human wrongs",
+      "model": "Rights &amp; Wrongs",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
     {
+      "color": "grey",
+      "gender": "women",
       "id": "plant-based-w",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
-      "model": "Plant Based",
-      "gender": "unisex",
-      "color": "",
       "image": "/assets/tsh_plantbased_w.png",
-      "price": "27",
-      "sizes": ["M", "L", "XL"]
-    },
-    {
-      "id": "plant-based",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
+      "message": "Plant Based",
       "model": "Plant Based",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "color": "grey",
       "gender": "unisex",
-      "color": "",
+      "id": "plant-based",
       "image": "/assets/tsh_plantbased.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
+      "message": "Plant Based",
+      "model": "Plant Based",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
     {
+      "color": "grey",
+      "gender": "women",
       "id": "compassion-w",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
-      "model": "Compassion",
-      "gender": "women",
-      "color": "",
       "image": "/assets/tsh_compassion_w.png",
-      "price": "27",
-      "sizes": ["M", "L", "XL"]
-    },
-    {
-      "id": "compassion",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
+      "message": "Compassion over fashion",
       "model": "Compassion",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "color": "grey",
       "gender": "unisex",
-      "color": "",
+      "id": "compassion",
       "image": "/assets/tsh_compassion.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
+      "message": "Compassion over fashion",
+      "model": "Compassion",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
     {
+      "color": "grey",
+      "gender": "women",
       "id": "wonderful-w",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
-      "model": "Wonderful",
-      "gender": "women",
-      "color": "",
       "image": "/assets/tsh_wonderful_w.png",
-      "price": "27",
-      "sizes": ["M", "L", "XL"]
-    },
-    {
-      "id": "wonderful",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-wonderful-owltree",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
+      "message": "Every living being is wonderful",
       "model": "Wonderful",
+      "price": "27",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "color": "grey",
       "gender": "unisex",
-      "color": "",
+      "id": "wonderful",
       "image": "/assets/tsh_wonderful.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-wonderful-owltree",
+      "message": "Every living being is wonderful",
+      "model": "Wonderful",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
     {
-      "id": "sorry-w",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
-      "model": "Sorry",
+      "color": "grey",
       "gender": "women",
-      "color": "",
+      "id": "sorry-w",
       "image": "/assets/tsh_sorry_w.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
+      "message": "Don't be sorry, do something",
+      "model": "Sorry",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     },
     {
-      "id": "sorry",
-      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-sorry",
-      "model": "Sorry",
+      "color": "grey",
       "gender": "unisex",
-      "color": "",
+      "id": "sorry",
       "image": "/assets/tsh_sorry.png",
+      "link": "https://amapolaveganshop.com/collections/frontpage/products/camiseta-vegana-unisex-owltree-vegan-apparel-sorry",
+      "message": "Don't be sorry, do something",
+      "model": "Sorry",
       "price": "27",
       "sizes": ["M", "L", "XL"]
     }
