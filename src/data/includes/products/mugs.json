@@ -1,70 +1,72 @@
 {
-  "id": "mugs",
-  "parent": "products",
-  "title": "Mugs",
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
   "description": [
-    "Enamelled steel mug.",
-    "Manufactured in Spain.",
+    "Enameled steel mug.",
     "Suitable for any source of energy: gas, induction or direct fire.",
     "Suitable for dishwasher.",
     "Do not use in the microwave!",
     "Diameter: 8 cm.",
-    "Capacity: 0,4 liters."
+    "Capacity: 0,4 liters.",
+    "Designed in Barcelona."
   ],
-  "metas": {
-    "author": "Owltree",
-    "description": "Owltree - Handmade vegan apparel from Barcelona",
-    "favicon": "/assets/images/favicon.ico",
-    "share-image": "/assets/owltree_logo_claim.jpg",
-    "title": "Mugs | Owltree - Vegan Apparel",
-    "twitter": "@owltreebcn",
-    "url": "http://owltreebcn.com"
-  },
+  "id": "mugs",
+  "parent": "products",
+  "title": "Mugs",
   "children": [
     {
       "color": "",
       "gender": "",
       "id": "never-too-late",
-      "image": "/assets/cup_nevertoolate.png",
+      "image": "assets/cup_nevertoolate.png",
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-de-owltree-vegan-apparel-too-late",
       "message": "Never too late to break a cage",
       "model": "Never too late",
       "price": "19",
-      "sizes": ""
+      "sizes": "",
+      "stock": "in stock"
     },
     {
       "color": "",
       "gender": "",
       "id": "mountain",
-      "image": "/assets/cup_mountain.png",
+      "image": "assets/cup_mountain.png",
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-mountain-owltree",
       "message": "I am the Mountain",
       "model": "I am the Mountain",
       "price": "19",
-      "sizes": ""
+      "sizes": "",
+      "stock": "in stock"
     },
     {
       "color": "",
       "gender": "",
       "id": "sea",
-      "image": "/assets/cup_sea.png",
+      "image": "assets/cup_sea.png",
       "link": "https://amapolaveganshop.com/collections/frontpage/products/taza-de-owltree-vegan-apparel-sea",
       "message": "I am the Sea",
       "model": "I am the Sea",
       "price": "19",
-      "sizes": ""
+      "sizes": "",
+      "stock": "in stock"
     },
     {
       "color": "",
       "gender": "",
       "id": "mountain-sea",
-      "image": "/assets/cup_mountainsea_combo.png",
+      "image": "assets/cup_mountainsea_combo.png",
       "link": "",
       "Message": "I am the Mountain, I am the Sea",
       "model": "I am the Mountain, I am the Sea",
       "noshow": true,
       "price": "35",
-      "sizes": ""
+      "sizes": "",
+      "stock": "in stock"
     }
   ]
 }

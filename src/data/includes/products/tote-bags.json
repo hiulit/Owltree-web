@@ -1,31 +1,30 @@
 {
-  "id": "tote-bags",
-  "parent": "products",
-  "title": "Tote bags",
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
   "description": [
     "100% cotton.",
     "Designed and hand printed in Barcelona."
   ],
-  "metas": {
-    "author": "Owltree",
-    "description": "Owltree - Handmade vegan apparel from Barcelona",
-    "favicon": "/assets/images/favicon.ico",
-    "share-image": "/assets/owltree_logo_claim.jpg",
-    "title": "Tote Bags | Owltree - Vegan Apparel",
-    "twitter": "@owltreebcn",
-    "url": "http://owltreebcn.com"
-  },
+  "id": "tote-bags",
+  "parent": "products",
+  "title": "Tote bags",
   "children": [
     {
-      "color": "",
+      "color": "beige",
       "gender": "",
       "id": "rights-and-wrongs",
-      "image": "/assets/tote_rightswrongs.png",
+      "image": "assets/tote_rightswrongs.png",
       "link": "https://amapolaveganshop.com/collections/frontpage/products/totebag-vegana-owltree-vegan-apparel-rights-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
       "model": "Rights &amp; Wrongs",
       "price": "15",
-      "sizes": ""
+      "sizes": "",
+      "stock": "in stock"
     }
   ]
 }

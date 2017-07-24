@@ -1,8 +1,6 @@
 {
   "home": {
     "id": "home",
-    "title": "Home",
-    "parent": "pages",
     "metas": {
       "author": "Owltree - Vegan Apparel",
       "description": "For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
@@ -11,12 +9,12 @@
       "title": "Owltree - Vegan Apparel",
       "twitter": "@owltreebcn",
       "url": "http://owltreebcn.com"
-    }
+    },
+    "parent": "pages",
+    "title": "Home"
   },
   "products": {
     "id": "products",
-    "title": "Products",
-    "parent": "pages",
     "metas": {
       "author": "Owltree - Vegan Apparel",
       "description": "For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
@@ -25,6 +23,8 @@
       "title": "Products | Owltree - Vegan Apparel",
       "twitter": "@owltreebcn",
       "url": "http://owltreebcn.com"
-    }
+    },
+    "parent": "pages",
+    "title": "Products"
   }
 }
