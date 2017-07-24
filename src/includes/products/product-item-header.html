@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{child.model}} - {{parent.metas.title}}</title>
-    <meta name="description" content="{{parent.metas.description}}">
+    <meta name="description" content="{{child.message}} - {{parent.description | join}}">
     <meta name="author" content="{{author}}">
 
     <!-- For IE 10 and below -->
@@ -17,36 +17,38 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
     <meta property="fb:app_id" content="584404808613849">
-    <meta property="og:url" content="{{parent.metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
+    <meta property="og:url" content="{{parent.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <meta property="og:type" content="product.item">
     <meta property="og:title" content="{{child.model}} - {{parent.metas.title}}">
-    <meta property="og:image" content="{{image}}">
-    <meta property="og:description" content="{{parent.metas.description}}">
+    <meta property="og:image" content="{{child.image}}">
+    <meta property="og:description" content="{{child.message}} - {{parent.description | join}}">
     <meta property="og:site_name" content="{{child.model}} - {{parent.metas.title}}">
     <meta property="og:locale" content="en_US">
-    <meta property="product:price:amount" content="{{child.price}}">
-    <meta property="product:price:currency" content="€">
+    <meta property="og:product:price:amount" content="{{child.price}}">
+    <meta property="og:product:price:currency" content="EUR">
+    <!--(bake-start _if="child.gender")-->
     <!--(bake-start _if="child.gender == 'women'")-->
-    <meta property="product:target_gender" content="female">
+    <meta property="og:product:target_gender" content="female">
     <!--(bake-end)-->
     <!--(bake-start _if="child.gender != 'women'")-->
-    <meta property="product:target_gender" content="{{child.gender}}">
+    <meta property="og:product:target_gender" content="{{child.gender}}">
     <!--(bake-end)-->
-    <meta property="product:condition" content="new">
+    <!--(bake-end)-->
+    <meta property="og:product:condition" content="new">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="{{parent.metas.twitter}}">
     <meta name="twitter:creator" content="{{parent.metas.twitter}}">
-    <meta name="twitter:url" content="{{parent.metas.url}}/{{parent}}/{{id}}/{{child.id}}.html">
+    <meta name="twitter:url" content="{{parent.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <meta name="twitter:title" content="{{child.model}} - {{parent.metas.title}}">
-    <meta name="twitter:description" content="{{parent.metas.description}}">
-    <meta name="twitter:image" content="{{image}}">
+    <meta name="twitter:description" content="{{child.message}} - {{parent.description | join}}">
+    <meta name="twitter:image" content="{{child.image}}">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
     <link href="/styles/main.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header is-fixed">
         <div class="header__inner">
             <div class="wrapper">
                 <div class="header__wrapper">
