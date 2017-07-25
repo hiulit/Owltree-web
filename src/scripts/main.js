@@ -6,3 +6,8 @@ var userFeed = new Instafeed({
   template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
 });
 userFeed.run();
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+  header: '[data-scroll-header]',
+  offset: 30
+});
