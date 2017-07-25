@@ -11,14 +11,21 @@
 
 .header__wrapper
     align-items: center
-    display: flex
     color: #fff
+    display: flex
     height: $header-height
+    +m-breakpoint(sm xmd)
+        flex-wrap: wrap
+        justify-content: center
+        padding: 10px 0
+        text-align: center
+        height: $header-height-mobile
 
 .header__logo,
 .header__icon,
 .header__nav
-    flex: 1 1 0%
+    +m-breakpoint(xmd)
+        flex: 1 1 0%
 
 .header__logo
     margin: 0
@@ -27,18 +34,29 @@
         height: 30px
 
 .header__icon
+    +m-breakpoint(sm xmd)
+        margin-left: 10px
+
     img
-        height: 30px
+        height: 25px
+        +m-breakpoint(xmd)
+            height: 30px
+
 
 .header__icon
     text-align: center
 
 .header__nav
     margin: 0 auto
+    +m-breakpoint(sm xmd)
+        flex: 1 1 100%
+        margin-top: 10px
 
 .header__list
     display: flex
-    justify-content: flex-end
+    justify-content: center
+    +m-breakpoint(xmd)
+        justify-content: flex-end
 
 .header__list__item
     list-style-type: none

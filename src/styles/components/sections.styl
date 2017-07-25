@@ -4,6 +4,8 @@
     position: relative
     &:first-child
         margin-top: $header-height
+        +m-breakpoint(sm xmd)
+            margin-top: $header-height-mobile
 
 .section__title
     font-family: 'Miglia-Fur', sans-serif
@@ -48,15 +50,19 @@
     background-position: center center
     background-repeat: no-repeat
     background-size: cover
-    height: 95vh
+    height: 75vh
     margin-top: 0 !important
+    +m-breakpoint(xmd)
+        height: 95vh
 
 .section--2
     text-align: center
 
     .icon
         margin-bottom: 25px
-        width: 130px
+        width: 100px
+        +m-breakpoint(md)
+            width: 130px
 
     .section__text
         margin-left: auto
