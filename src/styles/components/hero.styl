@@ -11,8 +11,10 @@
 
 .hero__title
     font-size: 55px
-    line-height: 51px
+    line-height: 1
     margin-bottom: 20px
+    +m-breakpoint(lg)
+        font-size: 70px
 
 .hero__subtitle
     font-size: 20px
@@ -20,6 +22,8 @@
     text-transform: uppercase
     +m-breakpoint(md)
         max-width: 40%
+    +m-breakpoint(lg)
+        font-size: 30px
 
 .hero__blockquote
     font-size: 20px
