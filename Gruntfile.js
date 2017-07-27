@@ -41,6 +41,13 @@ module.exports = function(grunt) {
             cwd: '<%= config.src %>',
             src: ['{,*/,**/}*.{png,ico}'],
             dest: '<%= config.dist %>'
+          },
+          {
+            expand: true,
+            dot: true,
+            cwd: '<%= config.src %>',
+            src: ['{,*/,**/}*.php'],
+            dest: '<%= config.dist %>'
           }
         ]
       }
@@ -48,11 +55,19 @@ module.exports = function(grunt) {
     watch: {
       options: {
         spawn: false,
-        livereload: true
+        livereload: LIVERELOAD_PORT
       },
-      asstes: {
+      assets: {
         files: [
           '<%= config.src %>/assets/{,*/,**/}*.*'
+        ],
+        tasks: [
+          'copy'
+        ]
+      },
+      php: {
+        files: [
+          '<%= config.src %>/{,*/,**/}*.php'
         ],
         tasks: [
           'copy'
@@ -92,7 +107,7 @@ module.exports = function(grunt) {
         // change this to '0.0.0.0' to access the server from outside
         // hostname: 'localhost',
         hostname: '0.0.0.0',
-        livereload: true
+        livereload: LIVERELOAD_PORT
       },
       livereload: {
         options: {
