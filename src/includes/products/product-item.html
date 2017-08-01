@@ -1,6 +1,6 @@
 <!--(bake /includes/products/product-item-header.html)-->
 <section class="section">
-    <div class="wrapper">
+    <div class="wrapper" itemscope itemtype="http://schema.org/Product">
         <div class="product__header">
             <ul class="breadcrumbs breadcrumbs--slash">
                 <li class="breadcrumbs__item">
@@ -10,22 +10,39 @@
                     <a href="/{{parent.parent}}">{{parent.parent}}</a>
                 </li>
                 <li class="breadcrumbs__item">
-                    <a href="/{{parent.parent}}/{{parent.id}}">{{parent.title}}</a>
+                    <a href="/{{parent.parent}}/{{parent.id}}">
+                        <span itemprop="category">{{parent.title}}</span>
+                    </a>
                 </li>
             </ul>
-            <h1 class="section__title section__title--big">{{child.model}}</h1>
+            <h1 class="section__title">
+                <div class="section__title--big" itemprop="name">{{child.model}}</div>
+                <div class="section__title--small">
+                    <span>by</span>
+                    <span itemprop="brand">{{pages.home.metas.title}}</span>
+                </div>
+            </h1>
         </div>
         <div class="grid grid--big">
             <div class="grid__item grid__item--2-3">
                 <div class="product product--{{parent.id}} product--big">
                     <div class="product__image">
-                        <img src="/{{child.image}}" alt="{{child.model}} {{child.gender}}">
+                        <img src="/{{child.image}}" alt="{{child.model}} by {{pages.home.metas.title}} | {{parent.title}} | {{child.gender | capitalize}}" itemprop="image">
                     </div>
                 </div>
             </div>
             <div class="grid__item grid__item--1-3">
                 <div class="product__tag">
-                    <div class="product-tag__item product__price">{{child.price}}€</div>
+                    <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                        <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
+                        <span itemprop="priceCurrency" content="EUR">€</span>
+                        <!--(bake-start _if="child.stock == 'out of stock'")-->
+                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stock}}</span>
+                        <!--(bake-end)-->
+                        <!--(bake-start _if="child.stock != 'out of stock'")-->
+                        <span class="product__stock" itemprop="availability">{{child.stock}}</span>
+                        <!--(bake-end)-->
+                    </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
                     <!--(bake-start _if="child.gender")-->
                     <div class="product-tag__item product__gender">{{child.gender}}</div>
@@ -40,7 +57,7 @@
                         </ul>
                     </div>
                     <!--(bake-end)-->
-                    <ul>
+                    <ul itemprop="description">
                         <!--(bake-start _foreach="description:parent.description")-->
                         <li class="product-tag__item product__description">{{description}}</li>
                         <!--(bake-end)-->
