@@ -40,10 +40,12 @@
         display: block
         height: 100%
         left: 0
-        opacity: 0.05
+        opacity: 0.25
         position: absolute
         top: 0
         width: 100%
+        +m-breakpoint(xmd)
+            opacity: 0.05
 
 .section--1
     background-image: url("../assets/bg_img1.jpg")
@@ -52,6 +54,17 @@
     background-size: cover
     height: 75vh
     margin-top: 0 !important
+    img
+        max-height: 75vh
+        max-width: 50%
+        position: absolute
+        top: 50%
+        transform: translateY(calc(-50% + (60px/2))) // 60px is $header-height
+        +m-breakpoint(sm xmd)
+            left: 50%
+            max-height: 35vh
+            max-width: 90%
+            transform: translate(-50%, calc(-50% + (85px/2))) // 85px is $header-height
     +m-breakpoint(xmd)
         height: 90vh
 
@@ -60,8 +73,10 @@
 
     .icon
         margin-bottom: 25px
-        width: 100px
+        width: 80px
         +m-breakpoint(md)
+            width: 100px
+        +m-breakpoint(xmd)
             width: 130px
 
     .section__text
@@ -71,10 +86,13 @@
             max-width: 75%
 
 .section--3
-    background-image: url("../assets/bg_img2.jpg")
+    background-image: url("../assets/bg_img7.jpg")
     background-repeat: no-repeat
     background-size: cover
+    background-position: center center
     height: 50vh
+    +m-breakpoint(lg)
+        height: 75vh
 
 .section--4
     text-align: center
@@ -90,6 +108,5 @@
     background-repeat: no-repeat
     background-size: cover
     height: 50vh
-    position: relative
     +m-breakpoint(lg)
         height: 75vh
