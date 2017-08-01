@@ -7,7 +7,6 @@
                             - <cite class="hero__blockquote__footer__cite">Moby</cite>
                         </footer>
                     </blockquote>
-                    <div class="hero__subtitle"></div>
                 </div>
             </div>
         </section>
@@ -24,21 +23,22 @@
                     <div class="grid__item grid__item--1-2">
                         <div id="contact" class="section__title">Contact</div>
                         <p class="section__text">Hey! What's up?</p>
-                        <form action="https://formspree.io/hello@owltreebcn.com" method="POST">
+                        <form id="contact-form" action="process.php" method="post">
                             <label for="name">
                                 Name:
-                                <input name="name" type="text">
+                                <input id="name" name="name" type="text">
                             </label>
-                            <label for="_replyto">
+                            <label for="from_email">
                                 Email:
-                                <input name="_replyto" type="email">
+                                <input id="from_email" name="from_email" type="email">
                             </label>
-                            <label for="message">
+                            <label for="body">
                                 Message:
-                                <textarea name="message" cols="30" rows="11"></textarea>
+                                <textarea id="body" name="body" cols="30" rows="11"></textarea>
                             </label>
                             <input type="submit" value="Send">
                         </form>
+                        <div id="contact-form-response" class="alert"></div>
                     </div>
                 </div>
             </div>
