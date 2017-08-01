@@ -96,7 +96,6 @@ module.exports = function(grunt) {
           '<%= config.src %>/{,*/,**/}*.js'
         ],
         tasks: [
-          'obfuscator',
           'concat'
         ]
       }
@@ -182,9 +181,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: '<%= config.src %>/scripts',
+            cwd: '<%= config.src %>/scripts/',
             src: '{,*/,**/}*.js',
-            dest: '<%= config.tmp %>/scripts'
+            dest: '<%= config.dist %>/scripts/'
           }
         ]
       }
@@ -194,7 +193,7 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['<%= config.tmp %>/scripts/{,*/,**/}*.js'],
+        src: ['<%= config.src %>/scripts/{,*/,**/}*.js'],
         dest: '<%= config.dist %>/scripts/main.min.js',
       },
     },
@@ -301,7 +300,6 @@ module.exports = function(grunt) {
     'stylus',
     'json_bake',
     'bake',
-    'obfuscator',
     'concat',
     'copy',
     'connect:livereload',
