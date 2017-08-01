@@ -319,11 +319,11 @@ module.exports = function(grunt) {
       'obfuscator',
       'concat',
       'copy',
-      // 'critical',
+      'critical',
       'cssmin',
       'htmlmin',
       'sitemaps',
-      // 'image',
+      'image',
       'connect:livereload',
       'watch'
     ]);
