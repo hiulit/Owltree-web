@@ -23,7 +23,7 @@
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return true;
         } else {
-            array_push($errorMessage, "Email not validated.");
+            array_push($errorMessage, "Invalid email format.");
         }
     }
 
