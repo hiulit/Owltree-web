@@ -45,6 +45,7 @@
                         <li class="product-tag__item product__description">{{description}}</li>
                         <!--(bake-end)-->
                     </ul>
+                    <!--(bake-start _if="parent.id != 'mugs'")-->
                     <ul class="product-tag__icons-list">
                         <li class="product-tag__icons-list__item">
                             <img src="/assets/fairtrade_icon.png" alt="Fairtrade">
@@ -62,6 +63,7 @@
                             <img src="/assets/confidence_icon.png" alt="Confidence in Textiles. Tested for harmful substances.">
                         </li>
                     </ul>
+                    <!--(bake-end)-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Buy</a>
                     <hr class="product__separator product__separator--big">
                     <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/" target="_blank"><img src="/assets/amapola-logo.png" alt="Amapola Vegan Shop"></a></p>
@@ -69,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <!-- <hr class="product__separator"> -->
         <!--(bake-start _if="parent.children.length > 1")-->
         <aside class="products-related">
             <div class="wrapper">
