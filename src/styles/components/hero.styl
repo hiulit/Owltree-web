@@ -2,12 +2,12 @@
     color: #fff
     font-family: 'Miglia-Fur', sans-serif
     left: 20px
-    margin: 2em
+    margin: 20px
     position: absolute
     right: 20px
     text-shadow: 0px 0px 10px #000
     top: 50%
-    transform: translateY(-50%)
+    transform: translateY(calc(-50% -(20px/2)))
 
 .hero__title
     font-size: 55px
@@ -31,9 +31,9 @@
     margin: 0
     text-transform: uppercase
     +m-breakpoint(md)
-        font-size: 30px
         max-width: 60%
     +m-breakpoint(xmd)
+        font-size: 30px
         max-width: 40%
     +m-breakpoint(lg)
         font-size: 40px
