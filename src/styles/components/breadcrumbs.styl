@@ -5,10 +5,8 @@
 .breadcrumbs--dash
     .breadcrumbs__item
         &:not(:last-child)
-            margin-right: 10px
             &:after
                 content: "-"
-                margin-left: 5px
 
 .breadcrumbs--slash
     .breadcrumbs__item
@@ -19,5 +17,6 @@
 .breadcrumbs__item
     display: inline-block
     font-size: 14px
-    &:not(:last-child)
+    &:after
+        margin-left: 5px
         margin-right: 5px
