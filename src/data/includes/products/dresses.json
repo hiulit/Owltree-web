@@ -1,0 +1,30 @@
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Designed and hand printed in Barcelona."
+  ],
+  "id": "dresses",
+  "parent": "products",
+  "title": "Dresses",
+  "children": [
+    {
+      "color": "grey",
+      "gender": "",
+      "id": "harm",
+      "image": "assets/drss_harm.png",
+      "link": "",
+      "message": "Harm no one",
+      "model": "Harm",
+      "price": "35",
+      "sizes": ["M", "L", "XL"],
+      "stock": "in stock"
+    }
+  ]
+}
