@@ -28,7 +28,7 @@
     <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <meta property="og:type" content="product.item">
     <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
-    <meta property="og:image" content="/{{child.image}}">
+    <meta property="og:image" content="{{pages.home.metas.url}}/{{child.image}}">
     <!--(bake-start _if="child.gender")-->
     <meta property="og:description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
