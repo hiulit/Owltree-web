@@ -45,7 +45,7 @@
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
                     <!--(bake-start _if="child.gender")-->
-                    <div class="product-tag__item product__gender">{{child.gender}}</div>
+                    <div class="product-tag__item product__gender">{{child.gender | capitalize}}</div>
                     <!--(bake-end)-->
                     <!--(bake-start _if="child.sizes")-->
                     <div class="product-tag__item product__sizes">

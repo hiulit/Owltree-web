@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}</title>
     <!--(bake-start _if="child.gender")-->
-    <meta name="description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join:', '}} - {{parent.description | join:' '}}">
+    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join:', '}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.description | join:' '}}">
+    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
 
     <meta name="robots" content="index, follow">
@@ -30,10 +30,10 @@
     <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
     <meta property="og:image" content="{{pages.home.metas.url}}/{{child.image}}">
     <!--(bake-start _if="child.gender")-->
-    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
+    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.description | join:' '}}">
+    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <meta property="og:site_name" content="{{pages.home.metas.title}}">
     <meta property="og:locale" content="en_US">
@@ -66,10 +66,10 @@
     <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <meta name="twitter:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
     <!--(bake-start _if="child.gender")-->
-    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
+    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.description | join:' '}}">
+    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <meta name="twitter:image" content="{{pages.home.metas.url}}/{{child.image}}">
 
