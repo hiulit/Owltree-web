@@ -144,8 +144,8 @@ module.exports = function(grunt) {
           basePath: '<%= config.src %>/',
           content: '<%= config.tmp %>/data/final.json',
           transforms: {
-            join: function (str) {
-              return str.join(' ');
+            join: function (str, joinValue) {
+              return str.join(joinValue);
             },
             upper: function(str) {
               return String(str).toUpperCase();
