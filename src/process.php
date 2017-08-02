@@ -23,7 +23,7 @@
         if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return true;
         } else {
-            array_push($errorMessage, "Invalid email format.");
+            array_push($errorMessage, array("field" => "from_email", "text" => "Invalid email format. Email should be something like yourname@example.com"));
         }
     }
 
@@ -35,7 +35,7 @@
         $bad_strings = array(
             "content-type:",
             "mime-version:",
-            "multipart/mixed",
+            "multipart\/mixed",
             "Content-Transfer-Encoding:",
             "bcc:",
             "cc:",
@@ -87,7 +87,7 @@
         }
         if ($from_name && $from_email && $body) {
             if (!is_valid_email($from_email)) {
-                array_push($errorMessage, array("field" => "from_email", "text" => "Invalid email submitted. Email should be something like this yourname@example.com"));
+                array_push($errorMessage, array("field" => "from_email", "text" => "Invalid email submitted. Email should be something like yourname@example.com"));
                 $responseArray = array('type' => 'danger', 'message' => $errorMessage);
             } else {
                 if (mail($to_email, $subject, $body, $headers)) {
@@ -117,6 +117,12 @@
     }
     // else just display the message
     else {
-        echo $responseArray['message'];
+        if ($responseArray['type'] == 'danger') {
+            foreach ($responseArray['message'] as $index => $value) {
+                echo '<p>'. $value[text] .'</p>';
+            }
+        } else {
+            echo $responseArray['message'];
+        }
     }
 ?>
