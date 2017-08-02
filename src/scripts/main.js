@@ -21,7 +21,7 @@ $('#contact-form').on("submit", function(e) {
   _self.find($('input, textarea')).removeClass('danger');
 
   $.ajax({
-    url: "process.php",
+    url: "/process.php",
     data: _self.serialize(),
     type: "POST",
     success:function(data){
