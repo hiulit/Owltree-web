@@ -21,8 +21,8 @@ module.exports = function(grunt) {
     config: config,
     clean: {
       dist: [
-        '<%= config.tmp %>',
-        '<%= config.dist %>'
+        '<%= config.tmp %>/',
+        '<%= config.dist %>/'
       ]
     },
     copy: {
@@ -31,23 +31,19 @@ module.exports = function(grunt) {
           {
             expand: true,
             dot: true,
-            cwd: '<%= config.src %>/assets',
-            src: ['{,*/,**/}*.*'],
-            dest: '<%= config.dist %>/assets'
+            cwd: '<%= config.src %>/assets/',
+            src: [
+              '{,*/,**/}*.*',
+              '!old/{,*/,**/}*.*'
+            ],
+            dest: '<%= config.dist %>/assets/'
           },
           {
             expand: true,
             dot: true,
-            cwd: '<%= config.src %>',
-            src: ['{,*/,**/}*.{png,ico}'],
-            dest: '<%= config.dist %>'
-          },
-          {
-            expand: true,
-            dot: true,
-            cwd: '<%= config.src %>',
-            src: ['{,*/,**/}*.php'],
-            dest: '<%= config.dist %>'
+            cwd: '<%= config.src %>/',
+            src: ['*.{png,ico,php}'],
+            dest: '<%= config.dist %>/'
           }
         ]
       }
@@ -157,7 +153,10 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           cwd: '<%= config.src %>/',
-          src: ['{,*/,**/}*.html', '!includes/{,*/,**/}*.html'],
+          src: [
+            '{,*/,**/}*.html',
+            '!includes/{,*/,**/}*.html'
+          ],
           dest: '<%= config.dist %>/'
         }]
       }
@@ -204,10 +203,10 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: "<%= config.dist %>/styles/",
-          src: ["{,*/,**/}*.css"],
-          dest: "<%= config.dist %>/styles/",
-          ext: ".css"
+          cwd: '<%= config.dist %>/styles/',
+          src: ['{,*/,**/}*.css'],
+          dest: '<%= config.dist %>/styles/',
+          ext: '.css'
         }]
       }
     },
@@ -219,9 +218,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: "<%= config.dist %>/",
-          src: ["{,*/,**/}*.html"],
-          dest: "<%= config.dist %>/"
+          cwd: '<%= config.dist %>/',
+          src: ['{,*/,**/}*.html'],
+          dest: '<%= config.dist %>/'
         }]
       }
     },
@@ -240,12 +239,12 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: "<%= config.dist %>/assets/",
+          cwd: '<%= config.dist %>/assets/',
           src: [
-            "!/fonts/{,*/,**/}*.*",
-            "{,*/,**/}*.{png,jpg,gif,svg}"
+            '{,*/,**/}*.{png,jpg,gif,svg}',
+            '!fonts/{,*/,**/}*.*'
           ],
-          dest: "<%= config.dist %>/assets/"
+          dest: '<%= config.dist %>/assets/'
         }]
       }
     },
@@ -253,7 +252,7 @@ module.exports = function(grunt) {
       options: {
           inline: true,
           base: '<%= config.dist %>/',
-          pathPrefix: "./",
+          pathPrefix: './',
           css: [
               '<%= config.dist %>/styles/main.css'
           ],
@@ -272,9 +271,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '<%= config.dist %>',
+          cwd: '<%= config.dist %>/',
           src: ['{,*/,**/}*.html'],
-          dest: '<%= config.dist %>'
+          dest: '<%= config.dist %>/'
         }]
       }
     },
@@ -288,7 +287,7 @@ module.exports = function(grunt) {
       dist:{
         files: [{
           expand: true,
-          cwd: '<%= config.dist %>',
+          cwd: '<%= config.dist %>/',
           src: ['{,*/,**/}*.html']
         }]
       }
@@ -307,8 +306,8 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', function (target) {
-    if (typeof target === "undefined") {
-      target = "dev";
+    if (typeof target === 'undefined') {
+      target = 'dev';
     }
 
     grunt.task.run([
