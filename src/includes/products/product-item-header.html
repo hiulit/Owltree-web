@@ -54,6 +54,9 @@
     <!--(bake-start _if="parent.id == 't-shirts'")-->
     <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
     <!--(bake-end)-->
+    <!--(bake-start _if="parent.id == 'dresses'")-->
+    <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+    <!--(bake-end)-->
     <!--(bake-start _if="parent.id == 'tote-bags'")-->
     <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.color}}">
     <!--(bake-end)-->

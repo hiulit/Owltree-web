@@ -27,7 +27,12 @@
             <div class="grid__item grid__item--2-3">
                 <div class="product product--{{parent.id}} product--big">
                     <div class="product__image">
-                        <img src="/{{child.image}}" alt="{{child.model}} by {{pages.home.metas.title}} | {{parent.title}} | {{child.gender | capitalize}}" itemprop="image">
+                    	<!--(bake-start _if="child.gender")-->
+                        <img src="/{{child.image}}" alt="{{child.model}} | {{parent.title}} | {{child.gender | capitalize}} by {{pages.home.metas.title}}" itemprop="image">
+                        <!--(bake-end)-->
+                    	<!--(bake-start _if="!child.gender")-->
+                        <img src="/{{child.image}}" alt="{{child.model}} | {{parent.title}} by {{pages.home.metas.title}}" itemprop="image">
+                        <!--(bake-end)-->
                     </div>
                 </div>
             </div>
