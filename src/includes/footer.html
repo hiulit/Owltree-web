@@ -66,5 +66,22 @@
       ga('create', 'UA-103852577-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "{{pages.home.metas.url}}",
+            "logo": "{{pages.home.metas.url}}/{{pages.home.metas.share-image}}"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "{{pages.home.metas.author}}",
+            "alternateName": "Owltree",
+            "url": "{{pages.home.metas.url}}"
+        }
+    </script>
 </body>
 </html>
