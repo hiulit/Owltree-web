@@ -1,8 +1,15 @@
 <div class="product product--{{parent.id}}">
     <div class="product__image">
-        <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
-            <img src="/{{child.image}}" alt="{{child.model}} {{child.gender | capitalize}}">
+        <!--(bake-start _if="child.gender")-->
+        <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
+            <img src="/{{child.image}}" alt="{{child.model}} - {{child.gender | capitalize}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
         </a>
+        <!--(bake-end)-->
+        <!--(bake-start _if="!child.gender")-->
+        <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+            <img src="/{{child.image}}" alt="{{child.model}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+        </a>
+        <!--(bake-end)-->
     </div>
     <hr class="product__separator">
     <div class="product__model">{{child.model}}</div>

@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--(bake-start _if="child.gender")-->
+    <title>{{child.model}} - {{child.gender | capitalize}} - {{parent.title}} | {{pages.home.metas.title}}</title>
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
     <title>{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}</title>
+    <!--(bake-end)-->
     <!--(bake-start _if="child.gender")-->
     <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join:', '}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
@@ -25,7 +30,12 @@
 
     <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
+    <!--(bake-start _if="child.gender")-->
+    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child-gender}}.html">
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
     <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <!--(bake-end)-->
     <meta property="og:type" content="product.item">
     <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
     <meta property="og:image" content="{{pages.home.metas.url}}/{{child.image}}">

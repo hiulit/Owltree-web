@@ -18,7 +18,7 @@
     {
       "color": "grey",
       "gender": "women",
-      "id": "rights-and-wrongs-w",
+      "id": "rights-and-wrongs",
       "image": "assets/products/t-shirts/tsh_rightswrongs_w.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
@@ -42,7 +42,7 @@
     {
       "color": "grey",
       "gender": "women",
-      "id": "plant-based-w",
+      "id": "plant-based",
       "image": "assets/products/t-shirts/tsh_plantbased_w.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
       "message": "Plant Based",
@@ -66,7 +66,7 @@
     {
       "color": "grey",
       "gender": "women",
-      "id": "compassion-w",
+      "id": "compassion",
       "image": "assets/products/t-shirts/tsh_compassion_w.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
       "message": "Compassion over fashion",
@@ -90,7 +90,7 @@
     {
       "color": "grey",
       "gender": "women",
-      "id": "wonderful-w",
+      "id": "wonderful",
       "image": "assets/products/t-shirts/tsh_wonderful_w.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
       "message": "Every living being is wonderful",
@@ -114,7 +114,7 @@
     {
       "color": "grey",
       "gender": "women",
-      "id": "sorry-w",
+      "id": "sorry",
       "image": "assets/products/t-shirts/tsh_sorry_w.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
       "message": "Don't be sorry, do something",

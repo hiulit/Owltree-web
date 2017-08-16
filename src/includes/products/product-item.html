@@ -103,14 +103,26 @@
                     <!--(bake-start _if="relatedChild.id != child.id")-->
                     <!--(bake-start _if="!relatedChild.noshow")-->
                     <li class="products-related__list__item grid__item grid__item--1-4">
+                        <!--(bake-start _if="relatedChild.gender")-->
+                        <a class="products-related__link" href="{{relatedChild.id}}-{{relatedChild.gender}}.html">
+                        <!--(bake-end)-->
+                        <!--(bake-start _if="!relatedChild.gender")-->
                         <a class="products-related__link" href="{{relatedChild.id}}.html">
+                        <!--(bake-end)-->
                             <div class="product product--{{parent.id}}">
                                 <div class="product__image">
-                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} {{relatedChild.gender}}">
+                                    <!--(bake-start _if="relatedChild.gender")-->
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+                                    <!--(bake-end)-->
+                                    <!--(bake-start _if="!relatedChild.gender")-->
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+                                    <!--(bake-end)-->
                                 </div>
                                 <hr class="product__separator">
                                 <div class="product__model">{{relatedChild.model}}</div>
+                                <!--(bake-start _if="relatedChild.gender")-->
                                 <div class="product__gender">{{relatedChild.gender}}</div>
+                                <!--(bake-end)-->
                             </div>
                         </a>
                     </li>
