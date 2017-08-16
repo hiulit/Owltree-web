@@ -231,8 +231,8 @@ module.exports = function(grunt) {
         zopflipng: true,
         advpng: true,
         jpegRecompress: true,
-        jpegoptim: false,
-        mozjpeg: false,
+        jpegoptim: true,
+        mozjpeg: true,
         gifsicle: true,
         svgo: true
       },
