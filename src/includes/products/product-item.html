@@ -2,22 +2,50 @@
 <section class="section">
     <div class="wrapper" itemscope itemtype="http://schema.org/Product">
         <div class="product__header">
-            <ul class="breadcrumbs breadcrumbs--slash">
-                <li class="breadcrumbs__item">
-                    <a href="/">{{pages.home.title}}</a>
-                </li>
-                <li class="breadcrumbs__item">
-                    <a href="/{{parent.parent}}">{{parent.parent}}</a>
-                </li>
-                <li class="breadcrumbs__item">
-                    <a href="/{{parent.parent}}/{{parent.id}}">
-                        <span itemprop="category">{{parent.title}}</span>
+            <ul class="breadcrumbs breadcrumbs--slash" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="/" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{pages.home.title | capitalize}}</span>
                     </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="/{{parent.parent}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{parent.parent | capitalize}}</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="/{{parent.parent}}/{{parent.id}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{parent.title | capitalize}}</span>
+                    </a>
+                    <meta itemprop="position" content="3" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" style="display: none;">
+                    <!--(bake-start _if="child.gender")-->
+                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{child.model | capitalize}} - {{child.gender | capitalize}}</span>
+                    <!--(bake-end)-->
+                    <!--(bake-start _if="!child.gender")-->
+                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{child.model | capitalize}}</span>
+                    <!--(bake-end)-->
+                    </a>
+                    <meta itemprop="position" content="4" />
                 </li>
             </ul>
             <h1 class="section__title">
-                <div class="section__title--big" itemprop="name">{{child.model}}</div>
+                <div class="section__title--big">
+                    <span>{{child.model}}</span>
+                    <!--(bake-start _if="child.gender")-->
+                    <span itemprop="name" style="display: none;">{{child.model}} - {{child.gender | capitalize}}</span>
+                    <!--(bake-end)-->
+                    <!--(bake-start _if="!child.gender")-->
+                    <span itemprop="name" style="display: none;">{{child.model}}</span>
+                    <!--(bake-end)-->
+                </div>
                 <div class="section__title--small">
+                    <span itemprop="category" style="display: none;">{{parent.title}}</span>
                     <span>by</span>
                     <span itemprop="brand">{{pages.home.metas.title}}</span>
                 </div>

@@ -2,12 +2,24 @@
 <section class="section">
     <div class="wrapper">
         <div class="product__header">
-            <ul class="breadcrumbs breadcrumbs--slash">
-                <li class="breadcrumbs__item">
-                    <a href="/">{{pages.home.title}}</a>
+            <ul class="breadcrumbs breadcrumbs--slash" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="/" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{pages.home.title | capitalize}}</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
                 </li>
-                <li class="breadcrumbs__item">
-                    <a href="/{{parent.parent}}">{{parent.parent}}</a>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="/{{parent.parent}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{parent.parent | capitalize}}</span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" style="display: none;">
+                    <a href="/{{parent.parent}}/{{parent.title}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                        <span itemprop="name">{{parent.title | capitalize}}</span>
+                    </a>
+                    <meta itemprop="position" content="3" />
                 </li>
             </ul>
             <h1 class="section__title section__title--big">{{parent.title}}</h1>
