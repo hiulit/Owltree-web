@@ -5,11 +5,11 @@
             <span class="section__title--big">Site map</span>
         </h1>
         <h2 class="section__title">
-            <a href="/products/">Products</a>
+            <a href="/{{pages.products.id}}/">{{pages.products.title}}</a>
         </h2>
         <!--(bake-start _foreach="parent:products")-->
         <h3 class="section__title">
-            <a href="/products/{{parent.id}}/">
+            <a href="/{{parent.parent}}/{{parent.id}}/">
                 <span class="section__title--small">{{parent.title}}</span>
             </a>
         </h3>
@@ -18,10 +18,10 @@
             <!--(bake-start _if="!child.noshow")-->
             <li class="sitemap-list__item">
                 <!--(bake-start _if="child.gender")-->
-                <a href="/products/{{parent.id}}/{{child.id}}-{{child.gender}}.html">{{child.model}} - {{child.gender | capitalize}}</a>
+                <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">{{child.model}} - {{child.gender | capitalize}}</a>
                 <!--(bake-end)-->
                 <!--(bake-start _if="!child.gender")-->
-                <a href="/products/{{parent.id}}/{{child.id}}.html">{{child.model}}</a>
+                <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">{{child.model}}</a>
                 <!--(bake-end)-->
             </li>
             <!--(bake-end)-->
