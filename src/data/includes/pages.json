@@ -27,7 +27,7 @@
     "parent": "pages",
     "title": "Products"
   },
-  "notfound": {
+  "sitemap": {
     "id": "sitemap",
     "metas": {
       "author": "Owltree - Vegan Apparel",
