@@ -279,7 +279,7 @@ module.exports = function(grunt) {
     },
     sitemaps: {
       options: {
-        baseUrl: 'http://owltreebcn.com',
+        baseUrl: 'https://owltreebcn.com',
         contentRoot: '<%= config.dist %>',
         dest: '<%= config.dist %>',
         changefreq: 'weekly'
