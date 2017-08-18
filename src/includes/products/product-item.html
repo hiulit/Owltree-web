@@ -128,7 +128,7 @@
                 <h1 class="section__title">Related products</h1>
                 <ul class="products-related__list grid">
                     <!--(bake-start _foreach="relatedChild:parent.children")-->
-                    <!--(bake-start _if="relatedChild.id != child.id")-->
+                    <!--(bake-start _if="relatedChild.id + relatedChild.gender != child.id + child.gender")-->
                     <!--(bake-start _if="!relatedChild.noshow")-->
                     <li class="products-related__list__item grid__item grid__item--1-4">
                         <!--(bake-start _if="relatedChild.gender")-->
