@@ -16,6 +16,7 @@
   "title": "T-shirts",
   "children": [
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "rights-and-wrongs",
@@ -28,6 +29,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "rights-and-wrongs",
@@ -40,6 +42,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "plant-based",
@@ -52,6 +55,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "plant-based",
@@ -64,6 +68,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "compassion",
@@ -76,6 +81,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "compassion",
@@ -88,6 +94,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "wonderful",
@@ -100,6 +107,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "wonderful",
@@ -112,6 +120,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "sorry",
@@ -124,6 +133,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "sorry",

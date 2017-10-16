@@ -16,6 +16,7 @@
   "title": "Dresses",
   "children": [
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "harm",
