@@ -1,0 +1,32 @@
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Designed and hand printed in Barcelona.",
+    "100% vegan goods. Harming no one in the process."
+  ],
+  "id": "crew-necks",
+  "parent": "products",
+  "title": "Crew necks",
+  "children": [
+    {
+      "collection": "",
+      "color": "burgundy",
+      "gender": "unisex",
+      "id": "save-animals",
+      "image": "assets/products/crew-necks/crew-neck_save-animals.jpg",
+      "link": "",
+      "message": "Save the animals",
+      "model": "Save animals",
+      "price": "67.00",
+      "sizes": ["M", "L", "XL"],
+      "stock": "in stock"
+    }
+  ]
+}
