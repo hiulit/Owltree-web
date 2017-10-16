@@ -140,10 +140,10 @@
                             <div class="product product--{{parent.id}}">
                                 <div class="product__image">
                                     <!--(bake-start _if="relatedChild.gender")-->
-                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
                                     <!--(bake-end)-->
                                     <!--(bake-start _if="!relatedChild.gender")-->
-                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
                                     <!--(bake-end)-->
                                 </div>
                                 <hr class="product__separator">

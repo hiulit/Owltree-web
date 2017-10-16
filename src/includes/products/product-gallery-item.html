@@ -2,12 +2,12 @@
     <div class="product__image">
         <!--(bake-start _if="child.gender")-->
         <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
-            <img src="/{{child.image}}" alt="{{child.model}} - {{child.gender | capitalize}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+            <img src="/{{child.image}}" alt="{{child.model}} - {{child.gender | capitalize}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
         </a>
         <!--(bake-end)-->
         <!--(bake-start _if="!child.gender")-->
         <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
-            <img src="/{{child.image}}" alt="{{child.model}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
+            <img src="/{{child.image}}" alt="{{child.model}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
         </a>
         <!--(bake-end)-->
     </div>
