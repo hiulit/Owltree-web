@@ -1,4 +1,12 @@
+<!--(bake-start _if="!child.soon")-->
 <div class="product product--{{parent.id}}">
+<!--(bake-end)-->
+<!--(bake-start _if="child.soon")-->
+<div class="product product--{{parent.id}} coming-soon">
+<!--(bake-end)-->
+    <!--(bake-start _if="child.new")-->
+    <div class="product__label label">New</div>
+    <!--(bake-end)-->
     <div class="product__image">
         <!--(bake-start _if="child.gender")-->
         <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
@@ -16,7 +24,12 @@
     <!--(bake-start _if="child.gender")-->
     <div class="product__gender">{{child.gender | capitalize}}</div>
     <!--(bake-end)-->
+    <!--(bake-start _if="child.soon")-->
+    <div class="product__price">-</div>
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.soon")-->
     <div class="product__price">{{child.price}}€</div>
+    <!--(bake-end)-->
     <!--(bake-start _if="child.sizes")-->
     <!-- <div class="product__sizes"> -->
         <!--(bake-start _foreach="size:child.sizes")-->

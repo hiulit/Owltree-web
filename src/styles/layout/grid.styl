@@ -7,8 +7,11 @@ $gutter = 10px
     margin-left: -($gutter)
     margin-right: -($gutter)
     margin-top: -($gutter)
-    +m-breakpoint(sm md)
-        flex-direction: column
+    flex-direction: column
+    +m-breakpoint(sm md landscape)
+        flex-direction: row
+    +m-breakpoint(md)
+        flex-direction: row
 
 .grid--big
     margin-left: -($gutter * 2)
@@ -32,6 +35,12 @@ $gutter = 10px
     +m-breakpoint(sm md)
         max-width: 100% !important
         width: 100% !important
+    +m-breakpoint(sm md landscape)
+        max-width: percentage(1/2) !important
+        width: percentage(1/2) !important
+    +m-breakpoint(md xmd)
+        max-width: percentage(1/2) !important
+        width: percentage(1/2) !important
 
 .grid__item--1-2
     max-width: percentage(1/2)

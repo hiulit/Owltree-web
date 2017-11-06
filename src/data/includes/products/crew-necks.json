@@ -20,12 +20,13 @@
       "color": "burgundy",
       "gender": "unisex",
       "id": "save-animals",
-      "image": "assets/products/crew-necks/crew-neck_save-animals.jpg",
-      "link": "",
-      "message": "Save the animals",
+      "image": "assets/products/crew-necks/crewn_saveanimals.png",
+      "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
+      "message": "Wake up and save the animals",
       "model": "Save animals",
-      "price": "67.00",
-      "sizes": ["M", "L", "XL"],
+      "new": true,
+      "price": "59.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
       "stock": "in stock"
     }
   ]
