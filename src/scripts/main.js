@@ -1,3 +1,35 @@
+var timeToDisplay = 5000;
+
+var slideshow = $('.js-slideshow');
+var urls = [
+  'assets/backgrounds/pigeon.jpg',
+  'assets/backgrounds/wild-boar.jpg',
+  'assets/backgrounds/rat.jpg'
+];
+
+var index = Math.floor(Math.random() * 3);
+var transition = function() {
+  var url = urls[index];
+
+  slideshow.css('background-image', 'url(' + url + ')');
+
+  index = index + 1;
+  if (index > urls.length - 1) {
+    index = 0;
+  }
+};
+
+var run = function() {
+  transition();
+  slideshow.fadeIn('slow', function() {
+    setTimeout(function() {
+      slideshow.fadeOut('slow', run);
+    }, timeToDisplay);
+  });
+}
+
+run();
+
 var userFeed = new Instafeed({
   get: 'user',
   userId: '5555136314',
