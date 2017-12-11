@@ -12,6 +12,7 @@
     "100% vegan goods. Harming no one in the process."
   ],
   "id": "t-shirts",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
   "parent": "products",
   "title": "T-shirts",
   "children": [
@@ -27,7 +28,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -42,7 +43,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -57,7 +58,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["M", "L", "XL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -72,7 +73,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -87,7 +88,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -102,7 +103,7 @@
       "new": true,
       "price": "29.00",
       "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": true,
+      "soon": false,
       "stock": "in stock"
     },
     {
