@@ -80,6 +80,12 @@
                     <!--(bake-start _if="child.gender")-->
                     <div class="product-tag__item product__gender">{{child.gender | capitalize}}</div>
                     <!--(bake-end)-->
+                    <!--(bake-start _if="child.collection")-->
+                    <div class="product-tag__item product__collection">Collection: {{child.collection}}</div>
+                    <!--(bake-end)-->
+                    <!--(bake-start _if="child.color")-->
+                    <div class="product-tag__item product__color">Color: {{child.color | capitalize}}</div>
+                    <!--(bake-end)-->
                     <!--(bake-start _if="child.sizes")-->
                     <div class="product-tag__item product__sizes">
                         <span class="product__sizes__title">Sizes:</span>
@@ -95,6 +101,10 @@
                         <li class="product-tag__item product__description">{{description}}</li>
                         <!--(bake-end)-->
                     </ul>
+                    <div class="product-tag__item product-tag__item__note">
+                        <div class="asterisk">&ast;</div>
+                        <div class="text">{{parent.note}}</div>
+                    </div>
                     <!--(bake-start _if="parent.id != 'mugs'")-->
                     <ul class="product-tag__icons-list">
                         <li class="product-tag__icons-list__item">
@@ -114,14 +124,21 @@
                         </li>
                     </ul>
                     <!--(bake-end)-->
+                    <!--(bake-start _if="child.stock == 'in stock'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Buy</a>
+                    <!--(bake-end)-->
+                    <!--(bake-start _if="child.stock == 'out of stock'")-->
+                    <button class="product__buy-btn btn is-disabled" disabled>Buy</button>
+                    <!--(bake-end)-->
+                    <!--(bake-start _if="child.stock == 'preorder'")-->
+                    <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Preorder</a>
+                    <!--(bake-end)-->
                     <hr class="product__separator product__separator--big">
                     <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/" target="_blank"><img src="/assets/logos/amapola-logo.jpg" alt="Amapola Vegan Shop"></a></p>
                     <p class="product__text">When you click on the <strong>Buy</strong> button, you'll be redirected to <a class="amapola-link" href="https://amapolaveganshop.com/" target="_blank">amapolaveganshop.com</a> and from there you'll be able to buy this product.</p>
                 </div>
             </div>
         </div>
-        <!-- <hr class="product__separator"> -->
         <!--(bake-start _if="parent.children.length > 1")-->
         <aside class="products-related">
             <div class="wrapper">
@@ -131,28 +148,32 @@
                     <!--(bake-start _if="relatedChild.id + relatedChild.gender != child.id + child.gender")-->
                     <!--(bake-start _if="!relatedChild.noshow")-->
                     <li class="products-related__list__item grid__item grid__item--1-4">
-                        <!--(bake-start _if="relatedChild.gender")-->
-                        <a class="products-related__link" href="{{relatedChild.id}}-{{relatedChild.gender}}.html">
+                        <!--(bake-start _if="!relatedChild.soon")-->
+                        <div class="product product--{{parent.id}}">
                         <!--(bake-end)-->
-                        <!--(bake-start _if="!relatedChild.gender")-->
-                        <a class="products-related__link" href="{{relatedChild.id}}.html">
+                        <!--(bake-start _if="relatedChild.soon")-->
+                        <div class="product product--{{parent.id}} coming-soon">
                         <!--(bake-end)-->
-                            <div class="product product--{{parent.id}}">
-                                <div class="product__image">
-                                    <!--(bake-start _if="relatedChild.gender")-->
-                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
-                                    <!--(bake-end)-->
-                                    <!--(bake-start _if="!relatedChild.gender")-->
-                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{parent.id | capitalize}} by {{pages.home.metas.title}}">
-                                    <!--(bake-end)-->
-                                </div>
-                                <hr class="product__separator">
-                                <div class="product__model">{{relatedChild.model}}</div>
+                            <div class="product__image">
                                 <!--(bake-start _if="relatedChild.gender")-->
-                                <div class="product__gender">{{relatedChild.gender}}</div>
+                                <a class="products-related__link" href="{{relatedChild.id}}-{{relatedChild.gender}}.html">
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
+                                </a>
+                                <!--(bake-end)-->
+                                <!--(bake-start _if="!relatedChild.gender")-->
+                                <a class="products-related__link" href="{{relatedChild.id}}.html">
+                                    <!--(bake-start _if="!relatedChild.gender")-->
+                                    <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
+                                    <!--(bake-end)-->
+                                </a>
                                 <!--(bake-end)-->
                             </div>
-                        </a>
+                            <hr class="product__separator">
+                            <div class="product__model">{{relatedChild.model}}</div>
+                            <!--(bake-start _if="relatedChild.gender")-->
+                            <div class="product__gender">{{relatedChild.gender}}</div>
+                            <!--(bake-end)-->
+                        </div>
                     </li>
                     <!--(bake-end)-->
                     <!--(bake-end)-->

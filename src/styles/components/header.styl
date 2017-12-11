@@ -24,24 +24,31 @@
 .header__logo,
 .header__icon,
 .header__nav
+    // flex: 1 1 50%
     +m-breakpoint(xmd)
         flex: 1 1 0%
 
+// .header__logo,
+// .header__icon
+
+
 .header__logo
     margin: 0
+    +m-breakpoint(sm xmd)
+        margin-left: auto
+        margin-right: 10px
 
     img
         height: 30px
 
 .header__icon
     +m-breakpoint(sm xmd)
+        margin-right: auto
         margin-left: 10px
-
     img
         height: 25px
         +m-breakpoint(xmd)
             height: 30px
-
 
 .header__icon
     text-align: center

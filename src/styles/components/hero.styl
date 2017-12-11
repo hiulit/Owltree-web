@@ -1,27 +1,52 @@
 .hero
     color: #fff
     font-family: 'Miglia-Fur', sans-serif
-    left: 20px
-    margin: 20px
+    left: $wrapper-padding
     position: absolute
-    right: 20px
+    right: $wrapper-padding
     text-shadow: 0px 0px 10px #000
     top: 50%
-    transform: translateY(calc(-50% -(20px/2)))
+    transform: translateY(-50%)
+    +m-breakpoint(xmd)
+        max-width: 60%
+        left: ($wrapper-padding * 2)
+        right: ($wrapper-padding * 2)
+    +m-breakpoint(xxmd)
+        max-width: 40%
+    +m-breakpoint(lg)
+        max-width: 60%
 
-.hero__title
-    font-size: 55px
+    .section--1 &
+        transform: "translateY(calc(-50% + %s / 2))" % $header-height-mobile
+        +m-breakpoint(md)
+            transform: "translateY(calc(-50% + %s / 2))" % $header-height
+
+.hero__label
+    margin-bottom: 20px
+
+// .hero__title
+
+.hero__title__text
+    border-bottom: 2px solid
+    display: inline-block
+    font-size: 40px
     line-height: 1
     margin-bottom: 20px
-    +m-breakpoint(lg)
+    +m-breakpoint(xmd)
         font-size: 70px
+    +m-breakpoint(lg)
+        font-size: 100px
 
-.hero__subtitle
-    font-size: 20px
+// .hero__subtitle
+
+.hero__subtitle__text
+    font-size: 16px
     line-height: 1.2
     text-transform: uppercase
+    &:not(:last-child)
+        margin-bottom: 10px
     +m-breakpoint(md)
-        max-width: 40%
+        font-size: 20px
     +m-breakpoint(lg)
         font-size: 30px
 
@@ -31,10 +56,7 @@
     margin: 0
     text-transform: uppercase
     +m-breakpoint(md)
-        max-width: 60%
-    +m-breakpoint(xmd)
         font-size: 30px
-        max-width: 40%
     +m-breakpoint(lg)
         font-size: 40px
 

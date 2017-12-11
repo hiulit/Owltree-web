@@ -31,7 +31,7 @@
     <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
     <!--(bake-start _if="child.gender")-->
-    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child-gender}}.html">
+    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
     <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
@@ -61,6 +61,9 @@
     <!--(bake-end)-->
     <meta property="product:condition" content="new">
     <meta property="product:availability" content="{{child.stock}}">
+    <!--(bake-start _if="parent.id == 'crew-necks'")-->
+    <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+    <!--(bake-end)-->
     <!--(bake-start _if="parent.id == 't-shirts'")-->
     <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
     <!--(bake-end)-->
@@ -78,7 +81,12 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="{{pages.home.metas.twitter}}">
     <meta name="twitter:creator" content="{{pages.home.metas.twitter}}">
+    <!--(bake-start _if="child.gender")-->
+    <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
     <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <!--(bake-end)-->
     <meta name="twitter:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
     <!--(bake-start _if="child.gender")-->
     <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">

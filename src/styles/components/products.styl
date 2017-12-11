@@ -1,7 +1,38 @@
 .product
+    position: relative
     text-align: center
+    &.coming-soon
+        .product__image
+            position: relative
+            &:hover
+                img
+                    transform: none
+            &:before
+                background-color: #fff
+                content: ""
+                height: 100%
+                left: 0
+                opacity: 0.5
+                position: absolute
+                top: 0
+                width: @height
+                z-index: 1
+            &:after
+                color: inherit
+                content: "Coming soon..."
+                font-size: 20px
+                font-weight: bold
+                left: 50%
+                line-height: 0.8
+                position: absolute
+                text-shadow: 0px 1px 1px #fff
+                top: 50%
+                transform-origin: center left
+                transform: translate(-50%, -50%)
+                z-index: 2
 
-.product--t-shirts
+.product--t-shirts,
+.product--crew-necks
     .product__image
         img
             transform-origin: top center
@@ -35,6 +66,14 @@
     font-size: 13px
     line-height: 18px
 
+.product__label
+    color: $primary-brand-color
+    left: 5%
+    position: absolute
+    text-transform: uppercase
+    top: 5%
+    z-index: 3
+
 .product__image
     overflow: hidden
     margin: 20px
@@ -45,6 +84,9 @@
 
         img
             transition: transform 0.25s ease-in-out 0.1s
+
+    a
+        display: block
 
 .product__separator
     background-color: $primary-font-color
@@ -127,6 +169,18 @@
     margin-bottom: 20px
     text-transform: uppercase
 
+.product-tag__item__note
+    font-size: 12px
+    text-transform: initial
+    position: relative
+
+    .asterisk
+        font-size: 30px
+        position: absolute
+        margin-top: -5px
+
+    .text
+        margin-left: 10px
 
 // .products-related
 

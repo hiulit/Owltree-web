@@ -12,10 +12,102 @@
     "100% vegan goods. Harming no one in the process."
   ],
   "id": "t-shirts",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
   "parent": "products",
   "title": "T-shirts",
   "children": [
     {
+      "collection": "The Plague",
+      "color": "khaki",
+      "gender": "women",
+      "id": "rat",
+      "image": "assets/products/t-shirts/tsh_rat_w.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Rat",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "The Plague",
+      "color": "khaki",
+      "gender": "unisex",
+      "id": "rat",
+      "image": "assets/products/t-shirts/tsh_rat.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Rat",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "The Plague",
+      "color": "navy",
+      "gender": "women",
+      "id": "pigeon",
+      "image": "assets/products/t-shirts/tsh_pigeon_w.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Pigeon",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["M", "L", "XL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "The Plague",
+      "color": "navy",
+      "gender": "unisex",
+      "id": "pigeon",
+      "image": "assets/products/t-shirts/tsh_pigeon.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Pigeon",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "The Plague",
+      "color": "chocolate",
+      "gender": "women",
+      "id": "wild-boar",
+      "image": "assets/products/t-shirts/tsh_wild-boar_w.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Wild boar",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "The Plague",
+      "color": "chocolate",
+      "gender": "unisex",
+      "id": "wild-boar",
+      "image": "assets/products/t-shirts/tsh_wild-boar.png",
+      "link": "",
+      "message": "They were here first",
+      "model": "Wild boar",
+      "new": true,
+      "price": "29.00",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "soon": false,
+      "stock": "in stock"
+    },
+    {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "rights-and-wrongs",
@@ -28,6 +120,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "rights-and-wrongs",
@@ -40,6 +133,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "plant-based",
@@ -52,6 +146,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "plant-based",
@@ -64,6 +159,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "compassion",
@@ -76,6 +172,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "compassion",
@@ -88,6 +185,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "wonderful",
@@ -100,6 +198,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "wonderful",
@@ -112,6 +211,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "women",
       "id": "sorry",
@@ -124,6 +224,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "grey",
       "gender": "unisex",
       "id": "sorry",

@@ -21,6 +21,7 @@
   "title": "Mugs",
   "children": [
     {
+      "collection": "",
       "color": "",
       "gender": "",
       "id": "never-too-late",
@@ -33,6 +34,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "",
       "gender": "",
       "id": "mountain",
@@ -45,6 +47,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "",
       "gender": "",
       "id": "sea",
@@ -57,6 +60,7 @@
       "stock": "in stock"
     },
     {
+      "collection": "",
       "color": "",
       "gender": "",
       "id": "mountain-sea",
