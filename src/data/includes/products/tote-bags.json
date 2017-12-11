@@ -28,6 +28,20 @@
       "price": "15.00",
       "sizes": "",
       "stock": "in stock"
+    },
+    {
+      "collection": "",
+      "color": "burgundy",
+      "gender": "",
+      "id": "owltree-logo",
+      "image": "assets/products/tote-bags/tote_owltree-logo.jpg",
+      "link": "",
+      "message": "Owltree - Vegan Apparel",
+      "model": "Owltree - Vegan Apparel",
+      "new": true,
+      "price": "15.00",
+      "sizes": "",
+      "stock": "in stock"
     }
   ]
 }
