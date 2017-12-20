@@ -4,7 +4,8 @@
       "in stock",
       "out of stock",
       "preorder"
-    ]
+    ],
+    "soon": "true/false"
   },
   "description": [
     "100% cotton.",
@@ -22,13 +23,12 @@
       "gender": "women",
       "id": "rat",
       "image": "assets/products/t-shirts/tsh_rat_w.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-rat",
+      "message": "Rat - They were here first",
       "model": "Rat",
       "new": true,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {
@@ -37,13 +37,12 @@
       "gender": "unisex",
       "id": "rat",
       "image": "assets/products/t-shirts/tsh_rat.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-rat",
+      "message": "Rat - They were here first",
       "model": "Rat",
       "new": true,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {
@@ -52,13 +51,12 @@
       "gender": "women",
       "id": "pigeon",
       "image": "assets/products/t-shirts/tsh_pigeon_w.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-pigeon",
+      "message": "Pigeon - They were here first",
       "model": "Pigeon",
       "new": true,
       "price": "29.00",
-      "sizes": ["M", "L", "XL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {
@@ -67,13 +65,12 @@
       "gender": "unisex",
       "id": "pigeon",
       "image": "assets/products/t-shirts/tsh_pigeon.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-pigeon",
+      "message": "Pigeon - They were here first",
       "model": "Pigeon",
       "new": true,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {
@@ -82,13 +79,12 @@
       "gender": "women",
       "id": "wild-boar",
       "image": "assets/products/t-shirts/tsh_wild-boar_w.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-wild-boards",
+      "message": "Wild boar - They were here first",
       "model": "Wild boar",
       "new": true,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {
@@ -97,13 +93,12 @@
       "gender": "unisex",
       "id": "wild-boar",
       "image": "assets/products/t-shirts/tsh_wild-boar.jpg",
-      "link": "",
-      "message": "They were here first",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-wild-boards",
+      "message": "Wild boar - They were here first",
       "model": "Wild boar",
       "new": true,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "soon": false,
+      "sizes": ["S", "M", "L", "XL"],
       "stock": "in stock"
     },
     {

@@ -4,7 +4,8 @@
       "in stock",
       "out of stock",
       "preorder"
-    ]
+    ],
+    "soon": "true/false"
   },
   "description": [
     "100% cotton.",
