@@ -27,8 +27,28 @@
       "message": "Rat - They were here first",
       "model": "Rat",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -41,8 +61,28 @@
       "message": "Rat - They were here first",
       "model": "Rat",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -55,8 +95,28 @@
       "message": "Pigeon - They were here first",
       "model": "Pigeon",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -69,8 +129,28 @@
       "message": "Pigeon - They were here first",
       "model": "Pigeon",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -83,8 +163,28 @@
       "message": "Wild boar - They were here first",
       "model": "Wild boar",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -97,8 +197,28 @@
       "message": "Wild boar - They were here first",
       "model": "Wild boar",
       "new": true,
+      "noshow": false,
       "price": "29.00",
-      "sizes": ["S", "M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -110,8 +230,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
       "model": "Rights &amp; Wrongs",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -123,8 +260,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/camiseta-vegana-unisex-owltree-vegan-apparel-rigths-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
       "model": "Rights &amp; Wrongs",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -136,8 +290,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
       "message": "Plant Based",
       "model": "Plant Based",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -149,8 +320,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
       "message": "Plant Based",
       "model": "Plant Based",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -162,8 +350,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
       "message": "Compassion over fashion",
       "model": "Compassion",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -175,8 +380,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
       "message": "Compassion over fashion",
       "model": "Compassion",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -189,7 +411,25 @@
       "message": "Every living being is wonderful",
       "model": "Wonderful",
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "new": false,
+      "noshow": false,
+      "price": "27.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -202,7 +442,25 @@
       "message": "Every living being is wonderful",
       "model": "Wonderful",
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "new": false,
+      "noshow": false,
+      "price": "27.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -214,8 +472,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
       "message": "Don't be sorry, do something",
       "model": "Sorry",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -227,8 +502,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/camiseta-vegana-unisex-owltree-vegan-apparel-sorry",
       "message": "Don't be sorry, do something",
       "model": "Sorry",
+      "new": false,
+      "noshow": false,
       "price": "27.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     }
   ]

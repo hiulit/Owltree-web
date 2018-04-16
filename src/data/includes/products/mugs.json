@@ -18,6 +18,7 @@
     "100% vegan goods. Harming no one in the process."
   ],
   "id": "mugs",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
   "parent": "products",
   "title": "Mugs",
   "children": [
@@ -30,8 +31,12 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-de-owltree-vegan-apparel-too-late",
       "message": "Never too late to break a cage",
       "model": "Never too late",
+      "new": false,
+      "noshow": false,
       "price": "19.00",
-      "sizes": "",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -43,8 +48,12 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-mountain-owltree",
       "message": "I am the Mountain",
       "model": "I am the Mountain",
+      "new": false,
+      "noshow": false,
       "price": "19.00",
-      "sizes": "",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -56,8 +65,12 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-de-owltree-vegan-apparel-sea",
       "message": "I am the Sea",
       "model": "I am the Sea",
+      "new": false,
+      "noshow": false,
       "price": "19.00",
-      "sizes": "",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -69,9 +82,12 @@
       "link": "",
       "Message": "I am the Mountain, I am the Sea",
       "model": "I am the Mountain, I am the Sea",
+      "new": false,
       "noshow": true,
-      "price": "35",
-      "sizes": "",
+      "price": "35.00",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     }
   ]

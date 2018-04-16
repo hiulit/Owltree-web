@@ -26,8 +26,25 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
       "message": "Harm no one",
       "model": "Harm",
+      "new": false,
+      "noshow": false,
       "price": "37.00",
-      "sizes": ["M", "L", "XL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     }
   ]

@@ -26,8 +26,11 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/totebag-vegana-owltree-vegan-apparel-rights-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
       "model": "Rights &amp; Wrongs",
+      "noshow": false,
       "price": "15.00",
-      "sizes": "",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     },
     {
@@ -40,8 +43,11 @@
       "message": "Owltree - Vegan Apparel",
       "model": "Owltree - Vegan Apparel",
       "new": true,
+      "noshow": false,
       "price": "15.00",
-      "sizes": "",
+      "quantity": 0,
+      "sizes": null,
+      "soon": false,
       "stock": "in stock"
     }
   ]

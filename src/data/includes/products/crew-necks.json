@@ -27,8 +27,32 @@
       "message": "Wake up and save the animals",
       "model": "Save animals",
       "new": true,
+      "noshow": false,
       "price": "59.00",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        },
+        {
+          "size": "XXL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
       "stock": "in stock"
     }
   ]
