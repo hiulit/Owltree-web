@@ -26,7 +26,7 @@
       "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-rat",
       "message": "Rat - They were here first",
       "model": "Rat",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -49,7 +49,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -60,7 +60,7 @@
       "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-rat",
       "message": "Rat - They were here first",
       "model": "Rat",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -83,7 +83,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -94,7 +94,7 @@
       "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-pigeon",
       "message": "Pigeon - They were here first",
       "model": "Pigeon",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -117,7 +117,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -128,7 +128,7 @@
       "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-pigeon",
       "message": "Pigeon - They were here first",
       "model": "Pigeon",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -151,7 +151,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -162,7 +162,7 @@
       "link": "https://amapolaveganshop.com/collections/mujer/products/camiseta-mujer-de-owltree-vegan-apparel-wild-boards",
       "message": "Wild boar - They were here first",
       "model": "Wild boar",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -185,7 +185,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -196,7 +196,7 @@
       "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-unisex-de-owltree-vegan-apparel-wild-boards",
       "message": "Wild boar - They were here first",
       "model": "Wild boar",
-      "new": true,
+      "new": false,
       "noshow": false,
       "price": "29.00",
       "quantity": null,
@@ -219,7 +219,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
@@ -249,7 +249,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
@@ -309,7 +309,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
@@ -339,7 +339,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
@@ -399,7 +399,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
@@ -491,7 +491,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stock": "out of stock"
     },
     {
       "collection": "",
