@@ -18,6 +18,142 @@
   "title": "T-shirts",
   "children": [
     {
+      "collection": "",
+      "color": "white",
+      "gender": "unisex",
+      "id": "death",
+      "image": "assets/products/t-shirts/tsh_death.jpg",
+      "link": "",
+      "message": "Meat is Death",
+      "model": "Death",
+      "new": true,
+      "noshow": false,
+      "price": "29.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
+      "stock": "out of stock"
+    },
+        {
+      "collection": "",
+      "color": "black",
+      "gender": "unisex",
+      "id": "dont-use",
+      "image": "assets/products/t-shirts/tsh_dontuse.jpg",
+      "link": "",
+      "message": "Don't use animals",
+      "model": "Don't use",
+      "new": true,
+      "noshow": false,
+      "price": "29.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
+      "stock": "out of stock"
+    },
+        {
+      "collection": "",
+      "color": "white",
+      "gender": "unisex",
+      "id": "tofu",
+      "image": "assets/products/t-shirts/tsh_tofu.jpg",
+      "link": "",
+      "message": "Tofu killers",
+      "model": "Tofu",
+      "new": true,
+      "noshow": false,
+      "price": "29.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
+      "stock": "out of stock"
+    },
+        {
+      "collection": "",
+      "color": "black",
+      "gender": "unisex",
+      "id": "feelings",
+      "image": "assets/products/t-shirts/tsh_feelings.jpg",
+      "link": "",
+      "message": "Animals have feelings",
+      "model": "Feelings",
+      "new": true,
+      "noshow": false,
+      "price": "29.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size":"S",
+          "stock": 0
+        },
+        {
+          "size": "M",
+          "stock": 0
+        },
+        {
+          "size": "L",
+          "stock": 0
+        },
+        {
+          "size": "XL",
+          "stock": 0
+        }
+      ],
+      "soon": false,
+      "stock": "out of stock"
+    },
+    {
       "collection": "The Plague",
       "color": "khaki",
       "gender": "women",
