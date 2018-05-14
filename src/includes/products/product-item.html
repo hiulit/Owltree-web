@@ -69,11 +69,11 @@
                     <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                         <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
                         <span itemprop="priceCurrency" content="EUR">€</span>
-                        <!--(bake-start _if="child.stock == 'out of stock'")-->
-                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stock}}</span>
+                        <!--(bake-start _if="child.stockStatus == 'out of stock'")-->
+                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stockStatus}}</span>
                         <!--(bake-end)-->
-                        <!--(bake-start _if="child.stock != 'out of stock'")-->
-                        <span class="product__stock" itemprop="availability">{{child.stock}}</span>
+                        <!--(bake-start _if="child.stockStatus != 'out of stock'")-->
+                        <span class="product__stock" itemprop="availability">{{child.stockStatus}}</span>
                         <!--(bake-end)-->
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
@@ -124,13 +124,13 @@
                         </li>
                     </ul>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stock == 'in stock'")-->
+                    <!--(bake-start _if="child.stockStatus == 'in stock'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Buy</a>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stock == 'out of stock'")-->
-                    <button class="product__buy-btn btn is-disabled" disabled>Buy</button>
+                    <!--(bake-start _if="child.stockStatus == 'out of stock'")-->
+                    <button class="product__buy-btn btn is-disabled" disabled>Out of stock</button>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stock == 'preorder'")-->
+                    <!--(bake-start _if="child.stockStatus == 'preorder'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Preorder</a>
                     <!--(bake-end)-->
                     <hr class="product__separator product__separator--big">
