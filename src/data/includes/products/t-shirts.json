@@ -33,19 +33,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -67,19 +83,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -101,19 +133,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -135,19 +183,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -169,19 +233,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -203,19 +283,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -237,19 +333,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -271,19 +383,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -305,19 +433,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -339,19 +483,35 @@
       "sizes": [
         {
           "size":"S",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -373,15 +533,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -403,15 +575,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -433,15 +617,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -463,15 +659,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -493,15 +701,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -523,15 +743,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -554,15 +786,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -585,15 +829,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -615,15 +871,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
@@ -645,15 +913,27 @@
       "sizes": [
         {
           "size": "M",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "L",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         },
         {
           "size": "XL",
-          "stock": 0
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
         }
       ],
       "soon": false,
