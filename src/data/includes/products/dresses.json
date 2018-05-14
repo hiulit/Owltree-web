@@ -57,7 +57,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     }
   ]
 }

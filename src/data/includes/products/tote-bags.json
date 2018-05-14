@@ -36,7 +36,7 @@
       },
       "sizes": null,
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -57,7 +57,7 @@
       },
       "sizes": null,
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     }
   ]
 }

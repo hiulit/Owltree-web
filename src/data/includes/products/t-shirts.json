@@ -28,7 +28,7 @@
       "model": "Death",
       "new": true,
       "noshow": false,
-      "price": "29.00",
+      "price": "32.00",
       "quantity": null,
       "sizes": [
         {
@@ -65,7 +65,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "in stock"
     },
         {
       "collection": "",
@@ -78,7 +78,7 @@
       "model": "Don't use",
       "new": true,
       "noshow": false,
-      "price": "29.00",
+      "price": "32.00",
       "quantity": null,
       "sizes": [
         {
@@ -115,7 +115,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "in stock"
     },
         {
       "collection": "",
@@ -128,7 +128,7 @@
       "model": "Tofu",
       "new": true,
       "noshow": false,
-      "price": "29.00",
+      "price": "32.00",
       "quantity": null,
       "sizes": [
         {
@@ -165,7 +165,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "in stock"
     },
         {
       "collection": "",
@@ -178,7 +178,7 @@
       "model": "Feelings",
       "new": true,
       "noshow": false,
-      "price": "29.00",
+      "price": "32.00",
       "quantity": null,
       "sizes": [
         {
@@ -215,7 +215,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "The Plague",
@@ -265,7 +265,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -315,7 +315,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -365,7 +365,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -415,7 +415,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -465,7 +465,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -515,7 +515,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -557,7 +557,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -599,7 +599,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -641,7 +641,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -683,7 +683,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -725,7 +725,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -767,7 +767,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -810,7 +810,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -853,7 +853,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -895,7 +895,7 @@
         }
       ],
       "soon": false,
-      "stock": "out of stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -937,7 +937,7 @@
         }
       ],
       "soon": false,
-      "stock": "in stock"
+      "stockStatus": "in stock"
     }
   ]
 }
