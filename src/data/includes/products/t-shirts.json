@@ -8,8 +8,9 @@
     "soon": "true/false"
   },
   "description": [
-    "100% cotton.",
-    "Designed and hand printed in Barcelona.",
+    "100% organic cotton.",
+    "Ethically manufactured.",
+    "Designed, printed and finished in Barcelona.",
     "100% vegan goods. Harming no one in the process."
   ],
   "id": "t-shirts",
@@ -23,7 +24,7 @@
       "gender": "unisex",
       "id": "death",
       "image": "assets/products/t-shirts/tsh_death.jpg",
-      "link": "",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-meat-is-death",
       "message": "Meat is Death",
       "model": "Death",
       "new": true,
@@ -73,7 +74,7 @@
       "gender": "unisex",
       "id": "dont-use",
       "image": "assets/products/t-shirts/tsh_dontuse.jpg",
-      "link": "",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-dont-use-animals",
       "message": "Don't use animals",
       "model": "Don't use",
       "new": true,
@@ -81,6 +82,14 @@
       "price": "32.00",
       "quantity": null,
       "sizes": [
+        {
+          "size":"S",
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
+        },
         {
           "size":"S",
           "stock": {
@@ -123,7 +132,7 @@
       "gender": "unisex",
       "id": "tofu",
       "image": "assets/products/t-shirts/tsh_tofu.jpg",
-      "link": "",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-tofu-killers",
       "message": "Tofu killers",
       "model": "Tofu",
       "new": true,
@@ -173,7 +182,7 @@
       "gender": "unisex",
       "id": "feelings",
       "image": "assets/products/t-shirts/tsh_feelings.jpg",
-      "link": "",
+      "link": "https://amapolaveganshop.com/collections/hombre/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-animals-have-feelings",
       "message": "Animals have feelings",
       "model": "Feelings",
       "new": true,
@@ -181,6 +190,14 @@
       "price": "32.00",
       "quantity": null,
       "sizes": [
+        {
+          "size":"XS",
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
+        },
         {
           "size":"S",
           "stock": {
