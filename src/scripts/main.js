@@ -2,9 +2,10 @@ var timeToDisplay = 5000;
 
 var slideshow = $('.js-slideshow');
 var urls = [
-  'assets/backgrounds/pigeon.jpg',
-  'assets/backgrounds/wild-boar.jpg',
-  'assets/backgrounds/rat.jpg'
+  'assets/backgrounds/summer-collection-1.jpg',
+  'assets/backgrounds/summer-collection-2.jpg',
+  'assets/backgrounds/summer-collection-3.jpg',
+  'assets/backgrounds/summer-collection-4.jpg'
 ];
 
 var index = Math.floor(Math.random() * 3);
