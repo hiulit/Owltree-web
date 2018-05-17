@@ -1,6 +1,7 @@
 var timeToDisplay = 5000;
 
 var slideshow = $('.js-slideshow');
+
 var urls = [
   'assets/backgrounds/summer-collection-1.jpg',
   'assets/backgrounds/summer-collection-2.jpg',
@@ -9,6 +10,7 @@ var urls = [
 ];
 
 var index = Math.floor(Math.random() * 3);
+
 var transition = function() {
   var url = urls[index];
 
