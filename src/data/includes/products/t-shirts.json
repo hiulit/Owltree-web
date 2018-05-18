@@ -37,7 +37,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 6
           }
         },
         {
@@ -45,7 +45,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -53,7 +53,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -61,7 +61,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 3
           }
         }
       ],
@@ -83,11 +83,11 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size":"XS",
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 4
           }
         },
         {
@@ -95,7 +95,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 7
           }
         },
         {
@@ -103,7 +103,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -111,7 +111,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -119,7 +119,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 3
           }
         }
       ],
@@ -145,7 +145,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 7
           }
         },
         {
@@ -153,7 +153,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -161,7 +161,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 10
           }
         },
         {
@@ -169,7 +169,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 2
           }
         }
       ],
@@ -195,7 +195,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 5
           }
         },
         {
@@ -203,7 +203,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 7
           }
         },
         {
@@ -211,7 +211,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 9
           }
         },
         {
@@ -219,7 +219,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 8
           }
         },
         {
@@ -227,7 +227,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 3
           }
         }
       ],
@@ -261,7 +261,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         },
         {
@@ -269,7 +269,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 3
           }
         },
         {
@@ -277,7 +277,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         }
       ],
@@ -319,11 +319,19 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         },
         {
           "size": "XL",
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 1
+          }
+        },
+        {
+          "size": "XXL",
           "stock": {
             "total": 0,
             "sold": 0,
@@ -419,7 +427,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         },
         {
@@ -427,7 +435,15 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
+          }
+        },
+        {
+          "size": "XXL",
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 1
           }
         }
       ],
@@ -511,11 +527,19 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         },
         {
           "size": "L",
+          "stock": {
+            "total": 0,
+            "sold": 0,
+            "left": 0
+          }
+        },
+        {
+          "size": "XL",
           "stock": {
             "total": 0,
             "sold": 0,
@@ -611,7 +635,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         }
       ],
@@ -737,7 +761,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         }
       ],
@@ -795,7 +819,6 @@
       "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
       "message": "Every living being is wonderful",
       "model": "Wonderful",
-      "price": "27.00",
       "new": false,
       "noshow": false,
       "price": "27.00",
@@ -822,7 +845,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 1
           }
         }
       ],
@@ -838,7 +861,6 @@
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/camiseta-wonderful-owltree",
       "message": "Every living being is wonderful",
       "model": "Wonderful",
-      "price": "27.00",
       "new": false,
       "noshow": false,
       "price": "27.00",
@@ -857,7 +879,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 2
           }
         },
         {
@@ -865,7 +887,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 2
           }
         }
       ],
@@ -949,7 +971,7 @@
           "stock": {
             "total": 0,
             "sold": 0,
-            "left": 0
+            "left": 2
           }
         }
       ],

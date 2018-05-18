@@ -37,7 +37,7 @@
       "quantity": {
           "total": 0,
           "sold": 0,
-          "left": 0
+          "left": 19
       },
       "sizes": null,
       "soon": false,
@@ -79,7 +79,7 @@
       "quantity": {
           "total": 0,
           "sold": 0,
-          "left": 0
+          "left": 6
       },
       "sizes": null,
       "soon": false,
@@ -100,7 +100,7 @@
       "quantity": {
           "total": 0,
           "sold": 0,
-          "left": 0
+          "left": 7
       },
       "sizes": null,
       "soon": false,
