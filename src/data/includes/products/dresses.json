@@ -34,25 +34,19 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectsOrGifts": 1,
+            "left": 0,
+            "sold": 2,
+            "total": 3,
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
-          }
-        },
-        {
-          "size": "XL",
-          "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectsOrGifts": 1,
+            "left": 1,
+            "sold": 1,
+            "total": 3,
           }
         }
       ],

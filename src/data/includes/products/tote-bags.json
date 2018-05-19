@@ -30,13 +30,14 @@
       "noshow": false,
       "price": "15.00",
       "quantity": {
-          "total": 0,
-          "sold": 0,
-          "left": 0
+        "defectsOrGifts": 4,
+        "left": 0,
+        "sold": 6,
+        "total": 10
       },
       "sizes": null,
       "soon": false,
-      "stockStatus": "in stock"
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -51,9 +52,10 @@
       "noshow": false,
       "price": "15.00",
       "quantity": {
-          "total": 0,
-          "sold": 0,
-          "left": 0
+        "defectsOrGifts": 0,
+        "left": 7,
+        "sold": 3,
+        "total": 10
       },
       "sizes": null,
       "soon": false,

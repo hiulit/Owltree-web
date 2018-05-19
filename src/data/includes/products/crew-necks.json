@@ -32,43 +32,57 @@
       "quantity": null,
       "sizes": [
         {
+          "size": "XS",
+          "stock": {
+            "defectsOrGifts": 1,
+            "left": 1,
+            "sold": 3,
+            "total": 5
+          }
+        },
+        {
           "size": "S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectsOrGifts": 0,
+            "left": 1,
+            "sold": 9,
+            "total": 10
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 2
+            "defectsOrGifts": 2,
+            "left": 2,
+            "sold": 9,
+            "total": 13
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 5
+            "defectsOrGifts": 0,
+            "left": 5,
+            "sold": 10,
+            "total": 15
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 5
+            "defectsOrGifts": 0,
+            "left": 5,
+            "sold": 2,
+            "total": 7
           }
         },
         {
           "size": "XXL",
           "stock": {
-            "total": 0,
+            "defectsOrGifts": 0,
+            "left": 1,
             "sold": 0,
-            "left": 1
+            "total": 1
           }
         }
       ],

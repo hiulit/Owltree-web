@@ -35,33 +35,37 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 6,
             "sold": 0,
-            "left": 6
+            "total": 0
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 10,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 10,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 3,
             "sold": 0,
-            "left": 3
+            "total": 0
           }
         }
       ],
@@ -85,41 +89,46 @@
         {
           "size":"XS",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 4,
             "sold": 0,
-            "left": 4
+            "total": 0
           }
         },
         {
           "size":"S",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 7,
             "sold": 0,
-            "left": 7
+            "total": 0
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 10,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
+            "left": 10,
+            "defectOrGift": 0,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 3,
             "sold": 0,
-            "left": 3
+            "total": 0
           }
         }
       ],
@@ -143,33 +152,37 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 7,
             "sold": 0,
-            "left": 7
+            "total": 0
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 10,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 10,
             "sold": 0,
-            "left": 10
+            "total": 0
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 2,
             "sold": 0,
-            "left": 2
+            "total": 0
           }
         }
       ],
@@ -193,41 +206,46 @@
         {
           "size":"XS",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 5,
             "sold": 0,
-            "left": 5
+            "total": 0
           }
         },
         {
           "size":"S",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 7,
             "sold": 0,
-            "left": 7
+            "total": 0
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 9,
             "sold": 0,
-            "left": 9
+            "total": 0
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 8,
             "sold": 0,
-            "left": 8
+            "total": 0
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 3,
             "sold": 0,
-            "left": 3
+            "total": 0
           }
         }
       ],
@@ -251,38 +269,42 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 1,
+            "left": 1,
+            "sold": 3,
+            "total": 5
           }
-        },
+        }
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 3
+            "defectOrGift": 0,
+            "left": 3,
+            "sold": 2,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 0,
+            "left": 1,
+            "sold": 2,
+            "total": 3
           }
         }
       ],
       "soon": false,
-      "stockStatus": "out of stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "The Plague",
@@ -301,46 +323,51 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 4,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 0,
+            "left": 1,
+            "sold": 4,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 0,
+            "left": 1,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "XXL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         }
       ],
       "soon": false,
-      "stockStatus": "out of stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "The Plague",
@@ -359,33 +386,37 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 5,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 5,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 3,
+            "total": 3
           }
         }
       ],
@@ -409,46 +440,51 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 5,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 1,
+            "left": 1,
+            "sold": 3,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 0,
+            "left": 1,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "XXL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 1,
             "sold": 0,
-            "left": 1
+            "total": 1
           }
         }
       ],
       "soon": false,
-      "stockStatus": "out of stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "The Plague",
@@ -467,33 +503,37 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 4,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 4,
+            "sold": 1,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 3,
+            "total": 3
           }
         }
       ],
@@ -517,46 +557,51 @@
         {
           "size":"S",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 2,
+            "left": 1,
+            "sold": 2,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 3,
+            "left": 0,
+            "sold": 2,
+            "total": 5
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
-          "size": "XL",
+          "size": "XXL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 1,
+            "left": 0,
             "sold": 0,
-            "left": 0
+            "total": 1
           }
         }
       ],
       "soon": false,
-      "stockStatus": "out of stock"
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -575,25 +620,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 2,
+            "left": 0,
+            "sold": 2,
+            "total": 4
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 2,
+            "total": 3
           }
         }
       ],
@@ -617,25 +665,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 2,
+            "left": 0,
+            "sold": 2,
+            "total": 4
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 3,
+            "left": 0,
+            "sold": 4,
+            "total": 7
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 2,
+            "left": 1,
             "sold": 0,
-            "left": 1
+            "total": 3
           }
         }
       ],
@@ -659,25 +710,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         }
       ],
@@ -701,25 +755,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 2,
+            "total": 2
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         }
       ],
@@ -743,25 +800,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 1,
             "sold": 0,
-            "left": 1
+            "total": 1
           }
         }
       ],
@@ -785,25 +845,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 2,
+            "total": 3
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 1,
+            "total": 1
           }
         }
       ],
@@ -827,25 +890,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 3,
+            "total": 4
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
+            "defectOrGift": 1,
+            "left": 0,
             "sold": 0,
-            "left": 0
+            "total": 1
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 1
+            "defectOrGift": 0,
+            "left": 1,
+            "sold": 1,
+            "total": 2
           }
         }
       ],
@@ -869,25 +935,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 5,
+            "total": 5
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 2
+            "defectOrGift": 1,
+            "left": 2,
+            "sold": 1,
+            "total": 4
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 2,
             "sold": 0,
-            "left": 2
+            "total": 2
           }
         }
       ],
@@ -911,25 +980,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 3,
+            "total": 3
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 3,
+            "total": 3
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 1,
+            "total": 2
           }
         }
       ],
@@ -953,25 +1025,28 @@
         {
           "size": "M",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 0,
+            "left": 0,
+            "sold": 4,
+            "total": 4
           }
         },
         {
           "size": "L",
           "stock": {
-            "total": 0,
-            "sold": 0,
-            "left": 0
+            "defectOrGift": 1,
+            "left": 0,
+            "sold": 3,
+            "total": 4
           }
         },
         {
           "size": "XL",
           "stock": {
-            "total": 0,
+            "defectOrGift": 0,
+            "left": 2,
             "sold": 0,
-            "left": 2
+            "total": 2
           }
         }
       ],
