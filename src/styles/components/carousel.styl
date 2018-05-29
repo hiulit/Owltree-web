@@ -1,0 +1,37 @@
+.carousel-wrapper
+    overflow: hidden
+    position: relative
+
+.carousel-list
+    m-clearfix()
+    transition: transform 0.25s ease-in-out
+    width: 100000px
+
+.carousel-item
+    float: left
+    width: 25vw
+
+.carousel-arrow
+    background-color: transparent
+    cursor: pointer
+    height: 40px
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: @height
+    z-index: 1
+    &.is-disabled,
+    &[disabled]
+        cursor: default
+        cursor: not-allowed
+        opacity: 0.5
+
+.carousel-arrow--prev
+    left: 0
+    &:before
+        m-chevron("left", 10, 2, #000)
+
+.carousel-arrow--next
+    right: 0
+    &:before
+        m-chevron("right", 10, 2, #000)

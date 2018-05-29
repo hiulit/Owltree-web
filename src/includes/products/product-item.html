@@ -141,13 +141,15 @@
         </div>
         <!--(bake-start _if="parent.children.length > 1")-->
         <aside class="products-related">
-            <div class="wrapper">
-                <h1 class="section__title">Related products</h1>
-                <ul class="products-related__list grid">
+            <h1 class="section__title">Related products</h1>
+            <div class="carousel-wrapper js-carousel-wrapper">
+                <div class="carousel-arrow carousel-arrow--prev js-carousel-arrow-prev"></div>
+                <div class="carousel-arrow carousel-arrow--next js-carousel-arrow-next"></div>
+                <ul class="products-related__list carousel-list js-carousel-list">
                     <!--(bake-start _foreach="relatedChild:parent.children")-->
                     <!--(bake-start _if="relatedChild.id + relatedChild.gender != child.id + child.gender")-->
                     <!--(bake-start _if="!relatedChild.noshow")-->
-                    <li class="products-related__list__item grid__item grid__item--1-4">
+                    <li class="products-related__list__item carousel-item js-carousel-item">
                         <!--(bake-start _if="!relatedChild.soon")-->
                         <div class="product product--{{parent.id}}">
                         <!--(bake-end)-->

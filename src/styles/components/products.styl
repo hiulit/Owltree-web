@@ -163,6 +163,8 @@
 
 .product__tag
     margin: 20px
+    +m-breakpoint(sm md)
+        margin: 0
 
 .product-tag__item
     font-size: 14px
@@ -191,9 +193,12 @@
         color: $primary-font-color
         text-decoration: none
 
+// .products-related-wrapper
+
 // .products-related__list
 
 .products-related__list__item
+    margin-bottom: 20px
     text-align: center
 
 .product-tag__icons-list
