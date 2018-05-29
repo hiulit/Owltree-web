@@ -45,6 +45,10 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   relatedProductsItemWidth = relatedProductsItem.width()
   relatedProductsList.css('width', Math.floor(relatedProductsItemWidth * relatedProductsLength))
 
+  if ((relatedProductsItemWidth * relatedProductsLength) < relatedProductsWrapper.width()) {
+    $('.js-carousel-arrow-prev, .js-carousel-arrow-next').hide()
+  }
+
   $('.js-carousel-arrow-prev').click(function(e) {
     if (offsetX < 0) {
       offsetX = offsetX + relatedProductsItemWidth
@@ -54,7 +58,7 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   })
 
   $('.js-carousel-arrow-next').click(function(e) {
-    if((offsetX * -1) <= (relatedProductsList.width() - (relatedProductsItemWidth * numItemsToShow))) {
+    if ((offsetX * -1) <= (relatedProductsList.width() - (relatedProductsItemWidth * numItemsToShow))) {
       offsetX = offsetX - relatedProductsItemWidth
       relatedProductsList.css('transform', 'translateX(' + offsetX +'px)')
     }
