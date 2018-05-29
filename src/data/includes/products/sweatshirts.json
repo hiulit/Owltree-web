@@ -9,20 +9,20 @@
   },
   "description": [
     "100% cotton.",
-    "Designed and hand printed in Barcelona.",
+    "Designed and printed in Barcelona.",
     "100% vegan goods. Harming no one in the process."
   ],
-  "id": "crew-necks",
+  "id": "sweatshirts",
   "note": "Actual product colours may vary slightly from colours shown on your screen.",
   "parent": "products",
-  "title": "Crew necks",
+  "title": "Sweatshirts",
   "children": [
     {
       "collection": "",
       "color": "burgundy",
       "gender": "unisex",
       "id": "save-animals",
-      "image": "assets/products/crew-necks/crewn_saveanimals.jpg",
+      "image": "assets/products/sweatshirts/sweatshirt_saveanimals.jpg",
       "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
       "message": "Wake up and save the animals",
       "model": "Save animals",
