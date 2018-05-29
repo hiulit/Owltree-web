@@ -2,13 +2,9 @@
   "home": {
     "id": "home",
     "metas": {
-      "author": "Owltree - Vegan Apparel",
-      "description": "100% vegan goods. Harming no one in the process. For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
-      "favicon": "assets/images/favicon.ico",
+      "description": "100% vegan goods. Harming no one in the process. For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, printed and finished in Barcelona.",
       "share-image": "assets/logos/owltree-share-image.jpg",
-      "title": "Owltree - Vegan Apparel",
-      "twitter": "@owltreebcn",
-      "url": "https://owltreebcn.com"
+      "title": "Owltree - Vegan Apparel"
     },
     "parent": "pages",
     "title": "Home"
@@ -16,13 +12,9 @@
   "products": {
     "id": "products",
     "metas": {
-      "author": "Owltree - Vegan Apparel",
-      "description": "Check out our T-shirts, dresses, tote bags and mugs! 100% vegan goods. Harming no one in the process. Everything at Owltree is designed, customised, hand printed and finished in Barcelona.",
-      "favicon": "assets/images/favicon.ico",
+      "description": "Check out our Sweatshirts, t-shirts, dresses, tote bags and mugs! 100% vegan goods. Harming no one in the process. Everything at Owltree is designed, customised, printed and finished in Barcelona.",
       "share-image": "assets/logos/owltree-share-image.jpg",
-      "title": "Products | Owltree - Vegan Apparel",
-      "twitter": "@owltreebcn",
-      "url": "https://owltreebcn.com"
+      "title": "Products | Owltree - Vegan Apparel"
     },
     "parent": "pages",
     "title": "Products"
@@ -30,12 +22,9 @@
   "sitemap": {
     "id": "sitemap",
     "metas": {
-      "author": "Owltree - Vegan Apparel",
       "description": "Sitemap",
       "share-image": "assets/logos/owltree-share-image.jpg",
-      "title": "Sitemap | Owltree - Vegan Apparel",
-      "twitter": "@owltreebcn",
-      "url": "https://owltreebcn.com"
+      "title": "Sitemap | Owltree - Vegan Apparel"
     },
     "parent": "pages",
     "title": "Sitemap"
@@ -43,12 +32,9 @@
   "notfound": {
     "id": "notfound",
     "metas": {
-      "author": "Owltree - Vegan Apparel",
       "description": "Not found",
       "share-image": "assets/logos/owltree-share-image.jpg",
-      "title": "Not found | Owltree - Vegan Apparel",
-      "twitter": "@owltreebcn",
-      "url": "https://owltreebcn.com"
+      "title": "Not found | Owltree - Vegan Apparel"
     },
     "parent": "pages",
     "title": "Not found"

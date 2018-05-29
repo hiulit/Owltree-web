@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--(bake-start _if="child.gender")-->
-    <title>{{child.model}} - {{child.gender | capitalize}} - {{parent.title}} | {{pages.home.metas.title}}</title>
+    <title>{{child.model}} - {{child.gender | capitalize}} - {{parent.title}} | {{globalMetas.title}}</title>
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <title>{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}</title>
+    <title>{{child.model}} - {{parent.title}} | {{globalMetas.title}}</title>
     <!--(bake-end)-->
     <!--(bake-start _if="child.gender")-->
-    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join:', '}} - {{parent.description | join:' '}}">
+    <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
     <meta name="description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
 
     <meta name="robots" content="index, follow">
-    <meta name="author" content="{{pages.home.metas.author}}">
+    <meta name="author" content="{{globalMetas.author}}">
 
     <!-- For IE 10 and below -->
     <!-- Place favicon.ico in the root directory - no tag necessary -->
@@ -31,23 +31,23 @@
     <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
     <!--(bake-start _if="child.gender")-->
-    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
+    <meta property="og:url" content="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <meta property="og:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <meta property="og:url" content="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <!--(bake-end)-->
     <meta property="og:type" content="product.item">
-    <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
-    <meta property="og:image" content="{{pages.home.metas.url}}/{{child.image}}">
+    <meta property="og:title" content="{{child.model}} - {{parent.title}} | {{globalMetas.title}}">
+    <meta property="og:image" content="{{globalMetas.url}}/{{child.image}}">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="800">
     <!--(bake-start _if="child.gender")-->
-    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
+    <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
     <meta property="og:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
-    <meta property="og:site_name" content="{{pages.home.metas.title}}">
+    <meta property="og:site_name" content="{{globalMetas.title}}">
     <meta property="og:locale" content="en_US">
     <meta property="product:price:amount" content="{{child.price}}">
     <meta property="product:price:currency" content="EUR">
@@ -60,8 +60,8 @@
     <!--(bake-end)-->
     <!--(bake-end)-->
     <meta property="product:condition" content="new">
-    <meta property="product:availability" content="{{child.stock}}">
-    <!--(bake-start _if="parent.id == 'crew-necks'")-->
+    <meta property="product:availability" content="{{child.stockStatus}}">
+    <!--(bake-start _if="parent.id == 'sweatshirts'")-->
     <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
     <!--(bake-end)-->
     <!--(bake-start _if="parent.id == 't-shirts'")-->
@@ -79,25 +79,24 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="{{pages.home.metas.twitter}}">
-    <meta name="twitter:creator" content="{{pages.home.metas.twitter}}">
+    <meta name="twitter:site" content="{{globalMetas.twitter}}">
+    <meta name="twitter:creator" content="{{globalMetas.twitter}}">
     <!--(bake-start _if="child.gender")-->
-    <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
+    <meta name="twitter:url" content="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
-    <meta name="twitter:url" content="{{pages.home.metas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
+    <meta name="twitter:url" content="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html">
     <!--(bake-end)-->
-    <meta name="twitter:title" content="{{child.model}} - {{parent.title}} | {{pages.home.metas.title}}">
+    <meta name="twitter:title" content="{{child.model}} - {{parent.title}} | {{globalMetas.title}}">
     <!--(bake-start _if="child.gender")-->
-    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - Sizes: {{child.sizes | join}} - {{parent.description | join:' '}}">
+    <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{child.gender | capitalize}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
     <!--(bake-start _if="!child.gender")-->
     <meta name="twitter:description" content="&quot;{{child.message}}&quot; - {{parent.title}} - {{parent.description | join:' '}}">
     <!--(bake-end)-->
-    <meta name="twitter:image" content="{{pages.home.metas.url}}/{{child.image}}">
+    <meta name="twitter:image" content="{{globalMetas.url}}/{{child.image}}">
 
     <link href="/styles/main.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet"> -->
 </head>
 <body>
     <header class="header is-fixed">
@@ -106,12 +105,12 @@
                 <div class="header__wrapper">
                     <h1 class="header__logo">
                         <a href="/">
-                            <img class="logo" src="/assets/logos/owltree_logo_white.svg" alt="{{pages.home.metas.title}}">
+                            <img class="logo" src="/assets/logos/owltree_logo_white.svg" alt="{{globalMetas.title}}">
                         </a>
                     </h1>
                     <div class="header__icon">
                         <a href="/">
-                            <img class="icon" src="/assets/logos/owlie-white.svg" alt="{{pages.home.metas.title}}">
+                            <img class="icon" src="/assets/logos/owlie-white.svg" alt="{{globalMetas.title}}">
                         </a>
                     </div>
                     <nav class="header__nav">

@@ -1,4 +1,5 @@
 {
+  "globalMetas": "{{includes/globalMetas.json}}",
   "pages": "{{includes/pages.json}}",
   "products": "{{includes/products.json}}"
 }
