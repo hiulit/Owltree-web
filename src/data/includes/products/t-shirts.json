@@ -29,11 +29,12 @@
       "model": "Death",
       "new": true,
       "noshow": false,
+      "organic": true,
       "price": "32.00",
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 6,
@@ -72,7 +73,7 @@
       "soon": false,
       "stockStatus": "in stock"
     },
-        {
+    {
       "collection": "",
       "color": "black",
       "gender": "unisex",
@@ -83,11 +84,12 @@
       "model": "Don't use",
       "new": true,
       "noshow": false,
+      "organic": true,
       "price": "32.00",
       "quantity": null,
       "sizes": [
         {
-          "size":"XS",
+          "size": "XS",
           "stock": {
             "defectOrGift": 0,
             "left": 4,
@@ -96,7 +98,7 @@
           }
         },
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 7,
@@ -135,7 +137,7 @@
       "soon": false,
       "stockStatus": "in stock"
     },
-        {
+    {
       "collection": "",
       "color": "white",
       "gender": "unisex",
@@ -146,11 +148,12 @@
       "model": "Tofu",
       "new": true,
       "noshow": false,
+      "organic": true,
       "price": "32.00",
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 7,
@@ -189,7 +192,7 @@
       "soon": false,
       "stockStatus": "in stock"
     },
-        {
+    {
       "collection": "",
       "color": "black",
       "gender": "unisex",
@@ -200,11 +203,12 @@
       "model": "Feelings",
       "new": true,
       "noshow": false,
+      "organic": true,
       "price": "32.00",
       "quantity": null,
       "sizes": [
         {
-          "size":"XS",
+          "size": "XS",
           "stock": {
             "defectOrGift": 0,
             "left": 5,
@@ -213,7 +217,7 @@
           }
         },
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 7,
@@ -267,7 +271,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 0,
@@ -321,7 +325,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 1,
             "left": 0,
@@ -384,7 +388,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 0,
@@ -438,7 +442,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 0,
             "left": 0,
@@ -501,7 +505,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 1,
             "left": 0,
@@ -555,7 +559,7 @@
       "quantity": null,
       "sizes": [
         {
-          "size":"S",
+          "size": "S",
           "stock": {
             "defectOrGift": 1,
             "left": 0,
