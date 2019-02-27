@@ -617,7 +617,7 @@
     {
         "parentId": "mugs",
         "id": "mountain",
-        "gender": "unisex",
+        "gender": "",
         "sizes": null,
         "quantity": 1,
         "price": "19.00",
@@ -627,7 +627,7 @@
     {
         "parentId": "mugs",
         "id": "sea",
-        "gender": "unisex",
+        "gender": "",
         "sizes": null,
         "quantity": 2,
         "price": "19.00",
@@ -637,7 +637,7 @@
     {
         "parentId": "mugs",
         "id": "never-too-late",
-        "gender": "unisex",
+        "gender": "",
         "sizes": null,
         "quantity": 2,
         "price": "19.00",
@@ -647,7 +647,7 @@
     {
         "parentId": "tote-bags",
         "id": "rights-and-wrongs",
-        "gender": "unisex",
+        "gender": "",
         "sizes": null,
         "quantity": 0,
         "price": "15.00",
