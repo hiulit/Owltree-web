@@ -32,22 +32,10 @@
       "quantity": null,
       "sizes": [
         {
-          "size": "M",
-          "stock": {
-            "defectsOrGifts": 1,
-            "left": 0,
-            "sold": 2,
-            "total": 3
-          }
+          "size": "M"
         },
         {
-          "size": "L",
-          "stock": {
-            "defectsOrGifts": 1,
-            "left": 1,
-            "sold": 1,
-            "total": 3
-          }
+          "size": "L"
         }
       ],
       "soon": false,

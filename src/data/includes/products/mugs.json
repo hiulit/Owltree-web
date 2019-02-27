@@ -34,12 +34,7 @@
       "new": false,
       "noshow": false,
       "price": "19.00",
-      "quantity": {
-          "defectsOrGifts": 0,
-          "left": 19,
-          "sold": 0,
-          "total": 0
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "in stock"
@@ -56,12 +51,7 @@
       "new": false,
       "noshow": false,
       "price": "19.00",
-      "quantity": {
-          "defectsOrGifts": 0,
-          "left": 0,
-          "sold": 0,
-          "total": 0
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "in stock"
@@ -78,12 +68,7 @@
       "new": false,
       "noshow": false,
       "price": "19.00",
-      "quantity": {
-          "defectsOrGifts": 0,
-          "left": 6,
-          "sold": 0,
-          "total": 0
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "in stock"
@@ -100,12 +85,7 @@
       "new": false,
       "noshow": true,
       "price": "35.00",
-      "quantity": {
-          "defectsOrGifts": 0,
-          "left": 7,
-          "sold": 0,
-          "total": 0
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "in stock"

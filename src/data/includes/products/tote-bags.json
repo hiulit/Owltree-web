@@ -29,12 +29,7 @@
       "new": false,
       "noshow": false,
       "price": "15.00",
-      "quantity": {
-        "defectsOrGifts": 4,
-        "left": 0,
-        "sold": 6,
-        "total": 10
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "out of stock"
@@ -51,12 +46,7 @@
       "new": false,
       "noshow": false,
       "price": "15.00",
-      "quantity": {
-        "defectsOrGifts": 0,
-        "left": 7,
-        "sold": 3,
-        "total": 10
-      },
+      "quantity": null,
       "sizes": null,
       "soon": false,
       "stockStatus": "in stock"
