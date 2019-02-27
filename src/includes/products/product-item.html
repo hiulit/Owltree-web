@@ -124,7 +124,7 @@
                                 <!--(bake-start _if="size.stockStatus != 'out of stock'")-->
                                 <span class="product__sizes__list__item__stock-status in-stock">{{size.stockStatus}}</span>
                                 <!--(bake-end)-->
-                        </li>
+                            </li>
                             <!--(bake-end)-->
                             <!--(bake-end)-->
                             <!--(bake-end)-->
@@ -171,14 +171,22 @@
                         </li>
                     </ul>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stockStatus == 'in stock'")-->
+                    <!--(bake-start _foreach="item:stock")-->
+                    <!--(bake-start _if="item.parentId == parent.id")-->
+                    <!--(bake-start _if="item.gender == child.gender")-->
+                    <!--(bake-start _if="item.id == child.id")-->
+                    <!--(bake-start _if="item.stockGlobal == 'in stock'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Buy</a>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stockStatus == 'out of stock'")-->
+                    <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
                     <button class="product__buy-btn btn is-disabled" disabled>Out of stock</button>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="child.stockStatus == 'preorder'")-->
+                    <!--(bake-start _if="item.stockGlobal == 'preorder'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Preorder</a>
+                    <!--(bake-end)-->
+                    <!--(bake-end)-->
+                    <!--(bake-end)-->
+                    <!--(bake-end)-->
                     <!--(bake-end)-->
                     <hr class="product__separator product__separator--big">
                     <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/" target="_blank"><img src="/assets/logos/amapola-logo.jpg" alt="Amapola Vegan Shop"></a></p>

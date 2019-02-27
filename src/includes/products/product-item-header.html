@@ -60,7 +60,15 @@
     <!--(bake-end)-->
     <!--(bake-end)-->
     <meta property="product:condition" content="new">
-    <meta property="product:availability" content="{{child.stockStatus}}">
+    <!--(bake-start _foreach="item:stock")-->
+    <!--(bake-start _if="item.parentId == parent.id")-->
+    <!--(bake-start _if="item.gender == child.gender")-->
+    <!--(bake-start _if="item.id == child.id")-->
+    <meta property="product:availability" content="{{item.stockGlobal}}">
+    <!--(bake-end)-->
+    <!--(bake-end)-->
+    <!--(bake-end)-->
+    <!--(bake-end)-->
     <!--(bake-start _if="parent.id == 'sweatshirts'")-->
     <meta property="product:retailer_item_id" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
     <!--(bake-end)-->
