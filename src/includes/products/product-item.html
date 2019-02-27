@@ -100,10 +100,27 @@
                     <!--(bake-end)-->
                     <!--(bake-start _if="child.sizes")-->
                     <div class="product-tag__item product__sizes">
-                        <span class="product__sizes__title">Sizes:</span>
+                        <div class="product__sizes__title">Sizes:</div>
                         <ul class="product__sizes__list">
-                            <!--(bake-start _foreach="size:child.sizes")-->
-                            <li class="product__sizes__list__item">{{size.size}}</li>
+                            <!--(bake-start _foreach="item:stock")-->
+                            <!--(bake-start _if="item.parentId == parent.id")-->
+                            <!--(bake-start _if="item.gender == child.gender")-->
+                            <!--(bake-start _if="item.id == child.id")-->
+                            <!--(bake-start _foreach="size:item.sizes")-->
+                            <li class="product__sizes__list__item">
+                                <span class="product__sizes__list__item__size">{{size.size}}</span>
+                                <span class="product__sizes__list__item__separator">-</span>
+                                <!--(bake-start _if="size.stockStatus == 'out of stock'")-->
+                                <span class="product__sizes__list__item__stock-status out-of-stock">{{size.stockStatus}}</span>
+                                <!--(bake-end)-->
+                                <!--(bake-start _if="size.stockStatus != 'out of stock'")-->
+                                <span class="product__sizes__list__item__stock-status in-stock">{{size.stockStatus}}</span>
+                                <!--(bake-end)-->
+                        </li>
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
                             <!--(bake-end)-->
                         </ul>
                     </div>

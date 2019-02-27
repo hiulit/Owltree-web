@@ -155,21 +155,33 @@
     color: $primary-font-color
 
 .product__sizes__title
-    display: inline-block
+    display: block
+    margin-bottom: 5px
 
 .product__sizes__list
-    display: inline-block
+    display: block
     font-size: 0
-
-.product__sizes__list__item
-    display: inline-block
-    font-size: 14px
     margin-left: 10px
 
-    &:not(:last-child)
-        &:after
-            content: "-"
-            margin-left: 10px
+.product__sizes__list__item
+    display: flex
+    font-size: 14px
+
+.product__sizes__list__item__size
+    width: 30px
+
+.product__sizes__list__item__separator
+    margin-left: 5px
+    margin-right: 10px
+
+.product__sizes__list__item__stock-status
+    font-weight: bold
+
+    &.in-stock
+        color: #3c763d
+
+    &.out-of-stock
+        color: #a94442
 
 .product__buy-btn
     width: 100%
