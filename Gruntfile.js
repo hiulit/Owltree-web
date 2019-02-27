@@ -291,19 +291,73 @@ module.exports = function(grunt) {
           src: ['{,*/,**/}*.html']
         }]
       }
+    },
+    prompt: {
+      target: {
+        options: {
+          questions: [
+            {
+              config: 'what-to-do',
+              type: 'list', // list, checkbox, confirm, input, password
+              message: 'What do you want to do?',
+              default: 'local', // default value if nothing is entered
+              choices: [
+                {
+                  name: 'Develop in a localhost server [> grunt local]',
+                  value: 'local'
+                },
+                {
+                  name: 'Build for production [> grunt build]',
+                  value: 'build'
+                },
+                {
+                  name: 'Update stock JSON [> grunt get-stock]',
+                  value: 'get-stock'
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    shell: {
+      "get-stock": {
+        command: 'node get-stock.js'
+      }
     }
   });
 
-  grunt.registerTask('default', [
-    'clean',
-    'stylus',
-    'json_bake',
-    'bake',
-    'concat',
-    'copy',
-    'connect:livereload',
-    'watch'
-  ]);
+  grunt.registerTask('tasks', function () {
+    grunt.task.run([
+      'prompt',
+      'what-to-do'
+    ]);
+  });
+
+  grunt.registerTask('what-to-do', function (a, b) {
+    grunt.task.run([grunt.config('what-to-do')]);
+  });
+
+  grunt.registerTask('default', function (target) {
+    grunt.task.run(['tasks']);
+  });
+
+  grunt.registerTask('local', function (target) {
+    if (typeof target === 'undefined') {
+      target = 'local';
+    }
+
+    grunt.task.run([
+      'clean',
+      'stylus',
+      'json_bake',
+      'bake',
+      'concat',
+      'copy',
+      'connect:livereload',
+      'watch'
+    ]);
+  });
 
   grunt.registerTask('build', function (target) {
     if (typeof target === 'undefined') {
@@ -325,6 +379,16 @@ module.exports = function(grunt) {
       'image',
       'connect:livereload',
       'watch'
+    ]);
+  });
+
+  grunt.registerTask('get-stock', function (target) {
+    if (typeof target === 'undefined') {
+      target = 'get-stock';
+    }
+
+    grunt.task.run([
+      'shell:get-stock'
     ]);
   });
 };
