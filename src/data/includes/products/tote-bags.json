@@ -44,7 +44,7 @@
       "message": "Owltree - Vegan Apparel",
       "model": "Owltree - Vegan Apparel",
       "new": false,
-      "noshow": false,
+      "noshow": true,
       "price": "15.00",
       "quantity": null,
       "sizes": null,
