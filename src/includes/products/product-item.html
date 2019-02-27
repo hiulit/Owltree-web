@@ -81,11 +81,19 @@
                     <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                         <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
                         <span itemprop="priceCurrency" content="EUR">€</span>
-                        <!--(bake-start _if="child.stockStatus == 'out of stock'")-->
-                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stockStatus}}</span>
+                        <!--(bake-start _foreach="item:stock")-->
+                        <!--(bake-start _if="item.parentId == parent.id")-->
+                        <!--(bake-start _if="item.gender == child.gender")-->
+                        <!--(bake-start _if="item.id == child.id")-->
+                        <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{item.stockGlobal}}</span>
                         <!--(bake-end)-->
-                        <!--(bake-start _if="child.stockStatus != 'out of stock'")-->
-                        <span class="product__stock" itemprop="availability">{{child.stockStatus}}</span>
+                        <!--(bake-start _if="item.stockGlobal != 'out of stock'")-->
+                        <span class="product__stock" itemprop="availability">{{item.stockGlobal}}</span>
+                        <!--(bake-end)-->
+                        <!--(bake-end)-->
+                        <!--(bake-end)-->
+                        <!--(bake-end)-->
                         <!--(bake-end)-->
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
