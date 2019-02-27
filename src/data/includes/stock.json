@@ -1,0 +1,682 @@
+[
+    {
+        "parentId": "t-shirts",
+        "id": "compassion",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "pigeon",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "plant-based",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "rat",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "rights-and-wrongs",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "sorry",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "wild-boar",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "wonderful",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "feelings",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "XS",
+                "stock": 3,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "S",
+                "stock": 4,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 5,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            }
+        ],
+        "quantity": null,
+        "price": "32.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "compassion",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "dont-use",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "XS",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "S",
+                "stock": 3,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "M",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "L",
+                "stock": 7,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            }
+        ],
+        "quantity": null,
+        "price": "32.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "death",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "M",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "L",
+                "stock": 7,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            }
+        ],
+        "quantity": null,
+        "price": "32.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "pigeon",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XXL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "plant-based",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "rat",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XXL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "rights-and-wrongs",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "sorry",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "tofu",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 1,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "32.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "wild-boar",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XXL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "29.00",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "t-shirts",
+        "id": "wonderful",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "XL",
+                "stock": 1,
+                "stockStatus": "in stock"
+            }
+        ],
+        "quantity": null,
+        "price": "27.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "sweatshirts",
+        "id": "save-animals",
+        "gender": "unisex",
+        "sizes": [
+            {
+                "size": "XS",
+                "stock": 1,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "S",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 2,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 5,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XXL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "59.00",
+        "stockGlobal": "in stock"
+    },
+    {
+        "parentId": "mugs",
+        "id": "mountain",
+        "gender": "unisex",
+        "sizes": null,
+        "quantity": 1,
+        "price": "19.00",
+        "stockStatus": "in stock",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "mugs",
+        "id": "sea",
+        "gender": "unisex",
+        "sizes": null,
+        "quantity": 2,
+        "price": "19.00",
+        "stockStatus": "in stock",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "mugs",
+        "id": "never-too-late",
+        "gender": "unisex",
+        "sizes": null,
+        "quantity": 2,
+        "price": "19.00",
+        "stockStatus": "in stock",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "tote-bags",
+        "id": "rights-and-wrongs",
+        "gender": "unisex",
+        "sizes": null,
+        "quantity": 0,
+        "price": "15.00",
+        "stockStatus": "out of stock",
+        "stockGlobal": "out of stock"
+    },
+    {
+        "parentId": "dresses",
+        "id": "harm",
+        "gender": "women",
+        "sizes": [
+            {
+                "size": "M",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            },
+            {
+                "size": "L",
+                "stock": 1,
+                "stockStatus": "in stock"
+            },
+            {
+                "size": "XL",
+                "stock": 0,
+                "stockStatus": "out of stock"
+            }
+        ],
+        "quantity": null,
+        "price": "37.00",
+        "stockGlobal": "in stock"
+    }
+]

@@ -1,5 +1,6 @@
 {
   "globalMetas": "{{includes/globalMetas.json}}",
   "pages": "{{includes/pages.json}}",
-  "products": "{{includes/products.json}}"
+  "products": "{{includes/products.json}}",
+  "stock": "{{includes/stock.json}}"
 }
