@@ -165,6 +165,7 @@
     margin-left: 10px
 
 .product__sizes__list__item
+    align-items: center
     display: flex
     font-size: 14px
 
@@ -177,6 +178,9 @@
 
 .product__sizes__list__item__stock-status
     font-weight: bold
+
+    .product__sizes__list__item &
+        font-size: 0.8em
 
     &.in-stock
         color: #3c763d
@@ -238,8 +242,30 @@
     background-color: #fff
     height: 100%
     left: 0
-    opacity: 0.5
+    opacity: 0.75
     position: absolute
     top: 0
     width: 100%
     z-index: 1
+
+.product__no-stock-label
+    align-items: center
+    background-color: #000
+    border-radius: 50%
+    color: #fff
+    display: block
+    display: flex
+    font-size: 10px
+    height: 60px
+    padding: 5px
+    position: absolute
+    right: 0
+    text-transform: uppercase
+    top: 0
+    width: @height
+    z-index: 1
+
+    .products-related__list__item &
+        font-size: 6px
+        height: 40px
+        width: @height

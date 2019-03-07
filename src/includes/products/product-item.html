@@ -213,6 +213,17 @@
                         <div class="product product--{{parent.id}} coming-soon">
                         <!--(bake-end)-->
                             <div class="product__image">
+                                <!--(bake-start _foreach="item:stock")-->
+                                <!--(bake-start _if="item.parentId == parent.id")-->
+                                <!--(bake-start _if="item.gender == relatedChild.gender")-->
+                                <!--(bake-start _if="item.id == relatedChild.id")-->
+                                <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+                                <div class="product__no-stock"></div>
+                                <!--(bake-end)-->
+                                <!--(bake-end)-->
+                                <!--(bake-end)-->
+                                <!--(bake-end)-->
+                                <!--(bake-end)-->
                                 <!--(bake-start _if="relatedChild.gender")-->
                                 <a class="products-related__link" href="{{relatedChild.id}}-{{relatedChild.gender}}.html">
                                     <img src="/{{relatedChild.image}}" alt="{{relatedChild.model}} - {{relatedChild.gender | capitalize}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
@@ -230,6 +241,17 @@
                             <div class="product__model">{{relatedChild.model}}</div>
                             <!--(bake-start _if="relatedChild.gender")-->
                             <div class="product__gender">{{relatedChild.gender}}</div>
+                            <!--(bake-end)-->
+                            <!--(bake-start _foreach="item:stock")-->
+                            <!--(bake-start _if="item.parentId == parent.id")-->
+                            <!--(bake-start _if="item.gender == relatedChild.gender")-->
+                            <!--(bake-start _if="item.id == relatedChild.id")-->
+                            <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+                            <div class="product__no-stock-label">{{item.stockGlobal}}</div>
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
+                            <!--(bake-end)-->
                             <!--(bake-end)-->
                         </div>
                     </li>

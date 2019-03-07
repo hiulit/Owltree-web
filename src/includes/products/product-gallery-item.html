@@ -46,10 +46,7 @@
     <!--(bake-start _if="item.gender == child.gender")-->
     <!--(bake-start _if="item.id == child.id")-->
     <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
-    <span class="product__stock product__stock--no-stock">{{item.stockGlobal}}</span>
-    <!--(bake-end)-->
-    <!--(bake-start _if="item.stockGlobal != 'out of stock'")-->
-    <span class="product__stock">{{item.stockGlobal}}</span>
+    <div class="product__no-stock-label">{{item.stockGlobal}}</div>
     <!--(bake-end)-->
     <!--(bake-end)-->
     <!--(bake-end)-->
