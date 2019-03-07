@@ -94,11 +94,11 @@ rp(options)
               let variants = response[i].product.variants
               let stockCounter = 0
               for (let i = 0; i < variants.length; i++) {
-                let price = variants[i].price
+                // let price = variants[i].price
                 let size = variants[i].title
                 let stock = variants[i].inventory_quantity
                 let variant = {}
-                product['price'] = price
+                // product['price'] = price
                 if (size !== 'Default Title') {
                   variant['size'] = size
                   variant['stock'] = stock
