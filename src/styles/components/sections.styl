@@ -2,10 +2,13 @@
     padding-bottom: ($section-padding-bottom / 2)
     padding-top: $section-padding-top
     position: relative
+
     &:first-child
         margin-top: $header-height
+
         +m-breakpoint(sm xmd)
             margin-top: $header-height-mobile
+
     +m-breakpoint(xmd)
         padding-bottom: $section-padding-bottom
 
@@ -14,7 +17,7 @@
             padding-bottom: 0
 
 .section__title
-    font-family: 'Miglia-Fur', sans-serif
+    font-family: "Miglia-Fur", sans-serif
     font-size: 30px
     margin-bottom: 20px
     margin-top: 0
@@ -44,14 +47,17 @@
     margin-left: auto
     margin-right: auto
     text-transform: uppercase
+
     +m-breakpoint(xmd)
         font-size: 16px
+
     +m-breakpoint(lg)
         font-size: 20px
 
 .section--shadow
     background-color: #000 !important
     padding: 0
+
     &:after
         background-color: #000
         content: ""
@@ -65,20 +71,25 @@
 
     .hero
         color: #fff
-        text-shadow: 0px 0px 10px $primary-font-color
+        text-shadow: 0 0 10px $primary-font-color
 
 .section--1
     background-color: #fff
     height: 100vh
     margin-top: 0 !important
+
     +m-breakpoint(xsm portrait)
         height: 75vh
+
     +m-breakpoint(md)
         height: 75vh
+
     +m-breakpoint(md portrait)
         height: 50vh
+
     +m-breakpoint(xmd)
         height: 90vh
+
     +m-breakpoint(xmd portrait)
         height: 50vh
 
@@ -87,44 +98,52 @@
         max-width: 50%
         position: absolute
         top: 50%
-        transform: translateY(calc(-50% + (60px/2))) // 60px is $header-height
+        transform: translateY(calc(-50% + (60px / 2))) // 60px is $header-height
+
         +m-breakpoint(sm md)
             left: 50%
             max-height: 35vh
             max-width: 90%
-            transform: translate(-50%, calc(-50% + (85px/2))) // 85px is $header-height
+            transform: translate(-50%, calc(-50% + (85px / 2))) // 85px is $header-height
 
 .section--2
     text-align: center
 
     .icon
         margin-bottom: 25px
+        margin-top: 25px
         width: 80px
+
         +m-breakpoint(md)
             width: 100px
+
         +m-breakpoint(xmd)
             width: 130px
 
     .section__text
         margin-left: auto
         margin-right: auto
+
         +m-breakpoint(md)
             max-width: 75%
+
         +m-breakpoint(xmd)
             max-width: 60%
+
         +m-breakpoint(xmd portrait)
             max-width: 75%
+
         +m-breakpoint(lg)
             max-width: 75%
 
 .section--3
-    display: none
-
     background-image: url("../assets/backgrounds/bg_img7.jpg")
+    background-position: center center
     background-repeat: no-repeat
     background-size: cover
-    background-position: center center
+    display: none
     height: 50vh
+
     +m-breakpoint(lg)
         height: 75vh
 
@@ -142,5 +161,6 @@
     background-repeat: no-repeat
     background-size: cover
     height: 50vh
+
     +m-breakpoint(md portrait)
         height: 25vh
