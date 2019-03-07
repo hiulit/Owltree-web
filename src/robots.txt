@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /process.php
+Disallow: /stock-table.html
 Sitemap: https://owltreebcn.com/sitemap.xml
