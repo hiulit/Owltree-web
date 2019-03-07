@@ -1,0 +1,54 @@
+.table-loading
+    left: 50%
+    position: absolute
+    top: 50%
+    transform: translate(-50%, -50%)
+
+#main-table
+    table
+        border: 1px solid #000
+        border-collapse: collapse
+        text-align: center
+        width: 100%
+
+        thead
+            background-color: #000
+            color: #fff
+
+        tbody
+            tr
+                &:nth-child(odd)
+                    background-color: #ddd
+
+                    table
+                        tbody
+                            tr
+                                background-color: #ddd
+
+                &:nth-child(even)
+                    background-color: #fff
+
+                    table
+                        tbody
+                            tr
+                                background-color: #fff
+
+        th
+            border-right: 1px solid #000
+
+            &:not(:last-child)
+                border-right: 1px solid #fff
+
+        th,
+        td
+            padding: 5px
+
+        table
+            border: none
+
+            thead
+                tr
+                    background-color: lighten(#000, 30) !important
+
+            th
+                border: none
