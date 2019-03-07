@@ -8,6 +8,17 @@
     <div class="product__label label">New</div>
     <!--(bake-end)-->
     <div class="product__image">
+        <!--(bake-start _foreach="item:stock")-->
+        <!--(bake-start _if="item.parentId == parent.id")-->
+        <!--(bake-start _if="item.gender == child.gender")-->
+        <!--(bake-start _if="item.id == child.id")-->
+        <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+        <div class="product__no-stock"></div>
+        <!--(bake-end)-->
+        <!--(bake-end)-->
+        <!--(bake-end)-->
+        <!--(bake-end)-->
+        <!--(bake-end)-->
         <!--(bake-start _if="child.gender")-->
         <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">
             <img src="/{{child.image}}" alt="{{child.model}} - {{child.gender | capitalize}} - {{parent.title | capitalize}} by {{pages.home.metas.title}}">
