@@ -41,6 +41,10 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   }
   var relatedProductsItemWidth
 
+  if (offsetX <= 0) {
+    $('.js-carousel-arrow-prev').addClass('is-disabled')
+  }
+
   relatedProductsItem.css('width',  Math.floor(relatedProductsWrapper.width() / numItemsToShow))
   relatedProductsItemWidth = relatedProductsItem.width()
   relatedProductsList.css('width', Math.floor(relatedProductsItemWidth * relatedProductsLength))
@@ -50,17 +54,26 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   }
 
   $('.js-carousel-arrow-prev').click(function(e) {
+    console.log('prev')
+    $('.js-carousel-arrow-next').removeClass('is-disabled')
     if (offsetX < 0) {
       offsetX = offsetX + relatedProductsItemWidth
       relatedProductsList.css('transform', 'translateX(' + offsetX +'px)')
+    }
+    if (offsetX === 0) {
+      $(this).addClass('is-disabled')
     }
     return false;
   })
 
   $('.js-carousel-arrow-next').click(function(e) {
-    if ((offsetX * -1) <= (relatedProductsList.width() - (relatedProductsItemWidth * numItemsToShow))) {
+    $('.js-carousel-arrow-prev').removeClass('is-disabled')
+    if ((offsetX * -1) < (relatedProductsList.width() - (relatedProductsItemWidth * numItemsToShow))) {
       offsetX = offsetX - relatedProductsItemWidth
       relatedProductsList.css('transform', 'translateX(' + offsetX +'px)')
+    }
+    if ((offsetX * -1) === (relatedProductsList.width() - (relatedProductsItemWidth * numItemsToShow))) {
+      $(this).addClass('is-disabled')
     }
     return false;
   })

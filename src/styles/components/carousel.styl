@@ -19,19 +19,23 @@
     top: 50%
     transform: translateY(-50%)
     width: @height
-    z-index: 1
+    z-index: 2
+
     &.is-disabled,
     &[disabled]
         cursor: default
         cursor: not-allowed
-        opacity: 0.5
+        pointer-events: none
+        opacity: 0.25
 
 .carousel-arrow--prev
     left: 0
+
     &:before
         m-chevron("left", 10, 2, #000)
 
 .carousel-arrow--next
     right: 0
+
     &:before
         m-chevron("right", 10, 2, #000)
