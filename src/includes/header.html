@@ -20,14 +20,14 @@
     <!-- Open Graph -->
     <meta property="fb:app_id" content="584404808613849">
     <!--(bake-start _if="id == 'home'")-->
-    <meta property="og:url" content="{{metas.url}}">
+    <meta property="og:url" content="{{globalMetas.url}}">
     <!--(bake-end)-->
     <!--(bake-start _if="id != 'home'")-->
-    <meta property="og:url" content="{{metas.url}}/{{id}}/">
+    <meta property="og:url" content="{{globalMetas.url}}/{{id}}/">
     <!--(bake-end)-->
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{metas.title}}">
-    <meta property="og:image" content="{{metas.url}}/{{metas.share-image}}">
+    <meta property="og:image" content="{{globalMetas.url}}/{{metas.share-image}}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:description" content="{{metas.description}}">
@@ -39,7 +39,7 @@
     <meta name="twitter:site" content="{{metas.twitter}}">
     <meta name="twitter:creator" content="{{metas.twitter}}">
     <!--(bake-start _if="id == 'home'")-->
-    <meta name="twitter:url" content="{{metas.url}}">
+    <meta name="twitter:url" content="{{globalMetas.url}}">
     <!--(bake-end)-->
     <!--(bake-start _if="id != 'home'")-->
     <meta name="twitter:url" content="{{metas.url}}/{{id}}/">
