@@ -19,7 +19,7 @@
 
         xhr.onload = function () {
             if (xhr.status >= 200 && xhr.status < 300) {
-                console.log('success!', xhr);
+                // console.log('success!', xhr);
                 var jsonHtmlTable = ConvertJsonToTable(JSON.parse(xhr.response));
                 document.getElementById('main-table').innerHTML = jsonHtmlTable
                 let foo = document.getElementsByTagName('td');
@@ -32,10 +32,10 @@
             } else {
                 console.log('The request failed!');
             }
-            console.log('This always runs...');
+            // console.log('This always runs...');
         };
 
-        xhr.open('GET', 'https://raw.githubusercontent.com/hiulit/Owltree-web/master/src/data/includes/stock.json');
+        xhr.open('GET', 'https://raw.githubusercontent.com/hiulit/Owltree-web/master/src/data/includes/stock.json?_=' + new Date().getTime());
         xhr.send();
 
         String.prototype.format = function () {
@@ -116,7 +116,6 @@
                                             //for supporting nested tables
                                             tbCon += tdRow.format(ConvertJsonToTable(value));
                                         } else {
-                                            console.log(value)
                                             if (value == 'out of stock') {
                                                 tdRow = tdRow.replace('<td>', '<td style="color: red;">')
                                             }
