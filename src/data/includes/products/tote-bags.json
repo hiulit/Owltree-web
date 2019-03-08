@@ -4,8 +4,7 @@
       "in stock",
       "out of stock",
       "preorder"
-    ],
-    "soon": "true/false"
+    ]
   },
   "description": [
     "100% cotton.",
@@ -23,16 +22,18 @@
       "gender": "",
       "id": "rights-and-wrongs",
       "image": "assets/products/tote-bags/tote_rightswrongs.jpg",
-      "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/totebag-vegana-owltree-vegan-apparel-rights-wrongs",
       "message": "Let's talk about animal rights and human wrongs",
-      "model": "Rights &amp; Wrongs",
+      "model": "Rights And Wrongs",
       "new": false,
       "noshow": false,
-      "price": "15.00",
-      "quantity": null,
-      "sizes": null,
       "soon": false,
-      "stockStatus": "out of stock"
+      "parentId": "tote-bags",
+      "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
+      "sizes": null,
+      "quantity": 0,
+      "price": "15.00",
+      "stockStatus": "out of stock",
+      "stockGlobal": "out of stock"
     },
     {
       "collection": "",
@@ -40,16 +41,11 @@
       "gender": "",
       "id": "owltree-logo",
       "image": "assets/products/tote-bags/tote_owltree-logo.jpg",
-      "link": "",
       "message": "Owltree - Vegan Apparel",
       "model": "Owltree - Vegan Apparel",
       "new": false,
       "noshow": true,
-      "price": "15.00",
-      "quantity": null,
-      "sizes": null,
-      "soon": false,
-      "stockStatus": "in stock"
+      "soon": false
     }
   ]
 }

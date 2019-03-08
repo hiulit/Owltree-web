@@ -4,8 +4,7 @@
       "in stock",
       "out of stock",
       "preorder"
-    ],
-    "soon": "true/false"
+    ]
   },
   "description": [
     "100% cotton.",
@@ -21,37 +20,50 @@
       "collection": "",
       "color": "burgundy",
       "gender": "unisex",
-      "id": "save-animals",
+      "id": "save-the-animals",
       "image": "assets/products/sweatshirts/sweatshirt_saveanimals.jpg",
-      "link": "https://amapolaveganshop.com/collections/ropa-hombre/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
       "message": "Wake up and save the animals",
-      "model": "Save animals",
+      "model": "Save The Animals",
       "new": false,
       "noshow": false,
-      "price": "59.00",
+      "soon": false,
+      "parentId": "sweatshirts",
+      "link": "https://amapolaveganshop.com/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
       "quantity": null,
+      "price": "59.00",
+      "stockGlobal": "in stock",
       "sizes": [
         {
-          "size": "XS"
+          "size": "XS",
+          "stock": 1,
+          "stockStatus": "in stock"
         },
         {
-          "size": "S"
+          "size": "S",
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
-          "size": "M"
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
-          "size": "L"
+          "size": "L",
+          "stock": 2,
+          "stockStatus": "in stock"
         },
         {
-          "size": "XL"
+          "size": "XL",
+          "stock": 5,
+          "stockStatus": "in stock"
         },
         {
-          "size": "XXL"
+          "size": "XXL",
+          "stock": 0,
+          "stockStatus": "out of stock"
         }
-      ],
-      "soon": false,
-      "stockStatus": "in stock"
+      ]
     }
   ]
 }

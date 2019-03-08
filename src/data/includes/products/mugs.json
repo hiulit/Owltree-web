@@ -4,8 +4,7 @@
       "in stock",
       "out of stock",
       "preorder"
-    ],
-    "soon": "true/false"
+    ]
   },
   "description": [
     "Enameled steel mug.",
@@ -26,18 +25,20 @@
       "collection": "",
       "color": "",
       "gender": "",
-      "id": "never-too-late",
+      "id": "too-late",
       "image": "assets/products/mugs/cup_nevertoolate.jpg",
-      "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-de-owltree-vegan-apparel-too-late",
       "message": "Never too late to break a cage",
-      "model": "Never too late",
+      "model": "Too Late",
       "new": false,
       "noshow": false,
-      "price": "19.00",
-      "quantity": null,
-      "sizes": null,
       "soon": false,
-      "stockStatus": "in stock"
+      "parentId": "mugs",
+      "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-too-late",
+      "sizes": null,
+      "quantity": 2,
+      "price": "19.00",
+      "stockStatus": "in stock",
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -45,16 +46,18 @@
       "gender": "",
       "id": "mountain",
       "image": "assets/products/mugs/cup_mountain.jpg",
-      "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-mountain-owltree",
       "message": "I am the Mountain",
-      "model": "I am the Mountain",
+      "model": "Mountain",
       "new": false,
       "noshow": false,
-      "price": "19.00",
-      "quantity": null,
-      "sizes": null,
       "soon": false,
-      "stockStatus": "in stock"
+      "parentId": "mugs",
+      "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-mountain",
+      "sizes": null,
+      "quantity": 1,
+      "price": "19.00",
+      "stockStatus": "in stock",
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -62,16 +65,18 @@
       "gender": "",
       "id": "sea",
       "image": "assets/products/mugs/cup_sea.jpg",
-      "link": "https://amapolaveganshop.com/collections/ropa-mujer/products/taza-de-owltree-vegan-apparel-sea",
       "message": "I am the Sea",
-      "model": "I am the Sea",
+      "model": "Sea",
       "new": false,
       "noshow": false,
-      "price": "19.00",
-      "quantity": null,
-      "sizes": null,
       "soon": false,
-      "stockStatus": "in stock"
+      "parentId": "mugs",
+      "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-sea",
+      "sizes": null,
+      "quantity": 2,
+      "price": "19.00",
+      "stockStatus": "in stock",
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -79,16 +84,11 @@
       "gender": "",
       "id": "mountain-sea",
       "image": "assets/products/mugs/cup_mountainsea_combo.jpg",
-      "link": "",
-      "Message": "I am the Mountain, I am the Sea",
+      "message": "I am the Mountain, I am the Sea",
       "model": "I am the Mountain, I am the Sea",
       "new": false,
       "noshow": true,
-      "price": "35.00",
-      "quantity": null,
-      "sizes": null,
-      "soon": false,
-      "stockStatus": "in stock"
+      "soon": false
     }
   ]
 }

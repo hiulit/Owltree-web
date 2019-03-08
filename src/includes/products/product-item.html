@@ -81,19 +81,11 @@
                     <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                         <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
                         <span itemprop="priceCurrency" content="EUR">€</span>
-                        <!--(bake-start _foreach="item:stock")-->
-                        <!--(bake-start _if="item.parentId == parent.id")-->
-                        <!--(bake-start _if="item.gender == child.gender")-->
-                        <!--(bake-start _if="item.id == child.id")-->
-                        <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
-                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{item.stockGlobal}}</span>
+                        <!--(bake-start _if="child.stockGlobal == 'out of stock'")-->
+                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stockGlobal}}</span>
                         <!--(bake-end)-->
-                        <!--(bake-start _if="item.stockGlobal != 'out of stock'")-->
-                        <span class="product__stock" itemprop="availability">{{item.stockGlobal}}</span>
-                        <!--(bake-end)-->
-                        <!--(bake-end)-->
-                        <!--(bake-end)-->
-                        <!--(bake-end)-->
+                        <!--(bake-start _if="child.stockGlobal != 'out of stock'")-->
+                        <span class="product__stock" itemprop="availability">{{child.stockGlobal}}</span>
                         <!--(bake-end)-->
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
@@ -110,11 +102,7 @@
                     <div class="product-tag__item product__sizes">
                         <div class="product__sizes__title">Sizes:</div>
                         <ul class="product__sizes__list">
-                            <!--(bake-start _foreach="item:stock")-->
-                            <!--(bake-start _if="item.parentId == parent.id")-->
-                            <!--(bake-start _if="item.gender == child.gender")-->
-                            <!--(bake-start _if="item.id == child.id")-->
-                            <!--(bake-start _foreach="size:item.sizes")-->
+                            <!--(bake-start _foreach="size:child.sizes")-->
                             <li class="product__sizes__list__item">
                                 <span class="product__sizes__list__item__size">{{size.size}}</span>
                                 <span class="product__sizes__list__item__separator">-</span>
@@ -125,10 +113,6 @@
                                 <span class="product__sizes__list__item__stock-status in-stock">{{size.stockStatus}}</span>
                                 <!--(bake-end)-->
                             </li>
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
                             <!--(bake-end)-->
                         </ul>
                     </div>
@@ -171,22 +155,14 @@
                         </li>
                     </ul>
                     <!--(bake-end)-->
-                    <!--(bake-start _foreach="item:stock")-->
-                    <!--(bake-start _if="item.parentId == parent.id")-->
-                    <!--(bake-start _if="item.gender == child.gender")-->
-                    <!--(bake-start _if="item.id == child.id")-->
-                    <!--(bake-start _if="item.stockGlobal == 'in stock'")-->
+                    <!--(bake-start _if="child.stockGlobal == 'in stock'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Buy</a>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+                    <!--(bake-start _if="child.stockGlobal == 'out of stock'")-->
                     <button class="product__buy-btn btn is-disabled" disabled>Out of stock</button>
                     <!--(bake-end)-->
-                    <!--(bake-start _if="item.stockGlobal == 'preorder'")-->
+                    <!--(bake-start _if="child.stockGlobal == 'preorder'")-->
                     <a class="product__buy-btn btn" href="{{child.link}}" target="_blank">Preorder</a>
-                    <!--(bake-end)-->
-                    <!--(bake-end)-->
-                    <!--(bake-end)-->
-                    <!--(bake-end)-->
                     <!--(bake-end)-->
                     <hr class="product__separator product__separator--big">
                     <p class="product__text">Our products are <strong>exclusively available</strong> at <a class="amapola-link" href="https://amapolaveganshop.com/" target="_blank"><img src="/assets/logos/amapola-logo.jpg" alt="Amapola Vegan Shop"></a></p>
@@ -213,16 +189,8 @@
                         <div class="product product--{{parent.id}} coming-soon">
                         <!--(bake-end)-->
                             <div class="product__image">
-                                <!--(bake-start _foreach="item:stock")-->
-                                <!--(bake-start _if="item.parentId == parent.id")-->
-                                <!--(bake-start _if="item.gender == relatedChild.gender")-->
-                                <!--(bake-start _if="item.id == relatedChild.id")-->
-                                <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
+                                <!--(bake-start _if="relatedChild.stockGlobal == 'out of stock'")-->
                                 <div class="product__no-stock"></div>
-                                <!--(bake-end)-->
-                                <!--(bake-end)-->
-                                <!--(bake-end)-->
-                                <!--(bake-end)-->
                                 <!--(bake-end)-->
                                 <!--(bake-start _if="relatedChild.gender")-->
                                 <a class="products-related__link" href="{{relatedChild.id}}-{{relatedChild.gender}}.html">
@@ -242,16 +210,8 @@
                             <!--(bake-start _if="relatedChild.gender")-->
                             <div class="product__gender">{{relatedChild.gender}}</div>
                             <!--(bake-end)-->
-                            <!--(bake-start _foreach="item:stock")-->
-                            <!--(bake-start _if="item.parentId == parent.id")-->
-                            <!--(bake-start _if="item.gender == relatedChild.gender")-->
-                            <!--(bake-start _if="item.id == relatedChild.id")-->
-                            <!--(bake-start _if="item.stockGlobal == 'out of stock'")-->
-                            <div class="product__no-stock-label">{{item.stockGlobal}}</div>
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
-                            <!--(bake-end)-->
+                            <!--(bake-start _if="relatedChild.stockGlobal == 'out of stock'")-->
+                            <div class="product__no-stock-label">{{relatedChild.stockGlobal}}</div>
                             <!--(bake-end)-->
                         </div>
                     </li>
