@@ -21,6 +21,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -50,6 +51,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -74,6 +76,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -103,6 +106,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -127,6 +131,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -151,6 +156,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -180,6 +186,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -204,6 +211,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -238,6 +246,7 @@
             }
         ],
         "quantity": null,
+        "price": "32.00",
         "stockGlobal": "in stock"
     },
     {
@@ -262,6 +271,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -296,6 +306,7 @@
             }
         ],
         "quantity": null,
+        "price": "32.00",
         "stockGlobal": "in stock"
     },
     {
@@ -325,6 +336,7 @@
             }
         ],
         "quantity": null,
+        "price": "32.00",
         "stockGlobal": "in stock"
     },
     {
@@ -359,6 +371,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "in stock"
     },
     {
@@ -383,6 +396,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -417,6 +431,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -441,6 +456,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -465,6 +481,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -494,6 +511,7 @@
             }
         ],
         "quantity": null,
+        "price": "32.00",
         "stockGlobal": "in stock"
     },
     {
@@ -528,6 +546,7 @@
             }
         ],
         "quantity": null,
+        "price": "29.00",
         "stockGlobal": "out of stock"
     },
     {
@@ -552,6 +571,7 @@
             }
         ],
         "quantity": null,
+        "price": "27.00",
         "stockGlobal": "in stock"
     },
     {
@@ -591,6 +611,7 @@
             }
         ],
         "quantity": null,
+        "price": "59.00",
         "stockGlobal": "in stock"
     },
     {
@@ -599,6 +620,7 @@
         "gender": "",
         "sizes": null,
         "quantity": 1,
+        "price": "19.00",
         "stockStatus": "in stock",
         "stockGlobal": "in stock"
     },
@@ -608,6 +630,7 @@
         "gender": "",
         "sizes": null,
         "quantity": 2,
+        "price": "19.00",
         "stockStatus": "in stock",
         "stockGlobal": "in stock"
     },
@@ -617,6 +640,7 @@
         "gender": "",
         "sizes": null,
         "quantity": 2,
+        "price": "19.00",
         "stockStatus": "in stock",
         "stockGlobal": "in stock"
     },
@@ -626,6 +650,7 @@
         "gender": "",
         "sizes": null,
         "quantity": 0,
+        "price": "15.00",
         "stockStatus": "out of stock",
         "stockGlobal": "out of stock"
     },
@@ -651,6 +676,7 @@
             }
         ],
         "quantity": null,
+        "price": "37.00",
         "stockGlobal": "in stock"
     }
 ]
