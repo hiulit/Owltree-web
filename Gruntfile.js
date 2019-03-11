@@ -348,6 +348,7 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean',
+      'shell:get-stock',
       'stylus',
       'json_bake',
       'bake',
