@@ -20,6 +20,13 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="{{globalMetas.author}}">
 
+    <!--(bake-start _if="child.gender")-->
+    <link rel="canonical" href="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" />
+    <!--(bake-end)-->
+    <!--(bake-start _if="!child.gender")-->
+    <link rel="canonical" href="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}.html" />
+    <!--(bake-end)-->
+
     <!-- For IE 10 and below -->
     <!-- Place favicon.ico in the root directory - no tag necessary -->
 

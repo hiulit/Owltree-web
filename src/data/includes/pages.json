@@ -3,7 +3,6 @@
     "id": "home",
     "metas": {
       "description": "100% vegan goods. Harming no one in the process. For those who don't want to harm anyone but still want to look stylish. Everything at Owltree is designed, customised, printed and finished in Barcelona.",
-      "share-image": "assets/logos/owltree-share-image.jpg",
       "title": "Owltree - Vegan Apparel"
     },
     "parent": "pages",
@@ -13,7 +12,6 @@
     "id": "products",
     "metas": {
       "description": "Check out our Sweatshirts, t-shirts, dresses, tote bags and mugs! 100% vegan goods. Harming no one in the process. Everything at Owltree is designed, customised, printed and finished in Barcelona.",
-      "share-image": "assets/logos/owltree-share-image.jpg",
       "title": "Products | Owltree - Vegan Apparel"
     },
     "parent": "pages",
@@ -23,7 +21,6 @@
     "id": "sitemap",
     "metas": {
       "description": "Sitemap",
-      "share-image": "assets/logos/owltree-share-image.jpg",
       "title": "Sitemap | Owltree - Vegan Apparel"
     },
     "parent": "pages",
@@ -33,7 +30,6 @@
     "id": "notfound",
     "metas": {
       "description": "Not found",
-      "share-image": "assets/logos/owltree-share-image.jpg",
       "title": "Not found | Owltree - Vegan Apparel"
     },
     "parent": "pages",
