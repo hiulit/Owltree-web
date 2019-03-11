@@ -3,7 +3,7 @@
 *.sh
 .ftppass
 .tmp/
-APIKeys.js
+.APIKeys.js
 bower_components/
 dist/
 node_modules/
