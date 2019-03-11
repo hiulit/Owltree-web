@@ -1,8 +1,10 @@
 *.DS_Store
 *.log
 *.sh
+.ftppass
 .tmp/
 APIKeys.js
 bower_components/
 dist/
 node_modules/
+sftpCache.json

@@ -1,5 +1,6 @@
 'use strict'
 
+const APIKeys = require('./APIKeys')
 var LIVERELOAD_PORT = 35730
 var SERVER_PORT = 9001
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT })
@@ -294,6 +295,10 @@ module.exports = function (grunt) {
                   value: 'build'
                 },
                 {
+                  name: 'Deploy to server [> grunt deploy]',
+                  value: 'deploy'
+                },
+                {
                   name: 'Update stock JSON [> grunt get-stock]',
                   value: 'get-stock'
                 }
@@ -306,6 +311,26 @@ module.exports = function (grunt) {
     shell: {
       'get-stock': {
         command: 'node get-stock.js'
+      }
+    },
+    'sftp-deploy': {
+      build: {
+        auth: {
+          host: APIKeys.sftp.host,
+          port: 22,
+          authKey: 'privateKey'
+        },
+        cache: 'sftpCache.json',
+        src: '<%= config.dist %>',
+        dest: APIKeys.sftp.dest,
+        exclusions: [
+          '<%= config.dist %>/**/.DS_Store',
+          '<%= config.dist %>/**/Thumbs.db'
+        ],
+        serverSep: '/',
+        localSep: '/',
+        concurrency: 4,
+        progress: true
       }
     }
   })
@@ -321,7 +346,6 @@ module.exports = function (grunt) {
   grunt.registerTask('default', function (target) {
     // grunt.task.run(['tasks'])
     grunt.task.run(['prompt', 'what-to-do'])
-
   })
 
   grunt.registerTask('local', function (target) {
@@ -363,6 +387,14 @@ module.exports = function (grunt) {
       'connect:livereload',
       'watch'
     ])
+  })
+
+  grunt.registerTask('deploy', function (target) {
+    if (typeof target === 'undefined') {
+      target = 'deploy'
+    }
+
+    grunt.task.run(['sftp-deploy'])
   })
 
   grunt.registerTask('get-stock', function (target) {
