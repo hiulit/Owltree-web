@@ -310,16 +310,18 @@ module.exports = function (grunt) {
     }
   })
 
-  grunt.registerTask('tasks', function () {
-    grunt.task.run(['prompt', 'what-to-do'])
-  })
+  // grunt.registerTask('tasks', function () {
+  //   grunt.task.run(['prompt', 'what-to-do'])
+  // })
 
   grunt.registerTask('what-to-do', function (a, b) {
     grunt.task.run([grunt.config('what-to-do')])
   })
 
   grunt.registerTask('default', function (target) {
-    grunt.task.run(['tasks'])
+    // grunt.task.run(['tasks'])
+    grunt.task.run(['prompt', 'what-to-do'])
+
   })
 
   grunt.registerTask('local', function (target) {
