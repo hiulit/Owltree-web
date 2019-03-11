@@ -1,4 +1,4 @@
-const APIKeys = require('./APIKeys')
+const APIKeys = require('./.APIKeys')
 const fs = require('fs')
 const merge = require('deepmerge')
 const rp = require('request-promise')

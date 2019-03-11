@@ -1,6 +1,6 @@
 'use strict'
 
-const APIKeys = require('./APIKeys')
+const APIKeys = require('./.APIKeys')
 var LIVERELOAD_PORT = 35730
 var SERVER_PORT = 9001
 var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT })
