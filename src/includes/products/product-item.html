@@ -1,33 +1,48 @@
 <!--(bake /includes/products/product-item-header.html globalMetas="{{!globalMetas}}")-->
 <section class="section">
     <div class="wrapper" itemscope itemtype="http://schema.org/Product">
+        <!--(bake-start _if="parent.id == 'sweatshirts'")-->
+        <meta itemprop="sku" itemptype="https://schema.org/sku" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+        <!--(bake-end)-->
+        <!--(bake-start _if="parent.id == 't-shirts'")-->
+        <meta itemprop="sku" itemptype="https://schema.org/sku" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+        <!--(bake-end)-->
+        <!--(bake-start _if="parent.id == 'dresses'")-->
+        <meta itemprop="sku" itemptype="https://schema.org/sku" content="{{parent.id}}-{{child.id}}-{{child.gender}}-{{child.color}}">
+        <!--(bake-end)-->
+        <!--(bake-start _if="parent.id == 'tote-bags'")-->
+        <meta itemprop="sku" itemptype="https://schema.org/sku" content="{{parent.id}}-{{child.id}}-{{child.color}}">
+        <!--(bake-end)-->
+        <!--(bake-start _if="parent.id == 'mugs'")-->
+        <meta itemprop="sku" itemptype="https://schema.org/sku" content="{{parent.id}}-{{child.id}}">
+        <!--(bake-end)-->
         <div class="product__header">
             <ul class="breadcrumbs breadcrumbs--slash" itemscope itemtype="http://schema.org/BreadcrumbList">
                 <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="/" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                    <a href="/" itemprop="item">
                         <span itemprop="name">{{pages.home.title | capitalize}}</span>
                     </a>
                     <meta itemprop="position" content="1" />
                 </li>
                 <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="/{{parent.parent}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                    <a href="/{{parent.parent}}" itemprop="item">
                         <span itemprop="name">{{parent.parent | capitalize}}</span>
                     </a>
                     <meta itemprop="position" content="2" />
                 </li>
                 <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="/{{parent.parent}}/{{parent.id}}" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                    <a href="/{{parent.parent}}/{{parent.id}}" itemprop="item">
                         <span itemprop="name">{{parent.title | capitalize}}</span>
                     </a>
                     <meta itemprop="position" content="3" />
                 </li>
                 <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" style="display: none;">
                     <!--(bake-start _if="child.gender")-->
-                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" itemprop="item">
                         <span itemprop="name">{{child.model | capitalize}} - {{child.gender | capitalize}}</span>
                     <!--(bake-end)-->
                     <!--(bake-start _if="!child.gender")-->
-                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html" itemscope itemtype="http://schema.org/Thing" itemprop="item">
+                    <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}.html" itemprop="item">
                         <span itemprop="name">{{child.model | capitalize}}</span>
                     <!--(bake-end)-->
                     </a>
@@ -79,13 +94,21 @@
             <div class="grid__item grid__item--1-3">
                 <div class="product__tag">
                     <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                        <link itemprop="url" href="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" />
                         <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
+                        <meta itemprop="priceValidUntil" content="2030-01-01" />
                         <span itemprop="priceCurrency" content="EUR">€</span>
                         <!--(bake-start _if="child.stockGlobal == 'out of stock'")-->
-                        <span class="product__stock product__stock--no-stock" itemprop="availability">{{child.stockGlobal}}</span>
+                        <span class="product__stock product__stock--no-stock">
+                            <link itemprop="availability" href="http://schema.org/OutOfStock" />
+                            {{child.stockGlobal}}
+                        </span>
                         <!--(bake-end)-->
                         <!--(bake-start _if="child.stockGlobal != 'out of stock'")-->
-                        <span class="product__stock" itemprop="availability">{{child.stockGlobal}}</span>
+                        <span class="product__stock">
+                            <link itemprop="availability" href="http://schema.org/InStock" />
+                            {{child.stockGlobal}}
+                        </span>
                         <!--(bake-end)-->
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
@@ -224,4 +247,4 @@
         <!--(bake-end)-->
     </div>
 </section>
-<!--(bake /includes/footer.html)-->
+<!--(bake /includes/footer.html globalMetas="{{!globalMetas}}")-->
