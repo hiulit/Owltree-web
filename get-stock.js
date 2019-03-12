@@ -168,7 +168,17 @@ rp(options)
                   product['stockGlobal'] = 'in stock'
                 }
               }
-              stockArray.push(product)
+
+              // Sort keys alphabetically
+              var sortedProduct = Object.keys(product)
+                .sort()
+                .reduce(function (result, key) {
+                  return Object.assign({}, result, {
+                    [key]: product[key]
+                  })
+                }, {})
+
+              stockArray.push(sortedProduct)
             }
             console.log('Stock received successfully!')
             fs.writeFile(

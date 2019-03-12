@@ -26,14 +26,14 @@
       "new": false,
       "noshow": false,
       "soon": false,
-      "parentId": "tote-bags",
-      "model": "Rights And Wrongs",
       "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
-      "sizes": null,
-      "quantity": 0,
+      "model": "Rights And Wrongs",
+      "parentId": "tote-bags",
       "price": "15.00",
-      "stockStatus": "out of stock",
-      "stockGlobal": "out of stock"
+      "quantity": 0,
+      "sizes": null,
+      "stockGlobal": "out of stock",
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",

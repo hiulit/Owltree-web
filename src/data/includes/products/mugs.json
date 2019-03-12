@@ -31,14 +31,14 @@
       "new": false,
       "noshow": false,
       "soon": false,
-      "parentId": "mugs",
-      "model": "Too Late",
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-too-late",
-      "sizes": null,
-      "quantity": 2,
+      "model": "Too Late",
+      "parentId": "mugs",
       "price": "19.00",
-      "stockStatus": "in stock",
-      "stockGlobal": "in stock"
+      "quantity": 2,
+      "sizes": null,
+      "stockGlobal": "in stock",
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -50,14 +50,14 @@
       "new": false,
       "noshow": false,
       "soon": false,
-      "parentId": "mugs",
-      "model": "Mountain",
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-mountain",
-      "sizes": null,
-      "quantity": 1,
+      "model": "Mountain",
+      "parentId": "mugs",
       "price": "19.00",
-      "stockStatus": "in stock",
-      "stockGlobal": "in stock"
+      "quantity": 1,
+      "sizes": null,
+      "stockGlobal": "in stock",
+      "stockStatus": "in stock"
     },
     {
       "collection": "",
@@ -69,14 +69,14 @@
       "new": false,
       "noshow": false,
       "soon": false,
-      "parentId": "mugs",
-      "model": "Sea",
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-sea",
-      "sizes": null,
-      "quantity": 2,
+      "model": "Sea",
+      "parentId": "mugs",
       "price": "19.00",
-      "stockStatus": "in stock",
-      "stockGlobal": "in stock"
+      "quantity": 2,
+      "sizes": null,
+      "stockGlobal": "in stock",
+      "stockStatus": "in stock"
     },
     {
       "collection": "",

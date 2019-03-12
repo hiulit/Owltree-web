@@ -26,9 +26,11 @@
       "new": false,
       "noshow": false,
       "soon": false,
-      "parentId": "sweatshirts",
-      "model": "Save The Animals",
       "link": "https://amapolaveganshop.com/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
+      "model": "Save The Animals",
+      "parentId": "sweatshirts",
+      "price": "59.00",
+      "quantity": null,
       "sizes": [
         {
           "size": "XS",
@@ -61,8 +63,6 @@
           "stockStatus": "out of stock"
         }
       ],
-      "quantity": null,
-      "price": "59.00",
       "stockGlobal": "in stock"
     }
   ]

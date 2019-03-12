@@ -1,10 +1,12 @@
 [
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "compassion",
-    "model": "Compassion",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-compassion",
-    "gender": "women",
+    "model": "Compassion",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -22,16 +24,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "pigeon",
-    "model": "Pigeon",
     "link": "https://amapolaveganshop.com/products/camiseta-mujer-de-owltree-vegan-apparel-pigeon",
-    "gender": "women",
+    "model": "Pigeon",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -54,16 +56,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "plant-based",
-    "model": "Plant Based",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-plant-based",
-    "gender": "women",
+    "model": "Plant Based",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -81,16 +83,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "rat",
-    "model": "Rat",
     "link": "https://amapolaveganshop.com/products/camiseta-mujer-de-owltree-vegan-apparel-rat",
-    "gender": "women",
+    "model": "Rat",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -113,16 +115,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "rights-and-wrongs",
-    "model": "Rights And Wrongs",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-and-wrongs",
-    "gender": "women",
+    "model": "Rights And Wrongs",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -140,16 +142,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "women",
     "id": "sorry",
-    "model": "Sorry",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-sorry",
-    "gender": "women",
+    "model": "Sorry",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -167,16 +169,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "wild-boar",
-    "model": "Wild Boar",
-    "link": "https://amapolaveganshop.com/products/camiseta-mujer-de-owltree-vegan-apparel-wild-boar",
     "gender": "women",
+    "id": "wild-boar",
+    "link": "https://amapolaveganshop.com/products/camiseta-mujer-de-owltree-vegan-apparel-wild-boar",
+    "model": "Wild Boar",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -199,16 +201,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "wonderful",
-    "model": "Wonderful",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
     "gender": "women",
+    "id": "wonderful",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-wonderful",
+    "model": "Wonderful",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -226,16 +228,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "animals-have-feelings",
-    "model": "Animals Have Feelings",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-animals-have-feelings",
     "gender": "unisex",
+    "id": "animals-have-feelings",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-animals-have-feelings",
+    "model": "Animals Have Feelings",
+    "parentId": "t-shirts",
+    "price": "32.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "XS",
@@ -263,16 +265,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "32.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "compassion",
-    "model": "Compassion",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
     "gender": "unisex",
+    "id": "compassion",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-compassion",
+    "model": "Compassion",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -290,16 +292,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "dont-use-animals",
-    "model": "Dont Use Animals",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-dont-use-animals",
     "gender": "unisex",
+    "id": "dont-use-animals",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-dont-use-animals",
+    "model": "Dont Use Animals",
+    "parentId": "t-shirts",
+    "price": "32.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "XS",
@@ -327,16 +329,16 @@
         "stockStatus": "in stock"
       }
     ],
-    "quantity": null,
-    "price": "32.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "meat-is-death",
-    "model": "Meat Is Death",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-meat-is-death",
     "gender": "unisex",
+    "id": "meat-is-death",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-meat-is-death",
+    "model": "Meat Is Death",
+    "parentId": "t-shirts",
+    "price": "32.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -359,16 +361,16 @@
         "stockStatus": "in stock"
       }
     ],
-    "quantity": null,
-    "price": "32.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "unisex",
     "id": "pigeon",
-    "model": "Pigeon",
     "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-pigeon",
-    "gender": "unisex",
+    "model": "Pigeon",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -396,16 +398,16 @@
         "stockStatus": "in stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "plant-based",
-    "model": "Plant Based",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
     "gender": "unisex",
+    "id": "plant-based",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-plant-based",
+    "model": "Plant Based",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -423,16 +425,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "rat",
-    "model": "Rat",
-    "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-rat",
     "gender": "unisex",
+    "id": "rat",
+    "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-rat",
+    "model": "Rat",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -460,16 +462,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "unisex",
     "id": "rights-and-wrongs",
-    "model": "Rights And Wrongs",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-rights-and-wrongs",
-    "gender": "unisex",
+    "model": "Rights And Wrongs",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -487,16 +489,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
+    "gender": "unisex",
     "id": "sorry",
-    "model": "Sorry",
     "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-sorry",
-    "gender": "unisex",
+    "model": "Sorry",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -514,16 +516,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "tofu-killers",
-    "model": "Tofu Killers",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-tofu-killers",
     "gender": "unisex",
+    "id": "tofu-killers",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-tofu-killers",
+    "model": "Tofu Killers",
+    "parentId": "t-shirts",
+    "price": "32.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -546,16 +548,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "32.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "wild-boar",
-    "model": "Wild Boar",
-    "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-wild-boar",
     "gender": "unisex",
+    "id": "wild-boar",
+    "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-wild-boar",
+    "model": "Wild Boar",
+    "parentId": "t-shirts",
+    "price": "29.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "S",
@@ -583,16 +585,16 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "29.00",
     "stockGlobal": "out of stock"
   },
   {
-    "parentId": "t-shirts",
-    "id": "wonderful",
-    "model": "Wonderful",
-    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-wonderful",
     "gender": "unisex",
+    "id": "wonderful",
+    "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-wonderful",
+    "model": "Wonderful",
+    "parentId": "t-shirts",
+    "price": "27.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -610,16 +612,16 @@
         "stockStatus": "in stock"
       }
     ],
-    "quantity": null,
-    "price": "27.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "sweatshirts",
-    "id": "save-the-animals",
-    "model": "Save The Animals",
-    "link": "https://amapolaveganshop.com/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
     "gender": "unisex",
+    "id": "save-the-animals",
+    "link": "https://amapolaveganshop.com/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
+    "model": "Save The Animals",
+    "parentId": "sweatshirts",
+    "price": "59.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "XS",
@@ -652,64 +654,64 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "59.00",
     "stockGlobal": "in stock"
   },
   {
-    "parentId": "mugs",
+    "gender": "",
     "id": "mountain",
-    "model": "Mountain",
     "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-mountain",
-    "gender": "",
-    "sizes": null,
+    "model": "Mountain",
+    "parentId": "mugs",
+    "price": "19.00",
     "quantity": 1,
-    "price": "19.00",
-    "stockStatus": "in stock",
-    "stockGlobal": "in stock"
+    "sizes": null,
+    "stockGlobal": "in stock",
+    "stockStatus": "in stock"
   },
   {
-    "parentId": "mugs",
+    "gender": "",
     "id": "sea",
-    "model": "Sea",
     "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-sea",
-    "gender": "",
-    "sizes": null,
-    "quantity": 2,
-    "price": "19.00",
-    "stockStatus": "in stock",
-    "stockGlobal": "in stock"
-  },
-  {
+    "model": "Sea",
     "parentId": "mugs",
-    "id": "too-late",
-    "model": "Too Late",
-    "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-too-late",
-    "gender": "",
-    "sizes": null,
-    "quantity": 2,
     "price": "19.00",
-    "stockStatus": "in stock",
-    "stockGlobal": "in stock"
-  },
-  {
-    "parentId": "tote-bags",
-    "id": "rights-and-wrongs",
-    "model": "Rights And Wrongs",
-    "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
-    "gender": "",
+    "quantity": 2,
     "sizes": null,
-    "quantity": 0,
-    "price": "15.00",
-    "stockStatus": "out of stock",
-    "stockGlobal": "out of stock"
+    "stockGlobal": "in stock",
+    "stockStatus": "in stock"
   },
   {
-    "parentId": "dresses",
-    "id": "harm",
-    "model": "Harm",
-    "link": "https://amapolaveganshop.com/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
+    "gender": "",
+    "id": "too-late",
+    "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-too-late",
+    "model": "Too Late",
+    "parentId": "mugs",
+    "price": "19.00",
+    "quantity": 2,
+    "sizes": null,
+    "stockGlobal": "in stock",
+    "stockStatus": "in stock"
+  },
+  {
+    "gender": "",
+    "id": "rights-and-wrongs",
+    "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
+    "model": "Rights And Wrongs",
+    "parentId": "tote-bags",
+    "price": "15.00",
+    "quantity": 0,
+    "sizes": null,
+    "stockGlobal": "out of stock",
+    "stockStatus": "out of stock"
+  },
+  {
     "gender": "women",
+    "id": "harm",
+    "link": "https://amapolaveganshop.com/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
+    "model": "Harm",
+    "parentId": "dresses",
+    "price": "37.00",
+    "quantity": null,
     "sizes": [
       {
         "size": "M",
@@ -727,8 +729,6 @@
         "stockStatus": "out of stock"
       }
     ],
-    "quantity": null,
-    "price": "37.00",
     "stockGlobal": "in stock"
   }
 ]
