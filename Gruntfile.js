@@ -372,7 +372,6 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean',
-      'shell:get-stock',
       'stylus',
       'json_bake',
       'bake',
@@ -383,9 +382,7 @@ module.exports = function (grunt) {
       'cssmin',
       'htmlmin',
       'sitemaps',
-      'image',
-      'connect:livereload',
-      'watch'
+      'image'
     ])
   })
 
