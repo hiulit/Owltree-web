@@ -22,17 +22,13 @@
       "gender": "women",
       "id": "harm",
       "image": "assets/products/dresses/drss_harm.jpg",
-      "link": "https://amapolaveganshop.com/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
       "message": "Harm no one",
-      "model": "Harm",
       "new": false,
       "noshow": false,
-      "price": "37.00",
-      "quantity": null,
       "soon": false,
-      "stockStatus": "in stock",
       "parentId": "dresses",
-      "stockGlobal": "in stock",
+      "model": "Harm",
+      "link": "https://amapolaveganshop.com/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
       "sizes": [
         {
           "size": "M",
@@ -49,7 +45,10 @@
           "stock": 0,
           "stockStatus": "out of stock"
         }
-      ]
+      ],
+      "quantity": null,
+      "price": "37.00",
+      "stockGlobal": "in stock"
     }
   ]
 }

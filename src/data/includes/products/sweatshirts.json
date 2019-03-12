@@ -23,15 +23,12 @@
       "id": "save-the-animals",
       "image": "assets/products/sweatshirts/sweatshirt_saveanimals.jpg",
       "message": "Wake up and save the animals",
-      "model": "Save The Animals",
       "new": false,
       "noshow": false,
       "soon": false,
       "parentId": "sweatshirts",
+      "model": "Save The Animals",
       "link": "https://amapolaveganshop.com/products/sudadera-unisex-owltree-vegan-apparel-save-the-animals",
-      "quantity": null,
-      "price": "59.00",
-      "stockGlobal": "in stock",
       "sizes": [
         {
           "size": "XS",
@@ -63,7 +60,10 @@
           "stock": 0,
           "stockStatus": "out of stock"
         }
-      ]
+      ],
+      "quantity": null,
+      "price": "59.00",
+      "stockGlobal": "in stock"
     }
   ]
 }
