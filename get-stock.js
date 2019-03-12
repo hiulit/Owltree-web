@@ -2,9 +2,7 @@ const APIKeys = require('./.APIKeys')
 const fs = require('fs')
 const merge = require('deepmerge')
 const rp = require('request-promise')
-const overwriteMerge = (destinationArray, sourceArray, options) => sourceArray
-
-url =
+const url =
   'https://' + APIKeys.apikey + ':' + APIKeys.password + '@' + APIKeys.hostname
 
 let JSONArray = []
@@ -12,17 +10,23 @@ let JSONOutput = 'src/data/includes/stock.json'
 let OwltreeArray = []
 let stockArray = []
 
-let dressesPath = 'src/data/includes/products/dresses.json'
-let mugsPath = 'src/data/includes/products/mugs.json'
-let sweatshirtsPath = 'src/data/includes/products/sweatshirts.json'
-let totebagsPath = 'src/data/includes/products/tote-bags.json'
-let tshirtsPath = 'src/data/includes/products/t-shirts.json'
+let baseDressesPath = 'src/data/includes/products/base/dresses.json'
+let baseMugsPath = 'src/data/includes/products/base/mugs.json'
+let baseSweatshirtsPath = 'src/data/includes/products/base/sweatshirts.json'
+let baseTotebagsPath = 'src/data/includes/products/base/tote-bags.json'
+let baseTshirtsPath = 'src/data/includes/products/base/t-shirts.json'
 
-let dressesJSON = JSON.parse(fs.readFileSync(dressesPath, 'utf8'))
-let mugsJSON = JSON.parse(fs.readFileSync(mugsPath, 'utf8'))
-let sweatshirtsJSON = JSON.parse(fs.readFileSync(sweatshirtsPath, 'utf8'))
-let totebagsJSON = JSON.parse(fs.readFileSync(totebagsPath, 'utf8'))
-let tshirtsJSON = JSON.parse(fs.readFileSync(tshirtsPath, 'utf8'))
+let baseDressesJSON = JSON.parse(fs.readFileSync(baseDressesPath, 'utf8'))
+let baseMugsJSON = JSON.parse(fs.readFileSync(baseMugsPath, 'utf8'))
+let baseSweatshirtsJSON = JSON.parse(fs.readFileSync(baseSweatshirtsPath, 'utf8'))
+let baseTotebagsJSON = JSON.parse(fs.readFileSync(baseTotebagsPath, 'utf8'))
+let baseTshirtsJSON = JSON.parse(fs.readFileSync(baseTshirtsPath, 'utf8'))
+
+let finalDressesPath = 'src/data/includes/products/dresses.json'
+let finalMugsPath = 'src/data/includes/products/mugs.json'
+let finalSweatshirtsPath = 'src/data/includes/products/sweatshirts.json'
+let finalTotebagsPath = 'src/data/includes/products/tote-bags.json'
+let finalTshirtsPath = 'src/data/includes/products/t-shirts.json'
 
 let options = {
   uri: url + '/admin/products/count.json',
@@ -30,6 +34,35 @@ let options = {
     'User-Agent': 'Request-Promise'
   },
   json: true
+}
+
+function createJSON (src, dest) {
+  fs.writeFile(dest, JSON.stringify(src, null, 2), function (err) {
+    if (err) {
+      console.log(err)
+    } else {
+      console.log('\nJSON saved to "' + dest + '"')
+    }
+  })
+}
+
+function appendJSON (parentJSON, grandParentJSON) {
+  let baseJSON = parentJSON
+  let childrenArray = []
+  for (let j = 0; j < baseJSON.children.length; j++) {
+    let child = baseJSON.children[j]
+    if (child.id === grandParentJSON.id) {
+      if (child.gender === grandParentJSON.gender) {
+        Object.keys(grandParentJSON).forEach(function (k) {
+          child[k] = grandParentJSON[k]
+        })
+      }
+    }
+    childrenArray.push(child)
+  }
+  baseJSON.children = childrenArray
+
+  return baseJSON
 }
 
 function makeTitle (slug) {
@@ -82,24 +115,6 @@ rp(options)
                 parentId = 'tote-bags'
               }
               let id = response[i].product.handle.match(/(?<=apparel-)(.*)/)[0]
-              // if (id === 'animals-have-feelings') {
-              //   id = 'feelings'
-              // }
-              // if (id === 'dont-use-animals') {
-              //   id = 'dont-use'
-              // }
-              // if (id === 'meat-is-death') {
-              //   id = 'death'
-              // }
-              // if (id === 'tofu-killers') {
-              //   id = 'tofu'
-              // }
-              // if (id === 'save-the-animals') {
-              //   id = 'save-animals'
-              // }
-              // if (id === 'too-late') {
-              //   id = 'never-too-late'
-              // }
               let gender = response[i].product.product_type
               if (gender === 'Hombre, mujer') {
                 gender = 'unisex'
@@ -154,111 +169,7 @@ rp(options)
                 }
               }
               stockArray.push(product)
-
-              if (parentId == 'dresses') {
-                for (let i = 0; i < dressesJSON.children.length; i++) {
-                  let el = dressesJSON.children[i]
-                  if (el.id == product.id) {
-                    dressesJSON.children[i] = merge(el, product, {
-                      arrayMerge: overwriteMerge
-                    })
-                  }
-                }
-              }
-              if (parentId == 'mugs') {
-                for (let i = 0; i < mugsJSON.children.length; i++) {
-                  let el = mugsJSON.children[i]
-                  if (el.id == product.id) {
-                    mugsJSON.children[i] = merge(el, product, {
-                      arrayMerge: overwriteMerge
-                    })
-                  }
-                }
-              }
-              if (parentId == 'sweatshirts') {
-                for (let i = 0; i < sweatshirtsJSON.children.length; i++) {
-                  let el = sweatshirtsJSON.children[i]
-                  if (el.id == product.id) {
-                    sweatshirtsJSON.children[i] = merge(el, product, {
-                      arrayMerge: overwriteMerge
-                    })
-                  }
-                }
-              }
-              if (parentId == 'tote-bags') {
-                for (let i = 0; i < totebagsJSON.children.length; i++) {
-                  let el = totebagsJSON.children[i]
-                  if (el.id == product.id) {
-                    totebagsJSON.children[i] = merge(el, product, {
-                      arrayMerge: overwriteMerge
-                    })
-                  }
-                }
-              }
-              if (parentId == 't-shirts') {
-                for (let i = 0; i < tshirtsJSON.children.length; i++) {
-                  let el = tshirtsJSON.children[i]
-                  if (el.id == product.id) {
-                    tshirtsJSON.children[i] = merge(el, product, {
-                      arrayMerge: overwriteMerge
-                    })
-                  }
-                }
-              }
             }
-            fs.writeFile(
-              dressesPath,
-              JSON.stringify(dressesJSON, null, 2),
-              function (err) {
-                if (err) {
-                  console.log(err)
-                } else {
-                  console.log('\nJSON saved to "' + dressesPath + '"')
-                }
-              }
-            )
-            fs.writeFile(mugsPath, JSON.stringify(mugsJSON, null, 2), function (
-              err
-            ) {
-              if (err) {
-                console.log(err)
-              } else {
-                console.log('\nJSON saved to "' + mugsPath + '"')
-              }
-            })
-            fs.writeFile(
-              sweatshirtsPath,
-              JSON.stringify(sweatshirtsJSON, null, 2),
-              function (err) {
-                if (err) {
-                  console.log(err)
-                } else {
-                  console.log('\nJSON saved to "' + sweatshirtsPath + '"')
-                }
-              }
-            )
-            fs.writeFile(
-              totebagsPath,
-              JSON.stringify(totebagsJSON, null, 2),
-              function (err) {
-                if (err) {
-                  console.log(err)
-                } else {
-                  console.log('\nJSON saved to "' + totebagsPath + '"')
-                }
-              }
-            )
-            fs.writeFile(
-              tshirtsPath,
-              JSON.stringify(tshirtsJSON, null, 2),
-              function (err) {
-                if (err) {
-                  console.log(err)
-                } else {
-                  console.log('\nJSON saved to "' + tshirtsPath + '"')
-                }
-              }
-            )
             console.log('Stock received successfully!')
             fs.writeFile(
               JSONOutput,
@@ -268,6 +179,45 @@ rp(options)
                   console.log(err)
                 } else {
                   console.log('\nJSON saved to "' + JSONOutput + '"')
+                  for (let i = 0; i < stockArray.length; i++) {
+                    switch (stockArray[i].parentId) {
+                      case 'dresses':
+                        var finalDressesJSON = appendJSON(
+                          baseDressesJSON,
+                          stockArray[i]
+                        )
+                        break
+                      case 'mugs':
+                        var finalMugsJSON = appendJSON(
+                          baseMugsJSON,
+                          stockArray[i]
+                        )
+                        break
+                      case 'sweatshirts':
+                        var finalSweatshirtsJSON = appendJSON(
+                          baseSweatshirtsJSON,
+                          stockArray[i]
+                        )
+                        break
+                      case 't-shirts':
+                        var finalTshirtsJSON = appendJSON(
+                          baseTshirtsJSON,
+                          stockArray[i]
+                        )
+                        break
+                      case 'tote-bags':
+                        var finalTotebagsJSON = appendJSON(
+                          baseTotebagsJSON,
+                          stockArray[i]
+                        )
+                        break
+                    }
+                  }
+                  createJSON(finalDressesJSON, finalDressesPath)
+                  createJSON(finalMugsJSON, finalMugsPath)
+                  createJSON(finalSweatshirtsJSON, finalSweatshirtsPath)
+                  createJSON(finalTshirtsJSON, finalTshirtsPath)
+                  createJSON(finalTotebagsJSON, finalTotebagsPath)
                 }
               }
             )
