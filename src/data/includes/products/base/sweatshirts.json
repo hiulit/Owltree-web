@@ -1,0 +1,31 @@
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Designed and printed in Barcelona.",
+    "100% vegan goods. Harming no one in the process."
+  ],
+  "id": "sweatshirts",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
+  "parent": "products",
+  "title": "Sweatshirts",
+  "children": [
+    {
+      "collection": "",
+      "color": "burgundy",
+      "gender": "unisex",
+      "id": "save-the-animals",
+      "image": "assets/products/sweatshirts/sweatshirt_saveanimals.jpg",
+      "message": "Wake up and save the animals",
+      "new": false,
+      "noshow": false,
+      "soon": false
+    }
+  ]
+}

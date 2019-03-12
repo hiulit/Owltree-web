@@ -1,0 +1,260 @@
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Ethically manufactured.",
+    "Designed, printed and finished in Barcelona.",
+    "100% vegan goods. Harming no one in the process."
+  ],
+  "id": "t-shirts",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
+  "parent": "products",
+  "title": "T-shirts",
+  "children": [
+    {
+      "collection": "",
+      "color": "white",
+      "gender": "unisex",
+      "id": "meat-is-death",
+      "image": "assets/products/t-shirts/tsh_death.jpg",
+      "message": "Meat is Death",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "black",
+      "gender": "unisex",
+      "id": "dont-use-animals",
+      "image": "assets/products/t-shirts/tsh_dontuse.jpg",
+      "message": "Don't use animals",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "white",
+      "gender": "unisex",
+      "id": "tofu-killers",
+      "image": "assets/products/t-shirts/tsh_tofu.jpg",
+      "message": "Tofu killers",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "black",
+      "gender": "unisex",
+      "id": "animals-have-feelings",
+      "image": "assets/products/t-shirts/tsh_feelings.jpg",
+      "message": "Animals have feelings",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "khaki",
+      "gender": "women",
+      "id": "rat",
+      "image": "assets/products/t-shirts/tsh_rat_w.jpg",
+      "message": "Rat - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "khaki",
+      "gender": "unisex",
+      "id": "rat",
+      "image": "assets/products/t-shirts/tsh_rat.jpg",
+      "message": "Rat - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "navy",
+      "gender": "women",
+      "id": "pigeon",
+      "image": "assets/products/t-shirts/tsh_pigeon_w.jpg",
+      "message": "Pigeon - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "navy",
+      "gender": "unisex",
+      "id": "pigeon",
+      "image": "assets/products/t-shirts/tsh_pigeon.jpg",
+      "message": "Pigeon - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "chocolate",
+      "gender": "women",
+      "id": "wild-boar",
+      "image": "assets/products/t-shirts/tsh_wild-boar_w.jpg",
+      "message": "Wild boar - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "The Plague",
+      "color": "chocolate",
+      "gender": "unisex",
+      "id": "wild-boar",
+      "image": "assets/products/t-shirts/tsh_wild-boar.jpg",
+      "message": "Wild boar - They were here first",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "rights-and-wrongs",
+      "image": "assets/products/t-shirts/tsh_rightswrongs_w.jpg",
+      "message": "Let's talk about animal rights and human wrongs",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "rights-and-wrongs",
+      "image": "assets/products/t-shirts/tsh_rightswrongs.jpg",
+      "message": "Let's talk about animal rights and human wrongs",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "women",
+      "id": "plant-based",
+      "image": "assets/products/t-shirts/tsh_plantbased_w.jpg",
+      "message": "Plant Based",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "plant-based",
+      "image": "assets/products/t-shirts/tsh_plantbased.jpg",
+      "message": "Plant Based",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "women",
+      "id": "compassion",
+      "image": "assets/products/t-shirts/tsh_compassion_w.jpg",
+      "message": "Compassion over fashion",
+      "new": false,
+      "noshow": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "compassion",
+      "image": "assets/products/t-shirts/tsh_compassion.jpg",
+      "message": "Compassion over fashion",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "women",
+      "id": "wonderful",
+      "image": "assets/products/t-shirts/tsh_wonderful_w.jpg",
+      "message": "Every living being is wonderful",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "wonderful",
+      "image": "assets/products/t-shirts/tsh_wonderful.jpg",
+      "message": "Every living being is wonderful",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "women",
+      "id": "sorry",
+      "image": "assets/products/t-shirts/tsh_sorry_w.jpg",
+      "message": "Don't be sorry, do something",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    },
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "sorry",
+      "image": "assets/products/t-shirts/tsh_sorry.jpg",
+      "message": "Don't be sorry, do something",
+      "new": false,
+      "noshow": false,
+      "organic": false,
+      "soon": false
+    }
+  ]
+}
