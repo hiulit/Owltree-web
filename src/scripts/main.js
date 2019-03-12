@@ -30,7 +30,7 @@ var slideshowRun = function() {
 
 slideshowRun();
 
-var realtedProductsCarouselRun = function(numItemsToShow) {
+var relatedProductsCarouselRun = function(numItemsToShow) {
   var relatedProductsWrapper = $('.js-carousel-wrapper')
   var relatedProductsList = $('.js-carousel-list')
   var relatedProductsItem = $('.js-carousel-item')
@@ -54,8 +54,8 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   }
 
   $('.js-carousel-arrow-prev').click(function(e) {
-    console.log('prev')
     $('.js-carousel-arrow-next').removeClass('is-disabled')
+    console.log(offsetX)
     if (offsetX < 0) {
       offsetX = offsetX + relatedProductsItemWidth
       relatedProductsList.css('transform', 'translateX(' + offsetX +'px)')
@@ -79,23 +79,24 @@ var realtedProductsCarouselRun = function(numItemsToShow) {
   })
 }
 
-var responsiveRealtedProductsCarouselRun = function() {
-  if (window.innerWidth <= 320) {
-    realtedProductsCarouselRun(1);
+var responsiveRelatedProductsCarouselRun = function() {
+  if (window.innerWidth <= 319) {
+    relatedProductsCarouselRun(1);
   }
-  if (window.innerWidth >= 320) {
-    realtedProductsCarouselRun(2);
+  if (window.innerWidth > 320 && window.innerWidth < 767) {
+    console.log('resize')
+    relatedProductsCarouselRun(2);
   }
-  if (window.innerWidth >= 768) {
-    realtedProductsCarouselRun(3);
+  if (window.innerWidth > 768 && window.innerWidth < 1023) {
+    relatedProductsCarouselRun(3);
   }
   if (window.innerWidth >= 1024) {
-    realtedProductsCarouselRun(4);
+    relatedProductsCarouselRun(4);
   }
 }
 
-realtedProductsCarouselRun();
-responsiveRealtedProductsCarouselRun();
+relatedProductsCarouselRun();
+responsiveRelatedProductsCarouselRun();
 
 var userFeed = new Instafeed({
   get: 'user',
@@ -158,5 +159,5 @@ $('#contact-form').on("submit", function(e) {
 
 window.onresize = function() {
   console.log(window.innerWidth)
-  responsiveRealtedProductsCarouselRun();
+  responsiveRelatedProductsCarouselRun();
 }
