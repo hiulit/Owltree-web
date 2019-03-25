@@ -246,13 +246,13 @@
       },
       {
         "size": "S",
-        "stock": 4,
+        "stock": 3,
         "stockStatus": "in stock"
       },
       {
         "size": "M",
-        "stock": 0,
-        "stockStatus": "out of stock"
+        "stock": 1,
+        "stockStatus": "in stock"
       },
       {
         "size": "L",
