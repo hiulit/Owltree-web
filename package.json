@@ -25,7 +25,7 @@
   "devDependencies": {
     "connect-livereload": "^0.6.1",
     "deepmerge": "^3.2.0",
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-bake": "^1.9.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
