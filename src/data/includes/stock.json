@@ -241,7 +241,7 @@
     "sizes": [
       {
         "size": "XS",
-        "stock": 3,
+        "stock": 2,
         "stockStatus": "in stock"
       },
       {
@@ -625,8 +625,8 @@
     "sizes": [
       {
         "size": "XS",
-        "stock": 1,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "S",
