@@ -140,7 +140,7 @@
     {
       "collection": "",
       "color": "grey",
-      "gender": "unisex",
+      "gender": "women",
       "id": "rights-and-wrongs",
       "image": "assets/products/t-shirts/tsh_rightswrongs_w.jpg",
       "message": "Let's talk about animal rights and human wrongs",
@@ -158,7 +158,7 @@
       "message": "Let's talk about animal rights and human wrongs",
       "new": false,
       "noshow": false,
-      "organic": false,
+      "organic": true,
       "soon": false
     },
     {

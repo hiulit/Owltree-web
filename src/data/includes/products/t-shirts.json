@@ -450,7 +450,7 @@
     {
       "collection": "",
       "color": "grey",
-      "gender": "unisex",
+      "gender": "women",
       "id": "rights-and-wrongs",
       "image": "assets/products/t-shirts/tsh_rightswrongs_w.jpg",
       "message": "Let's talk about animal rights and human wrongs",
@@ -458,39 +458,29 @@
       "noshow": false,
       "organic": false,
       "soon": false,
-      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-rights-and-wrongs",
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-mujer-owltree-vegan-apparel-rights-and-wrongs",
       "model": "Rights And Wrongs",
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
       "sizes": [
         {
-          "size": "XS",
-          "stock": 10,
-          "stockStatus": "in stock"
-        },
-        {
-          "size": "S",
-          "stock": 10,
-          "stockStatus": "in stock"
-        },
-        {
           "size": "M",
-          "stock": 15,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
           "size": "L",
-          "stock": 14,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
           "size": "XL",
-          "stock": 5,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         }
       ],
-      "stockGlobal": "in stock"
+      "stockGlobal": "out of stock"
     },
     {
       "collection": "",
@@ -501,7 +491,7 @@
       "message": "Let's talk about animal rights and human wrongs",
       "new": false,
       "noshow": false,
-      "organic": false,
+      "organic": true,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-rights-and-wrongs",
       "model": "Rights And Wrongs",
