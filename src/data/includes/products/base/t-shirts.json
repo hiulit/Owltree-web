@@ -24,7 +24,7 @@
       "id": "meat-is-death",
       "image": "assets/products/t-shirts/tsh_death.jpg",
       "message": "Meat is Death",
-      "new": true,
+      "new": false,
       "noshow": false,
       "organic": true,
       "soon": false
@@ -36,7 +36,7 @@
       "id": "dont-use-animals",
       "image": "assets/products/t-shirts/tsh_dontuse.jpg",
       "message": "Don't use animals",
-      "new": true,
+      "new": false,
       "noshow": false,
       "organic": true,
       "soon": false
@@ -48,7 +48,7 @@
       "id": "tofu-killers",
       "image": "assets/products/t-shirts/tsh_tofu.jpg",
       "message": "Tofu killers",
-      "new": true,
+      "new": false,
       "noshow": false,
       "organic": true,
       "soon": false
@@ -60,7 +60,7 @@
       "id": "animals-have-feelings",
       "image": "assets/products/t-shirts/tsh_feelings.jpg",
       "message": "Animals have feelings",
-      "new": true,
+      "new": false,
       "noshow": false,
       "organic": true,
       "soon": false
@@ -156,7 +156,7 @@
       "id": "rights-and-wrongs",
       "image": "assets/products/t-shirts/tsh_rightswrongs.jpg",
       "message": "Let's talk about animal rights and human wrongs",
-      "new": false,
+      "new": true,
       "noshow": false,
       "organic": true,
       "soon": false
