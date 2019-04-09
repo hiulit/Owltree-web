@@ -19,6 +19,18 @@
   "children": [
     {
       "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "save-the-animals",
+      "image": "assets/products/t-shirts/tsh_saveanimals.jpg",
+      "message": "Wake up and save the animals",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "",
       "color": "white",
       "gender": "unisex",
       "id": "meat-is-death",
@@ -136,7 +148,7 @@
         },
         {
           "size": "L",
-          "stock": 15,
+          "stock": 14,
           "stockStatus": "in stock"
         },
         {
