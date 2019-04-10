@@ -1,23 +1,27 @@
 .hero
     color: $primary-font-color
-    font-family: 'Miglia-Fur', sans-serif
+    font-family: "Miglia-Fur", sans-serif
     left: $wrapper-padding
     position: absolute
     right: $wrapper-padding
-    text-shadow: 0px 0px 10px #fff
+    text-shadow: 0 0 10px #fff
     top: 50%
     transform: translateY(-50%)
+
     +m-breakpoint(xmd)
-        max-width: 60%
         left: ($wrapper-padding * 2)
+        max-width: 60%
         right: ($wrapper-padding * 2)
+
     +m-breakpoint(xxmd)
         max-width: 40%
+
     +m-breakpoint(lg)
         max-width: 60%
 
     .section--1 &
         transform: "translateY(calc(-50% + %s / 2))" % $header-height-mobile
+
         +m-breakpoint(md)
             transform: "translateY(calc(-50% + %s / 2))" % $header-height
 
@@ -25,28 +29,31 @@
     margin-bottom: 20px
 
 // .hero__title
-
 .hero__title__text
     border-bottom: 2px solid
     display: inline-block
     font-size: 40px
     line-height: 1
     margin-bottom: 20px
+
     +m-breakpoint(xmd)
         font-size: 70px
+
     +m-breakpoint(lg)
         font-size: 100px
 
 // .hero__subtitle
-
 .hero__subtitle__text
     font-size: 16px
     line-height: 1.2
     text-transform: uppercase
+
     &:not(:last-child)
         margin-bottom: 10px
+
     +m-breakpoint(md)
         font-size: 20px
+
     +m-breakpoint(lg)
         font-size: 30px
 
@@ -55,15 +62,24 @@
     line-height: 1
     margin: 0
     text-transform: uppercase
+
+    .section--1 &
+        font-size: 30px
+
     +m-breakpoint(md)
         font-size: 30px
+
+        .section--1 &
+            font-size: 40px
+
     +m-breakpoint(lg)
         font-size: 40px
+
+        .section--1 &
+            font-size: 50px
 
 .hero__blockquote__text
     margin-top: 0
 
 .hero__blockquote__footer
     font-size: 20px
-
-// .hero__blockquote__footer__cite
