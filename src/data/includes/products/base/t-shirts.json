@@ -25,7 +25,7 @@
       "image": "assets/products/t-shirts/tsh_saveanimals.jpg",
       "message": "Wake up and save the animals",
       "new": true,
-      "noshow": false,
+      "noshow": true,
       "organic": true,
       "soon": false
     },
