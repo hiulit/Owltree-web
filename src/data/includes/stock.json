@@ -32,7 +32,7 @@
     "link": "https://amapolaveganshop.com/products/camiseta-mujer-de-owltree-vegan-apparel-pigeon",
     "model": "Pigeon",
     "parentId": "t-shirts",
-    "price": "29.00",
+    "price": "20.00",
     "quantity": null,
     "sizes": [
       {
@@ -52,11 +52,16 @@
       },
       {
         "size": "XL",
+        "stock": 1,
+        "stockStatus": "in stock"
+      },
+      {
+        "size": "XXL",
         "stock": 0,
         "stockStatus": "out of stock"
       }
     ],
-    "stockGlobal": "out of stock"
+    "stockGlobal": "in stock"
   },
   {
     "gender": "women",
@@ -342,8 +347,8 @@
     "sizes": [
       {
         "size": "S",
-        "stock": 1,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "M",
@@ -369,7 +374,7 @@
     "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-pigeon",
     "model": "Pigeon",
     "parentId": "t-shirts",
-    "price": "29.00",
+    "price": "20.00",
     "quantity": null,
     "sizes": [
       {
