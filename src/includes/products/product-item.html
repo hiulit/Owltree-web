@@ -95,20 +95,25 @@
                 <div class="product__tag">
                     <div class="product-tag__item product__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                         <link itemprop="url" href="{{globalMetas.url}}/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html" />
-                        <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
-                        <meta itemprop="priceValidUntil" content="2030-01-01" />
-                        <span itemprop="priceCurrency" content="EUR">€</span>
+                        <div>
+                            <span itemprop="price" content="{{child.price}}">{{child.price}}</span>
+                            <meta itemprop="priceValidUntil" content="2030-01-01" />
+                            <span itemprop="priceCurrency" content="EUR">€</span>
+                            <!--(bake-start _if="child.discount")-->
+                            <del>{{child.old_price}}€</del>
+                            <!--(bake-end)-->
+                        </div>
                         <!--(bake-start _if="child.stockGlobal == 'out of stock'")-->
-                        <span class="product__stock product__stock--no-stock">
+                        <div class="product__stock product__stock--no-stock">
                             <link itemprop="availability" href="http://schema.org/OutOfStock" />
                             {{child.stockGlobal}}
-                        </span>
+                        </div>
                         <!--(bake-end)-->
                         <!--(bake-start _if="child.stockGlobal != 'out of stock'")-->
-                        <span class="product__stock">
+                        <div class="product__stock">
                             <link itemprop="availability" href="http://schema.org/InStock" />
                             {{child.stockGlobal}}
-                        </span>
+                        </div>
                         <!--(bake-end)-->
                     </div>
                     <div class="product-tag__item product__message">{{child.message}}</div>
@@ -234,7 +239,10 @@
                             <div class="product__gender">{{relatedChild.gender}}</div>
                             <!--(bake-end)-->
                             <!--(bake-start _if="relatedChild.stockGlobal == 'out of stock'")-->
-                            <div class="product__no-stock-label">{{relatedChild.stockGlobal}}</div>
+                            <div class="product__label product__label--no-stock">{{relatedChild.stockGlobal}}</div>
+                            <!--(bake-end)-->
+                            <!--(bake-start _if="relatedChild.discount")-->
+                            <div class="product__label product__label--discount">on sale</div>
                             <!--(bake-end)-->
                         </div>
                     </li>

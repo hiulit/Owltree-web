@@ -138,6 +138,11 @@ rp(options)
               let stockCounter = 0
               for (let i = 0; i < variants.length; i++) {
                 let price = variants[i].price
+                let compare_price = variants[i].compare_at_price
+                if (compare_price) {
+                  product['discount'] = true
+                  product['old_price'] = compare_price
+                }
                 let size = variants[i].title
                 let stock = variants[i].inventory_quantity
                 let variant = {}

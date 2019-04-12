@@ -71,14 +71,6 @@
     font-size: 13px
     line-height: 18px
 
-.product__label
-    color: $primary-brand-color
-    left: 5%
-    position: absolute
-    text-transform: uppercase
-    top: 5%
-    z-index: 3
-
 .product__image
     margin: 20px
     overflow: hidden
@@ -136,18 +128,19 @@
     color: $primary-brand-color
     font-size: 24px !important
 
+    del
+        font-size: 0.8em
+        opacity: 0.5
+
 .product__stock
     color: #3c763d
     font-size: 12px
     font-weight: bold
+    margin-top: 10px
     text-transform: uppercase
 
     .product-tag__item &
         font-size: 14px
-
-        &:before
-            color: $primary-font-color
-            content: "- "
 
 .product__stock--no-stock
     color: #a94442
@@ -248,16 +241,19 @@
     width: 100%
     z-index: 1
 
-.product__no-stock-label
+.product__label
     align-items: center
     background-color: #000
+    border: 1px solid #000
     border-radius: 50%
     color: #fff
-    display: block
     display: flex
     font-size: 10px
+    font-weight: bold
     height: 60px
+    justify-content: center
     padding: 5px
+    pointer-events: none
     position: absolute
     right: 0
     text-transform: uppercase
@@ -269,3 +265,18 @@
         font-size: 6px
         height: 40px
         width: @height
+
+.product__label--no-stock
+    background-color: #000
+    border: 1px solid #000
+    color: #fff
+
+.product__label--discount
+    background-color: transparent
+    border: 1px solid $primary-brand-color
+    color: $primary-brand-color
+
+.product__label--new
+    background-color: $primary-brand-color
+    border: 1px solid $primary-brand-color
+    color: #fff
