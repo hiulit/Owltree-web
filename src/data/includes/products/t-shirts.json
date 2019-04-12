@@ -323,8 +323,8 @@
         },
         {
           "size": "XL",
-          "stock": 1,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
           "size": "XXL",
@@ -332,7 +332,7 @@
           "stockStatus": "out of stock"
         }
       ],
-      "stockGlobal": "in stock"
+      "stockGlobal": "out of stock"
     },
     {
       "collection": "The Plague",
@@ -732,7 +732,7 @@
       "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-wonderful",
       "model": "Wonderful",
       "parentId": "t-shirts",
-      "price": "27.00",
+      "price": "19.00",
       "quantity": null,
       "sizes": [
         {
