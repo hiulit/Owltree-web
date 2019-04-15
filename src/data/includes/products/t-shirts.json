@@ -27,7 +27,40 @@
       "new": true,
       "noshow": true,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-save-the-animals",
+      "model": "Save The Animals",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 10,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "S",
+          "stock": 5,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "M",
+          "stock": 13,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "L",
+          "stock": 14,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 5,
+          "stockStatus": "in stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -63,8 +96,8 @@
         },
         {
           "size": "XL",
-          "stock": 1,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         }
       ],
       "stockGlobal": "in stock"
