@@ -31,6 +31,18 @@
     },
     {
       "collection": "",
+      "color": "grey",
+      "gender": "unisex",
+      "id": "rights-and-wrongs",
+      "image": "assets/products/t-shirts/tsh_rightswrongs.jpg",
+      "message": "Let's talk about animal rights and human wrongs",
+      "new": true,
+      "noshow": false,
+      "organic": true,
+      "soon": false
+    },
+    {
+      "collection": "",
       "color": "white",
       "gender": "unisex",
       "id": "meat-is-death",
@@ -159,18 +171,6 @@
       "new": false,
       "noshow": true,
       "organic": false,
-      "soon": false
-    },
-    {
-      "collection": "",
-      "color": "grey",
-      "gender": "unisex",
-      "id": "rights-and-wrongs",
-      "image": "assets/products/t-shirts/tsh_rightswrongs.jpg",
-      "message": "Let's talk about animal rights and human wrongs",
-      "new": true,
-      "noshow": false,
-      "organic": true,
       "soon": false
     },
     {
