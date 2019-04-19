@@ -36,12 +36,12 @@
       "sizes": [
         {
           "size": "XS",
-          "stock": 10,
+          "stock": 9,
           "stockStatus": "in stock"
         },
         {
           "size": "S",
-          "stock": 5,
+          "stock": 4,
           "stockStatus": "in stock"
         },
         {
@@ -51,7 +51,7 @@
         },
         {
           "size": "L",
-          "stock": 14,
+          "stock": 12,
           "stockStatus": "in stock"
         },
         {
@@ -81,7 +81,7 @@
       "sizes": [
         {
           "size": "XS",
-          "stock": 10,
+          "stock": 9,
           "stockStatus": "in stock"
         },
         {
@@ -91,7 +91,7 @@
         },
         {
           "size": "M",
-          "stock": 15,
+          "stock": 14,
           "stockStatus": "in stock"
         },
         {
@@ -216,7 +216,7 @@
         },
         {
           "size": "S",
-          "stock": 11,
+          "stock": 10,
           "stockStatus": "in stock"
         },
         {
@@ -226,7 +226,7 @@
         },
         {
           "size": "L",
-          "stock": 14,
+          "stock": 13,
           "stockStatus": "in stock"
         },
         {
