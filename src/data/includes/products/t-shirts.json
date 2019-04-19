@@ -25,7 +25,7 @@
       "image": "assets/products/t-shirts/tsh_saveanimals.jpg",
       "message": "Wake up and save the animals",
       "new": true,
-      "noshow": true,
+      "noshow": false,
       "organic": true,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-save-the-animals",
