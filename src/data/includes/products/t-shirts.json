@@ -450,8 +450,8 @@
         },
         {
           "size": "XL",
-          "stock": 1,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         },
         {
           "size": "XXL",
