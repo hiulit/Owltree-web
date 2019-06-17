@@ -1,1 +1,54 @@
-undefined
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Designed and printed in Barcelona.",
+    "100% vegan goods. Harming no one in the process."
+  ],
+  "id": "dresses",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
+  "parent": "products",
+  "title": "Dresses",
+  "children": [
+    {
+      "collection": "",
+      "color": "grey",
+      "gender": "women",
+      "id": "harm",
+      "image": "assets/products/dresses/drss_harm.jpg",
+      "message": "Harm no one",
+      "new": false,
+      "noshow": false,
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/vestido-vegano-mujer-de-owltree-vegan-apparel-harm",
+      "model": "Harm",
+      "parentId": "dresses",
+      "price": "37.00",
+      "quantity": null,
+      "sizes": [
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 1,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        }
+      ],
+      "stockGlobal": "in stock"
+    }
+  ]
+}

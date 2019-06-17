@@ -1,1 +1,50 @@
-undefined
+{
+  "{{comment}}": {
+    "stock": [
+      "in stock",
+      "out of stock",
+      "preorder"
+    ]
+  },
+  "description": [
+    "100% cotton.",
+    "Designed and printed in Barcelona.",
+    "100% vegan goods. Harming no one in the process."
+  ],
+  "id": "tote-bags",
+  "note": "Actual product colours may vary slightly from colours shown on your screen.",
+  "parent": "products",
+  "title": "Tote bags",
+  "children": [
+    {
+      "collection": "",
+      "color": "natural",
+      "gender": "",
+      "id": "rights-and-wrongs",
+      "image": "assets/products/tote-bags/tote_rightswrongs.jpg",
+      "message": "Let's talk about animal rights and human wrongs",
+      "new": false,
+      "noshow": false,
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
+      "model": "Rights And Wrongs",
+      "parentId": "tote-bags",
+      "price": "10.00",
+      "quantity": 20,
+      "sizes": null,
+      "stockGlobal": "in stock",
+      "stockStatus": "in stock"
+    },
+    {
+      "collection": "",
+      "color": "burgundy",
+      "gender": "",
+      "id": "owltree-logo",
+      "image": "assets/products/tote-bags/tote_owltree-logo.jpg",
+      "message": "Owltree - Vegan Apparel",
+      "new": false,
+      "noshow": true,
+      "soon": false
+    }
+  ]
+}
