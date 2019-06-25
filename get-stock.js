@@ -10,7 +10,6 @@ let JSONArray = []
 let JSONOutput = 'src/data/includes/stock.json'
 let OwltreeArray = []
 let stockArray = []
-let stockArraySorted = []
 let checkURLArray = []
 
 let baseDressesPath = 'src/data/includes/products/base/dresses.json'
@@ -201,56 +200,45 @@ rp(options)
             }
             Promise.all(checkURLArray).then(function (response) {
               // console.log(response) // no need for response
-
-              // Sort array by key
-              function sortByKey (array, key) {
-                return array.sort(function (a, b) {
-                  var x = a[key]
-                  var y = b[key]
-                  return x < y ? -1 : x > y ? 1 : 0
-                })
-              }
-              stockArraySorted = sortByKey(stockArray, 'parentId')
-
               console.log('Stock received successfully!')
               fs.writeFile(
                 JSONOutput,
-                JSON.stringify(stockArraySorted, null, 2),
+                JSON.stringify(stockArray, null, 2),
                 function (err) {
                   if (err) {
                     console.log(err)
                   } else {
                     console.log('\nJSON saved to "' + JSONOutput + '"')
-                    for (let i = 0; i < stockArraySorted.length; i++) {
-                      switch (stockArraySorted[i].parentId) {
+                    for (let i = 0; i < stockArray.length; i++) {
+                      switch (stockArray[i].parentId) {
                         case 'dresses':
                           var finalDressesJSON = appendJSON(
                             baseDressesJSON,
-                            stockArraySorted[i]
+                            stockArray[i]
                           )
                           break
                         case 'mugs':
                           var finalMugsJSON = appendJSON(
                             baseMugsJSON,
-                            stockArraySorted[i]
+                            stockArray[i]
                           )
                           break
                         case 'sweatshirts':
                           var finalSweatshirtsJSON = appendJSON(
                             baseSweatshirtsJSON,
-                            stockArraySorted[i]
+                            stockArray[i]
                           )
                           break
                         case 't-shirts':
                           var finalTshirtsJSON = appendJSON(
                             baseTshirtsJSON,
-                            stockArraySorted[i]
+                            stockArray[i]
                           )
                           break
                         case 'tote-bags':
                           var finalTotebagsJSON = appendJSON(
                             baseTotebagsJSON,
-                            stockArraySorted[i]
+                            stockArray[i]
                           )
                           break
                       }
