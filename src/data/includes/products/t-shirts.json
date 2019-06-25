@@ -33,6 +33,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",
@@ -78,6 +79,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",
@@ -123,6 +125,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "S",
@@ -163,6 +166,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",
@@ -208,6 +212,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",
@@ -253,6 +258,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",
@@ -298,6 +304,7 @@
       "parentId": "t-shirts",
       "price": "29.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "S",
@@ -338,6 +345,7 @@
       "parentId": "t-shirts",
       "price": "29.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "S",
@@ -385,6 +393,7 @@
       "parentId": "t-shirts",
       "price": "20.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "S",
@@ -432,6 +441,7 @@
       "parentId": "t-shirts",
       "price": "20.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "S",
@@ -477,6 +487,7 @@
       "parentId": "t-shirts",
       "price": "29.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "S",
@@ -517,6 +528,7 @@
       "parentId": "t-shirts",
       "price": "29.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "S",
@@ -562,6 +574,7 @@
       "parentId": "t-shirts",
       "price": "32.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -597,6 +610,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -632,6 +646,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -666,6 +681,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -701,6 +717,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -736,6 +753,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -773,6 +791,7 @@
       "parentId": "t-shirts",
       "price": "19.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "M",
@@ -808,6 +827,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",
@@ -843,6 +863,7 @@
       "parentId": "t-shirts",
       "price": "27.00",
       "quantity": null,
+      "show": false,
       "sizes": [
         {
           "size": "M",

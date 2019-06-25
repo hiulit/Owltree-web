@@ -32,6 +32,7 @@
       "parentId": "sweatshirts",
       "price": "59.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "XS",

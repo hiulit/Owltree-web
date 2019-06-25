@@ -31,6 +31,7 @@
       "parentId": "dresses",
       "price": "37.00",
       "quantity": null,
+      "show": true,
       "sizes": [
         {
           "size": "M",

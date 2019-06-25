@@ -31,6 +31,7 @@
       "parentId": "tote-bags",
       "price": "10.00",
       "quantity": 18,
+      "show": true,
       "sizes": null,
       "stockGlobal": "in stock",
       "stockStatus": "in stock"
