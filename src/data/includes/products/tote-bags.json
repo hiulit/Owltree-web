@@ -24,7 +24,6 @@
       "image": "assets/products/tote-bags/tote_rightswrongs.jpg",
       "message": "Let's talk about animal rights and human wrongs",
       "new": false,
-      "noshow": false,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/totebag-vegana-owltree-vegan-apparel-rights-and-wrongs",
       "model": "Rights And Wrongs",
@@ -44,7 +43,6 @@
       "image": "assets/products/tote-bags/tote_owltree-logo.jpg",
       "message": "Owltree - Vegan Apparel",
       "new": false,
-      "noshow": true,
       "soon": false
     }
   ]

@@ -29,7 +29,6 @@
       "image": "assets/products/mugs/cup_nevertoolate.jpg",
       "message": "Never too late to break a cage",
       "new": false,
-      "noshow": false,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-too-late",
       "model": "Too Late",
@@ -49,7 +48,6 @@
       "image": "assets/products/mugs/cup_mountain.jpg",
       "message": "I am the Mountain",
       "new": false,
-      "noshow": false,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-mountain",
       "model": "Mountain",
@@ -69,7 +67,6 @@
       "image": "assets/products/mugs/cup_sea.jpg",
       "message": "I am the Sea",
       "new": false,
-      "noshow": false,
       "soon": false,
       "link": "https://amapolaveganshop.com/products/taza-de-owltree-vegan-apparel-sea",
       "model": "Sea",
@@ -89,7 +86,6 @@
       "image": "assets/products/mugs/cup_mountainsea_combo.jpg",
       "message": "I am the Mountain, I am the Sea",
       "new": false,
-      "noshow": true,
       "soon": false
     }
   ]

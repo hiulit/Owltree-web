@@ -24,7 +24,6 @@
       "image": "assets/products/tote-bags/tote_rightswrongs.jpg",
       "message": "Let's talk about animal rights and human wrongs",
       "new": false,
-      "noshow": false,
       "soon": false
     },
     {
@@ -35,7 +34,6 @@
       "image": "assets/products/tote-bags/tote_owltree-logo.jpg",
       "message": "Owltree - Vegan Apparel",
       "new": false,
-      "noshow": true,
       "soon": false
     }
   ]

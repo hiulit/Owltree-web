@@ -25,7 +25,6 @@
       "image": "assets/products/t-shirts/tsh_saveanimals.jpg",
       "message": "Wake up and save the animals",
       "new": true,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -37,7 +36,6 @@
       "image": "assets/products/t-shirts/tsh_rightswrongs.jpg",
       "message": "Let's talk about animal rights and human wrongs",
       "new": true,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -49,7 +47,6 @@
       "image": "assets/products/t-shirts/tsh_death.jpg",
       "message": "Meat is Death",
       "new": false,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -61,7 +58,6 @@
       "image": "assets/products/t-shirts/tsh_dontuse.jpg",
       "message": "Don't use animals",
       "new": false,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -73,7 +69,6 @@
       "image": "assets/products/t-shirts/tsh_tofu.jpg",
       "message": "Tofu killers",
       "new": false,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -85,7 +80,6 @@
       "image": "assets/products/t-shirts/tsh_feelings.jpg",
       "message": "Animals have feelings",
       "new": false,
-      "noshow": false,
       "organic": true,
       "soon": false
     },
@@ -97,7 +91,6 @@
       "image": "assets/products/t-shirts/tsh_rat_w.jpg",
       "message": "Rat - They were here first",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -109,7 +102,6 @@
       "image": "assets/products/t-shirts/tsh_rat.jpg",
       "message": "Rat - They were here first",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -121,7 +113,6 @@
       "image": "assets/products/t-shirts/tsh_pigeon_w.jpg",
       "message": "Pigeon - They were here first",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -133,7 +124,6 @@
       "image": "assets/products/t-shirts/tsh_pigeon.jpg",
       "message": "Pigeon - They were here first",
       "new": false,
-      "noshow": false,
       "organic": false,
       "soon": false
     },
@@ -145,7 +135,6 @@
       "image": "assets/products/t-shirts/tsh_wild-boar_w.jpg",
       "message": "Wild boar - They were here first",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -157,7 +146,6 @@
       "image": "assets/products/t-shirts/tsh_wild-boar.jpg",
       "message": "Wild boar - They were here first",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -169,7 +157,6 @@
       "image": "assets/products/t-shirts/tsh_rightswrongs_w.jpg",
       "message": "Let's talk about animal rights and human wrongs",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -181,7 +168,6 @@
       "image": "assets/products/t-shirts/tsh_plantbased_w.jpg",
       "message": "Plant Based",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -193,7 +179,6 @@
       "image": "assets/products/t-shirts/tsh_plantbased.jpg",
       "message": "Plant Based",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -205,7 +190,6 @@
       "image": "assets/products/t-shirts/tsh_compassion_w.jpg",
       "message": "Compassion over fashion",
       "new": false,
-      "noshow": true,
       "soon": false
     },
     {
@@ -216,7 +200,6 @@
       "image": "assets/products/t-shirts/tsh_compassion.jpg",
       "message": "Compassion over fashion",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -228,8 +211,6 @@
       "image": "assets/products/t-shirts/tsh_wonderful_w.jpg",
       "message": "Every living being is wonderful",
       "new": false,
-      "noshow": true,
-      "organic": false,
       "soon": false
     },
     {
@@ -240,7 +221,6 @@
       "image": "assets/products/t-shirts/tsh_wonderful.jpg",
       "message": "Every living being is wonderful",
       "new": false,
-      "noshow": false,
       "organic": false,
       "soon": false
     },
@@ -252,7 +232,6 @@
       "image": "assets/products/t-shirts/tsh_sorry_w.jpg",
       "message": "Don't be sorry, do something",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     },
@@ -264,7 +243,6 @@
       "image": "assets/products/t-shirts/tsh_sorry.jpg",
       "message": "Don't be sorry, do something",
       "new": false,
-      "noshow": true,
       "organic": false,
       "soon": false
     }
