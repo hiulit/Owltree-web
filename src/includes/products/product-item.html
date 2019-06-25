@@ -208,7 +208,7 @@
                 <ul class="products-related__list carousel-list js-carousel-list">
                     <!--(bake-start _foreach="relatedChild:parent.children")-->
                     <!--(bake-start _if="relatedChild.id + relatedChild.gender != child.id + child.gender")-->
-                    <!--(bake-start _if="!relatedChild.noshow")-->
+                    <!--(bake-start _if="relatedChild.show")-->
                     <li class="products-related__list__item carousel-item js-carousel-item">
                         <!--(bake-start _if="!relatedChild.soon")-->
                         <div class="product product--{{parent.id}}">

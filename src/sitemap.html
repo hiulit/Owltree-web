@@ -18,7 +18,7 @@
         </h3>
         <ul class="sitemap-list">
             <!--(bake-start _foreach="child:parent.children")-->
-            <!--(bake-start _if="!child.noshow")-->
+            <!--(bake-start _if="child.show")-->
             <li class="sitemap-list__item">
                 <!--(bake-start _if="child.gender")-->
                 <a href="/{{parent.parent}}/{{parent.id}}/{{child.id}}-{{child.gender}}.html">{{child.model}} - {{child.gender | capitalize}}</a>

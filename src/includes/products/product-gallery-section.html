@@ -4,7 +4,7 @@
         <ul class="grid">
         <!--(bake-start _foreach="parent:products")-->
             <!--(bake-start _foreach="child:parent.children")-->
-            <!--(bake-start _if="!child.noshow")-->
+            <!--(bake-start _if="child.show")-->
             <li class="grid__item grid__item--1-3">
             <!--(bake /includes/products/product-gallery-item.html)-->
             </li>
