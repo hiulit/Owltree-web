@@ -19,8 +19,29 @@
 
         xhr.onload = function () {
             if (xhr.status >= 200 && xhr.status < 300) {
-                // console.log('success!', xhr);
-                var jsonHtmlTable = ConvertJsonToTable(JSON.parse(xhr.response));
+                // console.log('success!', xhr));
+
+                // Remove 'show: false' from JSON
+                var oldJSON = JSON.parse(xhr.response);
+                var newJSON = []
+                for (let i = 0; i < oldJSON.length; i++) {
+                    const el = oldJSON[i];
+                    if (el.show) {
+                        delete el.show
+                        newJSON.push(el)
+                    }
+                }
+
+                // Sort array by key
+                function sortByKey(array, key) {
+                    return array.sort(function (a, b) {
+                        var x = a[key]; var y = b[key];
+                        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+                    });
+                }
+                newJSON = sortByKey(newJSON, 'parentId')
+
+                var jsonHtmlTable = ConvertJsonToTable(newJSON);
                 document.getElementById('main-table').innerHTML = jsonHtmlTable
                 let foo = document.getElementsByTagName('td');
                 for (let i = 0; i < foo.length; i++) {
@@ -105,11 +126,8 @@
                         var javascriptRegExp = new RegExp(/(^javascript:[\s\S]*;$)/ig);
                         for (var i = 0; i < parsedJson.length; i++) {
                             for (var j = 0; j < headers.length; j++) {
-                                var key = Object.keys(parsedJson[i])[j];
                                 var value = parsedJson[i][headers[j]];
                                 var isUrl = urlRegExp.test(value) || javascriptRegExp.test(value);
-
-                                if (key === 'show' && value === false) { continue }
 
                                 if (isUrl)   // If value is URL we auto-create a link
                                     tbCon += tdRow.format(link.format(value));
