@@ -2,6 +2,7 @@ const APIKeys = require('./.APIKeys')
 const fs = require('fs')
 const merge = require('deepmerge')
 const rp = require('request-promise')
+const urlExists = require('url-exists-deep')
 const url =
   'https://' + APIKeys.apikey + ':' + APIKeys.password + '@' + APIKeys.hostname
 
@@ -9,6 +10,7 @@ let JSONArray = []
 let JSONOutput = 'src/data/includes/stock.json'
 let OwltreeArray = []
 let stockArray = []
+let checkURLArray = []
 
 let baseDressesPath = 'src/data/includes/products/base/dresses.json'
 let baseMugsPath = 'src/data/includes/products/base/mugs.json'
@@ -174,68 +176,82 @@ rp(options)
                 }
               }
 
-              // Sort keys alphabetically
-              var sortedProduct = Object.keys(product)
-                .sort()
-                .reduce(function (result, key) {
-                  return Object.assign({}, result, {
-                    [key]: product[key]
-                  })
-                }, {})
-
-              stockArray.push(sortedProduct)
-            }
-            console.log('Stock received successfully!')
-            fs.writeFile(
-              JSONOutput,
-              JSON.stringify(stockArray, null, 2),
-              function (err) {
-                if (err) {
-                  console.log(err)
-                } else {
-                  console.log('\nJSON saved to "' + JSONOutput + '"')
-                  for (let i = 0; i < stockArray.length; i++) {
-                    switch (stockArray[i].parentId) {
-                      case 'dresses':
-                        var finalDressesJSON = appendJSON(
-                          baseDressesJSON,
-                          stockArray[i]
-                        )
-                        break
-                      case 'mugs':
-                        var finalMugsJSON = appendJSON(
-                          baseMugsJSON,
-                          stockArray[i]
-                        )
-                        break
-                      case 'sweatshirts':
-                        var finalSweatshirtsJSON = appendJSON(
-                          baseSweatshirtsJSON,
-                          stockArray[i]
-                        )
-                        break
-                      case 't-shirts':
-                        var finalTshirtsJSON = appendJSON(
-                          baseTshirtsJSON,
-                          stockArray[i]
-                        )
-                        break
-                      case 'tote-bags':
-                        var finalTotebagsJSON = appendJSON(
-                          baseTotebagsJSON,
-                          stockArray[i]
-                        )
-                        break
-                    }
+              // Check if product link exists, then add show true/false.
+              checkURLArray.push(
+                urlExists(product['link']).then(function (response) {
+                  if (response) {
+                    product['show'] = true
+                  } else {
+                    product['show'] = false
                   }
-                  createJSON(finalDressesJSON, finalDressesPath)
-                  createJSON(finalMugsJSON, finalMugsPath)
-                  createJSON(finalSweatshirtsJSON, finalSweatshirtsPath)
-                  createJSON(finalTshirtsJSON, finalTshirtsPath)
-                  createJSON(finalTotebagsJSON, finalTotebagsPath)
+                  // Sort keys alphabetically
+                  var sortedProduct = Object.keys(product)
+                  .sort()
+                  .reduce(function (result, key) {
+                    return Object.assign({}, result, {
+                      [key]: product[key]
+                    })
+                  }, {})
+
+                  stockArray.push(sortedProduct)
+                })
+              )
+              // stockArray.push(sortedProduct)
+            }
+            Promise.all(checkURLArray).then(function (response) {
+              // console.log(response) // no need for response
+              console.log('Stock received successfully!')
+              fs.writeFile(
+                JSONOutput,
+                JSON.stringify(stockArray, null, 2),
+                function (err) {
+                  if (err) {
+                    console.log(err)
+                  } else {
+                    console.log('\nJSON saved to "' + JSONOutput + '"')
+                    for (let i = 0; i < stockArray.length; i++) {
+                      switch (stockArray[i].parentId) {
+                        case 'dresses':
+                          var finalDressesJSON = appendJSON(
+                            baseDressesJSON,
+                            stockArray[i]
+                          )
+                          break
+                        case 'mugs':
+                          var finalMugsJSON = appendJSON(
+                            baseMugsJSON,
+                            stockArray[i]
+                          )
+                          break
+                        case 'sweatshirts':
+                          var finalSweatshirtsJSON = appendJSON(
+                            baseSweatshirtsJSON,
+                            stockArray[i]
+                          )
+                          break
+                        case 't-shirts':
+                          var finalTshirtsJSON = appendJSON(
+                            baseTshirtsJSON,
+                            stockArray[i]
+                          )
+                          break
+                        case 'tote-bags':
+                          var finalTotebagsJSON = appendJSON(
+                            baseTotebagsJSON,
+                            stockArray[i]
+                          )
+                          break
+                      }
+                    }
+                    createJSON(finalDressesJSON, finalDressesPath)
+                    createJSON(finalMugsJSON, finalMugsPath)
+                    createJSON(finalSweatshirtsJSON, finalSweatshirtsPath)
+                    createJSON(finalTshirtsJSON, finalTshirtsPath)
+                    createJSON(finalTotebagsJSON, finalTotebagsPath)
+                  }
                 }
-              }
-            )
+              )
+            })
           })
           .catch(function (err) {
             console.log(err)
