@@ -105,8 +105,11 @@
                         var javascriptRegExp = new RegExp(/(^javascript:[\s\S]*;$)/ig);
                         for (var i = 0; i < parsedJson.length; i++) {
                             for (var j = 0; j < headers.length; j++) {
+                                var key = Object.keys(parsedJson[i])[j];
                                 var value = parsedJson[i][headers[j]];
                                 var isUrl = urlRegExp.test(value) || javascriptRegExp.test(value);
+
+                                if (key === 'show' && value === false) { continue }
 
                                 if (isUrl)   // If value is URL we auto-create a link
                                     tbCon += tdRow.format(link.format(value));
