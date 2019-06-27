@@ -20,7 +20,9 @@ let baseTshirtsPath = 'src/data/includes/products/base/t-shirts.json'
 
 let baseDressesJSON = JSON.parse(fs.readFileSync(baseDressesPath, 'utf8'))
 let baseMugsJSON = JSON.parse(fs.readFileSync(baseMugsPath, 'utf8'))
-let baseSweatshirtsJSON = JSON.parse(fs.readFileSync(baseSweatshirtsPath, 'utf8'))
+let baseSweatshirtsJSON = JSON.parse(
+  fs.readFileSync(baseSweatshirtsPath, 'utf8')
+)
 let baseTotebagsJSON = JSON.parse(fs.readFileSync(baseTotebagsPath, 'utf8'))
 let baseTshirtsJSON = JSON.parse(fs.readFileSync(baseTshirtsPath, 'utf8'))
 
@@ -186,12 +188,12 @@ rp(options)
                   }
                   // Sort keys alphabetically
                   var sortedProduct = Object.keys(product)
-                  .sort()
-                  .reduce(function (result, key) {
-                    return Object.assign({}, result, {
-                      [key]: product[key]
-                    })
-                  }, {})
+                    .sort()
+                    .reduce(function (result, key) {
+                      return Object.assign({}, result, {
+                        [key]: product[key]
+                      })
+                    }, {})
 
                   stockArray.push(sortedProduct)
                 })
@@ -201,6 +203,16 @@ rp(options)
             Promise.all(checkURLArray).then(function (response) {
               // console.log(response) // no need for response
               console.log('Stock received successfully!')
+
+              function sortByKey (array, key) {
+                return array.sort(function (a, b) {
+                  var x = a[key]
+                  var y = b[key]
+                  return x < y ? -1 : x > y ? 1 : 0
+                })
+              }
+              stockArray = sortByKey(stockArray, 'link')
+
               fs.writeFile(
                 JSONOutput,
                 JSON.stringify(stockArray, null, 2),
