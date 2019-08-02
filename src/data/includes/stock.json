@@ -205,7 +205,7 @@
       },
       {
         "size": "M",
-        "stock": 6,
+        "stock": 8,
         "stockStatus": "in stock"
       },
       {
@@ -426,7 +426,7 @@
       },
       {
         "size": "L",
-        "stock": 3,
+        "stock": 2,
         "stockStatus": "in stock"
       },
       {
@@ -459,8 +459,8 @@
       },
       {
         "size": "M",
-        "stock": 2,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "L",
@@ -520,12 +520,12 @@
     "sizes": [
       {
         "size": "XS",
-        "stock": 11,
+        "stock": 10,
         "stockStatus": "in stock"
       },
       {
         "size": "S",
-        "stock": 13,
+        "stock": 11,
         "stockStatus": "in stock"
       },
       {
@@ -730,7 +730,7 @@
       },
       {
         "size": "XL",
-        "stock": 3,
+        "stock": 5,
         "stockStatus": "in stock"
       },
       {
@@ -787,7 +787,7 @@
     "model": "Rights And Wrongs",
     "parentId": "tote-bags",
     "price": "10.00",
-    "quantity": 13,
+    "quantity": 10,
     "show": true,
     "sizes": null,
     "stockGlobal": "in stock",
