@@ -629,7 +629,7 @@
       },
       {
         "size": "L",
-        "stock": 13,
+        "stock": 12,
         "stockStatus": "in stock"
       },
       {
@@ -787,7 +787,7 @@
     "model": "Rights And Wrongs",
     "parentId": "tote-bags",
     "price": "10.00",
-    "quantity": 8,
+    "quantity": 7,
     "show": true,
     "sizes": null,
     "stockGlobal": "in stock",
