@@ -56,7 +56,7 @@
         },
         {
           "size": "XL",
-          "stock": 4,
+          "stock": 3,
           "stockStatus": "in stock"
         }
       ],
@@ -216,7 +216,7 @@
         },
         {
           "size": "S",
-          "stock": 11,
+          "stock": 10,
           "stockStatus": "in stock"
         },
         {
