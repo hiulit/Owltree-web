@@ -205,7 +205,7 @@
       },
       {
         "size": "M",
-        "stock": 6,
+        "stock": 5,
         "stockStatus": "in stock"
       },
       {
@@ -426,7 +426,7 @@
       },
       {
         "size": "L",
-        "stock": 2,
+        "stock": 1,
         "stockStatus": "in stock"
       },
       {
@@ -706,7 +706,7 @@
     "parentId": "sweatshirts",
     "price": "59.00",
     "quantity": null,
-    "show": true,
+    "show": false,
     "sizes": [
       {
         "size": "XS",
@@ -730,8 +730,8 @@
       },
       {
         "size": "XL",
-        "stock": 1,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "XXL",
@@ -739,7 +739,7 @@
         "stockStatus": "out of stock"
       }
     ],
-    "stockGlobal": "in stock"
+    "stockGlobal": "out of stock"
   },
   {
     "gender": "",
