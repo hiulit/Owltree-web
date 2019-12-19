@@ -205,8 +205,8 @@
       },
       {
         "size": "M",
-        "stock": 1,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "L",
@@ -497,7 +497,7 @@
       },
       {
         "size": "L",
-        "stock": 4,
+        "stock": 3,
         "stockStatus": "in stock"
       },
       {
@@ -540,7 +540,7 @@
       },
       {
         "size": "XL",
-        "stock": 4,
+        "stock": 3,
         "stockStatus": "in stock"
       }
     ],
