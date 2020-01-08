@@ -200,7 +200,7 @@
       },
       {
         "size": "S",
-        "stock": 5,
+        "stock": 1,
         "stockStatus": "in stock"
       },
       {
@@ -210,7 +210,7 @@
       },
       {
         "size": "L",
-        "stock": 9,
+        "stock": 8,
         "stockStatus": "in stock"
       },
       {
@@ -426,8 +426,8 @@
       },
       {
         "size": "L",
-        "stock": 1,
-        "stockStatus": "in stock"
+        "stock": 0,
+        "stockStatus": "out of stock"
       },
       {
         "size": "XL",
@@ -464,7 +464,7 @@
       },
       {
         "size": "L",
-        "stock": 6,
+        "stock": 5,
         "stockStatus": "in stock"
       },
       {
@@ -520,17 +520,17 @@
     "sizes": [
       {
         "size": "XS",
-        "stock": 9,
+        "stock": 8,
         "stockStatus": "in stock"
       },
       {
         "size": "S",
-        "stock": 11,
+        "stock": 9,
         "stockStatus": "in stock"
       },
       {
         "size": "M",
-        "stock": 3,
+        "stock": 1,
         "stockStatus": "in stock"
       },
       {
@@ -629,7 +629,7 @@
       },
       {
         "size": "L",
-        "stock": 12,
+        "stock": 11,
         "stockStatus": "in stock"
       },
       {
