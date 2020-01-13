@@ -51,13 +51,13 @@
         },
         {
           "size": "L",
-          "stock": 8,
+          "stock": 9,
           "stockStatus": "in stock"
         },
         {
           "size": "XL",
-          "stock": 1,
-          "stockStatus": "in stock"
+          "stock": 0,
+          "stockStatus": "out of stock"
         }
       ],
       "stockGlobal": "in stock"
