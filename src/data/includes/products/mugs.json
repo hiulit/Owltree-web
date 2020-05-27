@@ -53,11 +53,11 @@
       "model": "Mountain",
       "parentId": "mugs",
       "price": "19.00",
-      "quantity": 1,
+      "quantity": 0,
       "show": true,
       "sizes": null,
-      "stockGlobal": "in stock",
-      "stockStatus": "in stock"
+      "stockGlobal": "out of stock",
+      "stockStatus": "out of stock"
     },
     {
       "collection": "",
@@ -72,7 +72,7 @@
       "model": "Sea",
       "parentId": "mugs",
       "price": "19.00",
-      "quantity": 2,
+      "quantity": 1,
       "show": true,
       "sizes": null,
       "stockGlobal": "in stock",
