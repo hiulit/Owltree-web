@@ -158,7 +158,7 @@
     "sizes": [
       {
         "size": "XS",
-        "stock": 8,
+        "stock": 7,
         "stockStatus": "in stock"
       },
       {
@@ -285,11 +285,11 @@
     "model": "Sea",
     "parentId": "mugs",
     "price": "19.00",
-    "quantity": 1,
+    "quantity": 0,
     "show": true,
     "sizes": null,
-    "stockGlobal": "in stock",
-    "stockStatus": "in stock"
+    "stockGlobal": "out of stock",
+    "stockStatus": "out of stock"
   },
   {
     "gender": "",
