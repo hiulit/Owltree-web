@@ -34,8 +34,8 @@
       "model": "Too Late",
       "parentId": "mugs",
       "price": "19.00",
-      "quantity": 1,
-      "show": true,
+      "quantity": 10,
+      "show": false,
       "sizes": null,
       "stockGlobal": "in stock",
       "stockStatus": "in stock"
@@ -54,7 +54,7 @@
       "parentId": "mugs",
       "price": "19.00",
       "quantity": 0,
-      "show": true,
+      "show": false,
       "sizes": null,
       "stockGlobal": "out of stock",
       "stockStatus": "out of stock"
@@ -73,7 +73,7 @@
       "parentId": "mugs",
       "price": "19.00",
       "quantity": 0,
-      "show": true,
+      "show": false,
       "sizes": null,
       "stockGlobal": "out of stock",
       "stockStatus": "out of stock"
