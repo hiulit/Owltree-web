@@ -26,7 +26,41 @@
       "message": "Wake up and save the animals",
       "new": true,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-unisex-de-owltree-vegan-apparel-save-the-animals",
+      "model": "Save The Animals",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 2,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "S",
+          "stock": 1,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 9,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -37,7 +71,41 @@
       "message": "Let's talk about animal rights and human wrongs",
       "new": true,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-owltree-vegan-apparel-rights-and-wrongs",
+      "model": "Rights And Wrongs",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 7,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "S",
+          "stock": 6,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "M",
+          "stock": 9,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "L",
+          "stock": 10,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 3,
+          "stockStatus": "in stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -48,7 +116,36 @@
       "message": "Meat is Death",
       "new": false,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-meat-is-death",
+      "model": "Meat Is Death",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "S",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 1,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -59,7 +156,41 @@
       "message": "Don't use animals",
       "new": false,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-dont-use-animals",
+      "model": "Dont Use Animals",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "S",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 2,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -70,7 +201,41 @@
       "message": "Tofu killers",
       "new": false,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-tofu-killers",
+      "model": "Tofu Killers",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 7,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "S",
+          "stock": 7,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 6,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "XL",
+          "stock": 3,
+          "stockStatus": "in stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "",
@@ -81,7 +246,41 @@
       "message": "Animals have feelings",
       "new": false,
       "organic": true,
-      "soon": false
+      "soon": false,
+      "link": "https://amapolaveganshop.com/products/camiseta-vegana-unisex-de-owltree-vegan-apparel-animals-have-feelings",
+      "model": "Animals Have Feelings",
+      "parentId": "t-shirts",
+      "price": "32.00",
+      "quantity": null,
+      "show": true,
+      "sizes": [
+        {
+          "size": "XS",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "S",
+          "stock": 1,
+          "stockStatus": "in stock"
+        },
+        {
+          "size": "M",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "L",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        },
+        {
+          "size": "XL",
+          "stock": 0,
+          "stockStatus": "out of stock"
+        }
+      ],
+      "stockGlobal": "in stock"
     },
     {
       "collection": "The Plague",
