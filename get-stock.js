@@ -120,7 +120,7 @@ rp(options)
               }
               let id = response[i].product.handle.match(/(?<=apparel-)(.*)/)[0]
               let gender = response[i].product.product_type
-              if (gender === 'Hombre, mujer') {
+              if (response[i].product.title.toUpperCase().includes('UNISEX')) {
                 gender = 'unisex'
               } else if (gender === 'Mujer') {
                 gender = 'women'
@@ -222,6 +222,7 @@ rp(options)
                   } else {
                     console.log('\nJSON saved to "' + JSONOutput + '"')
                     for (let i = 0; i < stockArray.length; i++) {
+                      // console.log(stockArray[i])
                       switch (stockArray[i].parentId) {
                         // case 'dresses':
                         //   var finalDressesJSON = appendJSON(
