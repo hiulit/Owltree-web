@@ -12,13 +12,13 @@ let OwltreeArray = []
 let stockArray = []
 let checkURLArray = []
 
-let baseDressesPath = 'src/data/includes/products/base/dresses.json'
+// let baseDressesPath = 'src/data/includes/products/base/dresses.json'
 let baseMugsPath = 'src/data/includes/products/base/mugs.json'
 let baseSweatshirtsPath = 'src/data/includes/products/base/sweatshirts.json'
 let baseTotebagsPath = 'src/data/includes/products/base/tote-bags.json'
 let baseTshirtsPath = 'src/data/includes/products/base/t-shirts.json'
 
-let baseDressesJSON = JSON.parse(fs.readFileSync(baseDressesPath, 'utf8'))
+// let baseDressesJSON = JSON.parse(fs.readFileSync(baseDressesPath, 'utf8'))
 let baseMugsJSON = JSON.parse(fs.readFileSync(baseMugsPath, 'utf8'))
 let baseSweatshirtsJSON = JSON.parse(
   fs.readFileSync(baseSweatshirtsPath, 'utf8')
@@ -26,7 +26,7 @@ let baseSweatshirtsJSON = JSON.parse(
 let baseTotebagsJSON = JSON.parse(fs.readFileSync(baseTotebagsPath, 'utf8'))
 let baseTshirtsJSON = JSON.parse(fs.readFileSync(baseTshirtsPath, 'utf8'))
 
-let finalDressesPath = 'src/data/includes/products/dresses.json'
+// let finalDressesPath = 'src/data/includes/products/dresses.json'
 let finalMugsPath = 'src/data/includes/products/mugs.json'
 let finalSweatshirtsPath = 'src/data/includes/products/sweatshirts.json'
 let finalTotebagsPath = 'src/data/includes/products/tote-bags.json'
@@ -103,9 +103,9 @@ rp(options)
           .then(function (response) {
             for (let i = 0; i < response.length; i++) {
               let parentId = response[i].product.tags
-              if (parentId.includes('vestido')) {
-                parentId = 'dresses'
-              }
+              // if (parentId.includes('vestido')) {
+              //   parentId = 'dresses'
+              // }
               if (parentId.includes('camiseta')) {
                 parentId = 't-shirts'
               }
@@ -223,12 +223,12 @@ rp(options)
                     console.log('\nJSON saved to "' + JSONOutput + '"')
                     for (let i = 0; i < stockArray.length; i++) {
                       switch (stockArray[i].parentId) {
-                        case 'dresses':
-                          var finalDressesJSON = appendJSON(
-                            baseDressesJSON,
-                            stockArray[i]
-                          )
-                          break
+                        // case 'dresses':
+                        //   var finalDressesJSON = appendJSON(
+                        //     baseDressesJSON,
+                        //     stockArray[i]
+                        //   )
+                        //   break
                         case 'mugs':
                           var finalMugsJSON = appendJSON(
                             baseMugsJSON,
@@ -255,7 +255,7 @@ rp(options)
                           break
                       }
                     }
-                    createJSON(finalDressesJSON, finalDressesPath)
+                    // createJSON(finalDressesJSON, finalDressesPath)
                     createJSON(finalMugsJSON, finalMugsPath)
                     createJSON(finalSweatshirtsJSON, finalSweatshirtsPath)
                     createJSON(finalTshirtsJSON, finalTshirtsPath)
