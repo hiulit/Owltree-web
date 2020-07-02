@@ -102,7 +102,7 @@
       },
       {
         "size": "L",
-        "stock": 3,
+        "stock": 2,
         "stockStatus": "in stock"
       },
       {
@@ -173,7 +173,7 @@
       },
       {
         "size": "L",
-        "stock": 7,
+        "stock": 6,
         "stockStatus": "in stock"
       },
       {
@@ -273,7 +273,7 @@
     "parentId": "mugs",
     "price": "19.00",
     "quantity": 0,
-    "show": true,
+    "show": false,
     "sizes": null,
     "stockGlobal": "out of stock",
     "stockStatus": "out of stock"
@@ -286,7 +286,7 @@
     "parentId": "mugs",
     "price": "19.00",
     "quantity": 0,
-    "show": true,
+    "show": false,
     "sizes": null,
     "stockGlobal": "out of stock",
     "stockStatus": "out of stock"
@@ -298,8 +298,8 @@
     "model": "Too Late",
     "parentId": "mugs",
     "price": "19.00",
-    "quantity": 1,
-    "show": true,
+    "quantity": 10,
+    "show": false,
     "sizes": null,
     "stockGlobal": "in stock",
     "stockStatus": "in stock"
