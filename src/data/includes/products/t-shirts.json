@@ -36,7 +36,7 @@
       "sizes": [
         {
           "size": "XS",
-          "stock": 2,
+          "stock": 1,
           "stockStatus": "in stock"
         },
         {
@@ -91,7 +91,7 @@
         },
         {
           "size": "M",
-          "stock": 9,
+          "stock": 8,
           "stockStatus": "in stock"
         },
         {
