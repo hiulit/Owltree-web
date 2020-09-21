@@ -299,7 +299,7 @@
     "parentId": "mugs",
     "price": "19.00",
     "quantity": 10,
-    "show": false,
+    "show": true,
     "sizes": null,
     "stockGlobal": "in stock",
     "stockStatus": "in stock"
